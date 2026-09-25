@@ -1,0 +1,418 @@
+[
+ {
+  "slug": "notinreality-pdoom-music-video",
+  "cat": "music",
+  "title": "“I’m Upping My P(doom)” Clawd music video",
+  "title_zh": "《I’m Upping My P(doom)》Clawd 音乐 MV",
+  "handle": "other__reality",
+  "name": "NotinReality",
+  "post": "https://x.com/other__reality/status/2102514581684052169",
+  "links": [
+   [
+    "Code",
+    "https://github.com/JohnHeibel/PDoomVideo"
+   ],
+   [
+    "YouTube",
+    "https://youtu.be/8j-hR4fJywU"
+   ]
+  ],
+  "desc": "156-second hand-painted Clawd music video for an existing song, drawn frame-by-frame in p5.js + p5.brush and rendered via headless Chrome + ffmpeg. The main thread spun up 7 Opus 5.5 subagents, one per chapter. Source repo (STORYBOARD.md, ANIMATION_GUIDE.md) is public.",
+  "desc_zh": "为一首现成歌曲制作的 156 秒 Clawd 手绘风 MV：p5.js + p5.brush 逐帧绘制，headless Chrome + ffmpeg 渲染。主线程并行调度 7 个 Opus 5.5 子代理分章节编写；源码（含 STORYBOARD.md、ANIMATION_GUIDE.md）已开源。",
+  "prompt": {
+   "type": "author_description",
+   "status": "2102522958216606162",
+   "conv": "2102514581684052169",
+   "start_after": "@furriesforgood "
+  }
+ },
+ {
+  "slug": "kevin-ngo-what-do-you-love",
+  "cat": "films",
+  "title": "“What do you love?” — Claude short film",
+  "title_zh": "《What do you love?》Claude 动画短片",
+  "handle": "kevin_t_ngo",
+  "name": "Kevin Ngo",
+  "post": "https://x.com/kevin_t_ngo/status/2102437977435893771",
+  "links": [],
+  "desc": "28-second square short where everyone in town sends Claude requests, but one girl asks a question instead. Every frame drawn in plain JavaScript on an HTML canvas; music also generated in code via the Web Audio API (author replies). Also featured in @claudeai’s launch thread.",
+  "desc_zh": "28 秒方形短片：全镇的人都在给 Claude 发需求，只有一个女孩问了它一个问题。据作者回复，每一帧都由纯 JavaScript 在 HTML Canvas 上绘制，配乐也用 Web Audio API 代码生成。@claudeai 发布串中也有收录。",
+  "prompt": {
+   "type": "not_shared"
+  }
+ },
+ {
+  "slug": "lcslates-glass-mosaic-film",
+  "cat": "films",
+  "title": "Glass & gold-leaf mosaic film (WebGL2)",
+  "title_zh": "玻璃金箔马赛克动画短片（WebGL2）",
+  "handle": "LCSlates",
+  "name": "Chris Riley",
+  "post": "https://x.com/LCSlates/status/2102503027340988559",
+  "links": [],
+  "desc": "80-second square film as a single HTML file — WebGL2 + plain JS, no libraries, no image/font/audio files. Tiles lift off the wall and flock into a fish, cranes and a dove; day flips to night; sound synthesized in the browser. The author also posted the agent’s scene readout and self-review notes.",
+  "desc_zh": "80 秒方形短片，单个 HTML 文件：WebGL2 + 原生 JS，无任何库、图片、字体或音频文件。马赛克瓷砖脱离墙面，聚成鱼、鹤和鸽子；昼夜翻转；音效在浏览器中实时合成。作者还公开了代理的分镜说明和自检记录。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102503028859211905",
+   "conv": "2102503027340988559",
+   "start_after": "Prompt: \n\n"
+  }
+ },
+ {
+  "slug": "michaelzsguo-us-history-sand-animation",
+  "cat": "films",
+  "title": "250 years of U.S. history as sand animation",
+  "title_zh": "沙画动画：美国 250 年历史",
+  "handle": "Michaelzsguo",
+  "name": "Michael Guo",
+  "post": "https://x.com/Michaelzsguo/status/2102592355165782312",
+  "links": [],
+  "desc": "Two-minute sepia sand-animation film with background music and sound design, from one short prompt with no edits — no Blender, no Three.js (author). Author reports it used ~30% of a Pro 5-hour allowance.",
+  "desc_zh": "2 分钟棕褐色沙画动画，含配乐与音效。作者称一句提示词、零修改完成，未用 Blender 或 Three.js，约消耗 Pro 套餐 5 小时额度的 30%。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102593579604377636",
+   "conv": "2102592355165782312",
+   "start_after": "prompt: ",
+   "end_before": "\n\n@bcherny"
+  }
+ },
+ {
+  "slug": "andrewonxyz-mars-rover-short",
+  "cat": "films",
+  "title": "Mars rover short film (4 agents, ~4 min)",
+  "title_zh": "火星车动画短片（4 个代理，约 4 分钟）",
+  "handle": "AndrewOnXYZ",
+  "name": "AndrewOnXYZ",
+  "post": "https://x.com/AndrewOnXYZ/status/2102512879258009818",
+  "links": [
+   [
+    "Claude Code session",
+    "https://claude.ai/code/session_017o6JvwXrUnssb13MuDtiJj"
+   ]
+  ],
+  "desc": "~4-minute animated short made from scratch with 4 agents in about an hour and a half — no AI voice API (author). The author says the prompt was simple and linked the Claude Code session instead of posting it as text.",
+  "desc_zh": "约 4 分钟的原创动画短片，作者称用 4 个代理、约一个半小时从零完成，未使用 AI 配音 API。作者表示提示词很简单，并分享了 Claude Code 会话链接（未以文本形式公开）。",
+  "prompt": {
+   "type": "not_shared",
+   "note": "Author shared a Claude Code session link rather than prompt text."
+  }
+ },
+ {
+  "slug": "ishuagra02-anime-ai-battle-trailer",
+  "cat": "films",
+  "title": "Claude vs ChatGPT anime battle trailer",
+  "title_zh": "Claude 对决 ChatGPT 动漫预告片",
+  "handle": "ishuagra02",
+  "name": "Ishu Agrawal",
+  "post": "https://x.com/ishuagra02/status/2103247844542922825",
+  "links": [],
+  "desc": "~100-second anime-style trailer: Opus 5.5 downloaded fonts, created the audio and generated each frame in JavaScript. Author reports one shot, ~1.5 h and ~$28 in API usage.",
+  "desc_zh": "约 100 秒动漫风预告片：Opus 5.5 自行下载字体、制作音频，并用 JavaScript 逐帧生成画面。作者称一次成型，约 1.5 小时、API 费用约 28 美元。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2103247960272433307",
+   "conv": "2103247844542922825",
+   "start_after": "Prompt:\n"
+  }
+ },
+ {
+  "slug": "justinperea-demoscene-intro",
+  "cat": "films",
+  "title": "Zero-direction demoscene intro (280 KB HTML)",
+  "title_zh": "零指导 Demoscene 开场（280 KB 单 HTML）",
+  "handle": "JustinPerea",
+  "name": "Justin.md",
+  "post": "https://x.com/JustinPerea/status/2102893186330841502",
+  "links": [],
+  "desc": "43-second demoscene intro where every pixel and sound comes from one 280 KB HTML file — no images, audio files, 3D models or libraries. Author reports ~5 hours of work (≈697M tokens) spread over 19 h of session limits, with only “continue” as follow-up.",
+  "desc_zh": "43 秒 Demoscene 风格开场，所有画面和声音都来自一个 280 KB 的 HTML 文件，无图片、音频、3D 模型或库。作者称约 5 小时（约 6.97 亿 token），跨越 19 小时的会话额度，中途只输入过“continue”。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2103137233649692745",
+   "conv": "2102893186330841502",
+   "start_after": "@leoarronchester "
+  }
+ },
+ {
+  "slug": "majid-pixel-wizard",
+  "cat": "pixel",
+  "title": "Animated pixel-art wizard (Canvas 2D)",
+  "title_zh": "像素风巫师施法动画（Canvas 2D）",
+  "handle": "majidmanzarpour",
+  "name": "Majid Manzarpour",
+  "post": "https://x.com/majidmanzarpour/status/2102476258948927543",
+  "links": [],
+  "desc": "Looping 16-bit-style wizard: idle → charge → cast → recover state machine, pooled allocation-free particles, 128×96 logical canvas, fixed ~24-colour palette. Pure code; author says ~30 min.",
+  "desc_zh": "16-bit 风格循环动画：待机 → 蓄力 → 施法 → 恢复状态机，零分配粒子池，128×96 逻辑分辨率，约 24 色固定调色板。纯代码，作者称约 30 分钟。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102476499387383834",
+   "conv": "2102476258948927543",
+   "start_after": "prompt for animated wizard 👇\n\n"
+  }
+ },
+ {
+  "slug": "riku-pixel-rainbow-runner",
+  "cat": "pixel",
+  "title": "Pixel runner on a rainbow road (Canvas 2D)",
+  "title_zh": "彩虹跑道像素角色闪避动画（Canvas 2D）",
+  "handle": "riku720720",
+  "name": "Rikuo",
+  "post": "https://x.com/riku720720/status/2102515055116063144",
+  "links": [],
+  "desc": "Seamless-loop 160×90 pixel demo: an orange Clawd-like sprite sprints across a rainbow floor in space, dodging meteors and beams with jumps, slides, dash after-images and hit-stop. Author says under 5 minutes. Prompt is in Japanese.",
+  "desc_zh": "无缝循环 160×90 像素演示：橙色小角色在太空彩虹跑道上疾驰，用跳跃、滑铲、残影冲刺和顿帧闪避陨石与光束。作者称不到 5 分钟生成。原提示词为日语。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102515058010132554",
+   "conv": "2102515055116063144",
+   "start_after": "prompt 👇\n\n",
+   "lang": "ja"
+  }
+ },
+ {
+  "slug": "eudaemonea-functional-emotions",
+  "cat": "music",
+  "title": "“Functional Emotions” painted music video",
+  "title_zh": "《Functional Emotions》油画风音乐 MV",
+  "handle": "eudaemonea",
+  "name": "josh",
+  "post": "https://x.com/eudaemonea/status/2102610626321490404",
+  "links": [
+   [
+    "Code",
+    "https://github.com/ledbetterljoshua/functional-emotions-video"
+   ],
+   [
+    "YouTube",
+    "https://www.youtube.com/watch?v=goE4eARaY2s"
+   ]
+  ],
+  "desc": "6-minute painted music video for a Suno song Claude wrote about Anthropic’s emotions paper. Custom WebGL2 brushstroke renderer (~60k instanced strokes), 168-shot storyboard, 7 parallel chapter subagents; the repo documents the messages the author sent.",
+  "desc_zh": "为一首 Suno 歌曲（歌词由 Claude 根据 Anthropic 情绪论文创作）制作的 6 分钟油画风 MV。自研 WebGL2 笔触渲染器（约 6 万实例化笔触）、168 镜分镜、7 个子代理并行绘制章节；仓库公开了作者发给 Claude 的原话。",
+  "prompt": {
+   "type": "repo_quotes",
+   "file": "gh-ledbetterljoshua_functional-emotions-video.md"
+  }
+ },
+ {
+  "slug": "deedydas-startup-launch-video",
+  "cat": "explainers",
+  "title": "Startup launch video in ~1 minute for ~$2",
+  "title_zh": "约 1 分钟、约 2 美元的创业公司发布视频",
+  "handle": "deedydas",
+  "name": "Deedy",
+  "post": "https://x.com/deedydas/status/2102787937482252537",
+  "links": [
+   [
+    "Open-source clone: LaunchVideo",
+    "https://github.com/diggerhq/shipvideo"
+   ]
+  ],
+  "desc": "26-second kinetic-typography launch video for an inference startup: charts, logo and UI cards. Author reports ~1 minute and ~$2. It inspired LaunchVideo (diggerhq/shipvideo), an open-source URL→launch-video agent.",
+  "desc_zh": "为推理创业公司制作的 26 秒动态排版发布视频：图表、Logo、UI 卡片。作者称约 1 分钟、约 2 美元。它启发了开源项目 LaunchVideo（diggerhq/shipvideo），可从 URL 自动生成发布视频。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102787937482252537",
+   "root": true,
+   "start_after": "Prompt: “",
+   "end_before": "”"
+  }
+ },
+ {
+  "slug": "goodside-black-scholes-split-screen",
+  "cat": "explainers",
+  "title": "Black-Scholes explainer + endless-runner split screen",
+  "title_zh": "Black-Scholes 讲解 + 跑酷分屏视频",
+  "handle": "goodside",
+  "name": "Riley Goodside",
+  "post": "https://x.com/goodside/status/2103171088637419631",
+  "links": [],
+  "desc": "One-minute split-screen: right half explains the Black-Scholes formula with voiceover and visuals, left half plays a generic endless-runner knockoff. Opus 5.5 at Extra effort.",
+  "desc_zh": "1 分钟分屏视频：右半边配音讲解 Black-Scholes 公式，左半边播放“地铁跑酷”式山寨游戏画面。Opus 5.5，Extra 档推理。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2103171088637419631",
+   "root": true,
+   "start_after": "> ",
+   "end_before": "\n\nClaude Opus"
+  }
+ },
+ {
+  "slug": "rorfly-negroni-recipe-motion-graphic",
+  "cat": "explainers",
+  "title": "Negroni recipe motion graphic from one image",
+  "title_zh": "单张图片生成 Negroni 配方动效视频",
+  "handle": "Ror_Fly",
+  "name": "Rory Flynn",
+  "post": "https://x.com/Ror_Fly/status/2102853258582880547",
+  "links": [],
+  "desc": "30-second square explainer showing ingredients and measurements pouring into the glass, rendered in HTML from one reference image, straight in Claude Code (medium effort, per author).",
+  "desc_zh": "30 秒方形讲解视频，展示配料与用量依次倒入杯中；据作者说仅凭一张参考图在 Claude Code 中直接用 HTML 渲染（medium 推理档）。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102853258582880547",
+   "root": true,
+   "start_after": "PROMPT:\n"
+  }
+ },
+ {
+  "slug": "axtonliu-talking-head-to-line-art",
+  "cat": "explainers",
+  "title": "Talking-head clip → line-art explainer B-roll",
+  "title_zh": "真人口播 → 线稿动画讲解",
+  "handle": "AxtonLiu",
+  "name": "Axton",
+  "post": "https://x.com/AxtonLiu/status/2102827887732932956",
+  "links": [],
+  "desc": "An 83-second vertical talking-head video turned into a line-art animated explainer: the speaker shrinks to a circular picture-in-picture, ~30 shots follow the subtitles, audio/captions/duration unchanged. Clean Claude Code, effort high, no skills or external assets; 28 min 53 s, zero human intervention (author). Prompt is in Chinese.",
+  "desc_zh": "把 83 秒竖屏真人口播改成线稿动画讲解：人像缩到右下角圆形画中画，约 30 个镜头按字幕切换，原声、字幕、时长不变。干净的 Claude Code、effort high、不加载 Skill 和外部素材；作者称用时 28 分 53 秒，全程零人工介入。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102827887732932956",
+   "root": true,
+   "start_after": "Prompt 很简单：\n\n",
+   "end_before": "\n\n完整实测",
+   "lang": "zh"
+  }
+ },
+ {
+  "slug": "alexalbert-market-street-1906",
+  "cat": "blender",
+  "title": "Market Street, San Francisco, 1906 (Blender)",
+  "title_zh": "1906 年旧金山市场街复原（Blender）",
+  "handle": "alexalbert__",
+  "name": "Alex Albert",
+  "post": "https://x.com/alexalbert__/status/2102466523164274839",
+  "links": [],
+  "desc": "Historically sourced reconstruction of Market Street the day before the 1906 earthquake, built entirely in Blender Python with reusable generators and no downloaded meshes/textures/HDRIs, ending in a 10-second fly-up-the-street video. Alex Albert works at Anthropic.",
+  "desc_zh": "依据史料复原 1906 年大地震前一天的旧金山市场街：全部用 Blender Python 与可复用生成器搭建，不下载任何网格、贴图或 HDRI，最后输出 10 秒沿街推进镜头。作者 Alex Albert 为 Anthropic 员工。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102466524934271381",
+   "conv": "2102466523164274839",
+   "start_after": "Prompt in Claude Tag\n\n\"",
+   "end_before": "\"",
+   "end_last": true
+  }
+ },
+ {
+  "slug": "alexalbert-blender-claymation",
+  "cat": "blender",
+  "title": "One-prompt Blender claymation in claude.ai",
+  "title_zh": "claude.ai 中一句话生成 Blender 黏土动画",
+  "handle": "alexalbert__",
+  "name": "Alex Albert",
+  "post": "https://x.com/alexalbert__/status/2102458348511879448",
+  "links": [],
+  "desc": "Screen recording of claude.ai driving Blender to produce a claymation-style character animation from a single prompt, using the new merged Claude (chat + Cowork) experience.",
+  "desc_zh": "录屏展示 claude.ai 通过一句提示词驱动 Blender 生成黏土风角色动画（基于新版合并后的 Claude 聊天 + Cowork 体验）。",
+  "prompt": {
+   "type": "not_shared"
+  }
+ },
+ {
+  "slug": "stefan3dai-castle-fireworks-blender",
+  "cat": "blender",
+  "title": "Procedural castle + lake + fireworks (Opus 5.5 vs GPT-6 Astra)",
+  "title_zh": "程序化城堡、湖面与烟花（Opus 5.5 对比 GPT-6 Astra）",
+  "handle": "Stefan_3D_AI",
+  "name": "Stefan 3D AI",
+  "post": "https://x.com/Stefan_3D_AI/status/2102471841046786153",
+  "links": [],
+  "desc": "Same one-prompt, Blender-only, all-procedural brief given to both models: render a 10-second shot and record a build timelapse. Opus 5.5: 35 min, 199.6k output tokens, ~$13.3; GPT-6 Astra: 28 min, 56.6k tokens, ~$14.5 (author). Driven through the official Blender MCP.",
+  "desc_zh": "同一条“一句提示词、只用 Blender、全程序化”的任务分别交给两个模型：渲染 10 秒镜头并录制搭建延时。作者数据：Opus 5.5 35 分钟、19.96 万输出 token、约 13.3 美元；GPT-6 Astra 28 分钟、5.66 万 token、约 14.5 美元。通过官方 Blender MCP 驱动。",
+  "prompt": {
+   "type": "not_shared",
+   "note": "Constraints stated in the post: one prompt, Blender only, all procedural, render the 10-second shot, record a build timelapse."
+  }
+ },
+ {
+  "slug": "tetumemo-dannoura-battle-3d",
+  "cat": "blender",
+  "title": "Battle of Dan-no-ura, TV-special-style 3D",
+  "title_zh": "壇之浦之战：电视特番级 3D 复原",
+  "handle": "tetumemo",
+  "name": "テツメモ",
+  "post": "https://x.com/tetumemo/status/2102652072252584046",
+  "links": [],
+  "desc": "~74-second 3D overhead visualization of the 1185 naval battle: terrain, fleets, advance arrows, sea fog, Kanmon Strait tidal currents and the tide reversal, with low sea-skimming and orbiting cameras. Prompt is in Japanese.",
+  "desc_zh": "约 74 秒的 1185 年壇之浦海战 3D 俯瞰演示：地形、船团、进军箭头、海雾、关门海峡潮流与潮向反转，配合贴海低空与环绕镜头。原提示词为日语。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102652076702716273",
+   "start_after": "■プロンプト\n\n",
+   "lang": "ja"
+  }
+ },
+ {
+  "slug": "claudeai-apollo8-earthrise",
+  "cat": "blender",
+  "title": "Apollo 8 “Earthrise” moment recreated",
+  "title_zh": "复原阿波罗 8 号“地出”拍摄瞬间",
+  "handle": "claudeai",
+  "name": "Claude (official)",
+  "post": "https://x.com/claudeai/status/2102471870692180179",
+  "links": [],
+  "desc": "Official launch-thread demo: a 52-second recreation of the moment Apollo 8’s Earthrise photograph was taken, built from image cues and public data.",
+  "desc_zh": "官方发布串演示：依据图像线索与公开数据，复原阿波罗 8 号拍下“地出”照片那一刻的 52 秒影片。",
+  "prompt": {
+   "type": "not_shared"
+  }
+ },
+ {
+  "slug": "abxxai-opus-seedance-road-trip",
+  "cat": "director",
+  "title": "Opus 5.5 as director → GPT Image 2.5 + Seedance 2.5",
+  "title_zh": "Opus 5.5 当导演 → GPT Image 2.5 + Seedance 2.5",
+  "handle": "abxxai",
+  "name": "Abdul Shakoor",
+  "post": "https://x.com/abxxai/status/2102775755646337530",
+  "links": [],
+  "desc": "Photoreal coastal road-trip clip. Opus 5.5 got one idea plus style screenshots and wrote everything: character sheet, start frames, camera moves, dialogue timing, sound. Key trick (author): tell it who holds the camera, where they sit and how they move. The full thread has every prompt; below is an excerpt of the Opus-written Seedance 2.5 scene-1 prompt.",
+  "desc_zh": "写实风海岸公路旅行短片。作者只给 Opus 5.5 一个点子和几张风格截图，由它写出角色设定图、首帧、运镜、台词节奏和音效等全部提示词。作者的关键技巧：告诉它“谁在拿相机、坐在哪里、怎么移动”。完整线程含全部提示词，下方为 Opus 撰写的 Seedance 2.5 第一场提示词节选。",
+  "prompt": {
+   "type": "excerpt",
+   "status": "2102775827939336264",
+   "conv": "2102775755646337530",
+   "start_after": "Prompt:\n\n",
+   "end_before": "=== 0.0-3.0s"
+  }
+ },
+ {
+  "slug": "koldo2k-infinite-zoom-collage",
+  "cat": "director",
+  "title": "Vintage collage “infinite zoom” via Magnific MCP",
+  "title_zh": "复古拼贴“无限缩放”动画（Magnific MCP）",
+  "handle": "koldo2k",
+  "name": "Koldo Huici",
+  "post": "https://x.com/koldo2k/status/2103129343253778767",
+  "links": [],
+  "desc": "20-second After-Effects-style infinite-zoom loop through vintage objects. Opus 5.5 orchestrated external models via the Magnific MCP (Seedream 5 Pro, GPT 2.5 cutouts, Kling 2.5, Lyria 3; ~1,500 credits per author), built depth-layer parallax and delivered an interactive timeline artifact plus MP4.",
+  "desc_zh": "20 秒 AE 风格“无限缩放”循环，镜头穿过复古物件进入一个个风景。Opus 5.5 通过 Magnific MCP 调度外部模型（Seedream 5 Pro、GPT 2.5 抠图、Kling 2.5、Lyria 3，作者称约 1,500 积分），做深度分层视差，并交付可交互时间线工件与 MP4。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2103129347791986942",
+   "conv": "2103129343253778767",
+   "start_after": "Here's the initial prompt, you can always tweak it to fit what you want:\n\n"
+  }
+ },
+ {
+  "slug": "orisilver-blender-blockout-seedance",
+  "cat": "director",
+  "title": "Blender blockout → Seedance 2.5 (MaxFusion MCP)",
+  "title_zh": "Blender 预演 → Seedance 2.5（MaxFusion MCP）",
+  "handle": "OriSilver",
+  "name": "Ori Silver",
+  "post": "https://x.com/OriSilver/status/2102817977812824335",
+  "links": [],
+  "desc": "Opus 5.5 broke down a reference video (15 fps frame pulls), rebuilt every shot as a Blender blockout (camera, movement, blocking), exported a 30 s MP4, then used it as the Seedance 2.5 reference with the author’s characters — writing prompts that stop Seedance copying the rough render.",
+  "desc_zh": "Opus 5.5 拆解参考视频（每秒抽 15 帧），在 Blender 中重建每个镜头的机位、运动与走位并导出 30 秒预演 MP4，再把它作为 Seedance 2.5 的参考并替换成作者的角色，同时编写防止 Seedance 照搬粗糙渲染的提示词。",
+  "prompt": {
+   "type": "not_shared",
+   "note": "Workflow is described step by step in the post; no prompt text shared."
+  }
+ }
+]

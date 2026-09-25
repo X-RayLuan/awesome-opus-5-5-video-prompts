@@ -1,0 +1,15 @@
+# Source downloads and encoder logs stay local (size); README embeds use *-readme.mp4
+raw/
+proposals/*/raw/*.mp4
+proposals/*/raw/*.jpg
+proposals/*/raw/*.html
+assets/videos/*
+!assets/videos/*-readme.mp4
+!assets/videos/.gitkeep
+*.log
+*-0.log
+*.mbtree
+.DS_Store
+node_modules/
+.env.local
+__pycache__/

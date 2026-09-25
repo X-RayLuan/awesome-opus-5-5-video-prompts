@@ -1,0 +1,13 @@
+=== REFERENCES ===
+
+<<<image_2>>> is the exact START FRAME and master reference for the scene, car, location, framing, light and film grade. Frame one must match it pixel for pixel: camera inside a parked white sedan looking out through the open front passenger door, grey fabric headliner along the top, grey seat belt and B-pillar at screen-left, the open door with black panel and chrome handle at screen-right, rocky dry clifftop, glittering deep-blue sea, flat horizon, hazy pale bright sky, harsh midday sun.
+
+<<<image_1>>> is the IDENTITY LOCK for the woman. She must be this exact person in every frame: same face and bone structure, warm brown eyes, freckles across nose and cheeks, soft flush on cheeks, natural full lips, long sun-streaked light-brown hair with caramel highlights, middle part, loose flyaways. Jewelry: thin gold chain with a small cross pendant and a small round gold coin pendant; brown multi-strand cord bracelets on her left wrist. Wardrobe: faded cropped white baby tee with a vintage print (pale blue stripe band, coral-red sun disc with a small seagull, blue waves), light-wash frayed denim cutoff shorts. Use the sheet's expression panels (Soft Private Smile, Excited Disbelief, Big Genuine Laugh, Playful "I Told You") as her emotional range. Identity, hair, jewelry and wardrobe never change or morph.
+
+=== CAMERA LOCK (MOST IMPORTANT) ===
+
+One continuous 10-second take, 1080p. Zero cuts, zero camera switches, zero time jumps.
+
+ONE camera angle and ONE framing for the entire clip, exactly the composition of <<<image_2>>>. The camera does NOT rotate, pan, tilt, zoom, dolly, reframe or change position at any moment. The headliner, B-pillar, seat belt, open door, horizon line and sea stay in the same place in the frame from first frame to last. Only the woman moves inside this fixed frame.
+
+The camera is held by a friend sitting in the driver's side of the car, filming through the open passenger door on a 2003-era compact digital camera held steady at chest height. The only camera motion is subtle human handheld life: gentle breathing sway, faint micro-tremor, a few millimeters of drift. Never jerky, never stabilized-smooth, never a deliberate move.

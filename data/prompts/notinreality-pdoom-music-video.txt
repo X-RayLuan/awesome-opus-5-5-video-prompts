@@ -1,0 +1,1 @@
+Simply pasted the lyrics and the audio file and told it to make a cutesy animation. It returned pretty quickly with a basic animation. Bumped up reasoning to xhigh and told it to use p5 brushstrokes and more interesting scenes, and 45 minutes later I got this.

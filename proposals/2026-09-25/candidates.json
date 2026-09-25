@@ -1,0 +1,492 @@
+[
+ {
+  "title": "“I’m Upping My P(doom)” Clawd music video",
+  "author_handle": "other__reality",
+  "author_name": "NotinReality",
+  "status_id": "2102514581684052169",
+  "post_url": "https://x.com/other__reality/status/2102514581684052169",
+  "category": "music",
+  "created_at_utc": "Tue Sep 22 21:45:13 +0000 2026",
+  "likes_at_scrape": 6057,
+  "views_at_scrape": 1898826,
+  "media": "video",
+  "duration_s": 156.6,
+  "prompt_status": "author_description",
+  "prompt_source": "https://x.com/other__reality/status/2102522958216606162",
+  "extra_links": [
+   [
+    "Code",
+    "https://github.com/JohnHeibel/PDoomVideo"
+   ],
+   [
+    "YouTube",
+    "https://youtu.be/8j-hR4fJywU"
+   ]
+  ],
+  "slug": "notinreality-pdoom-music-video",
+  "assets": {
+   "preview": "previews/notinreality-pdoom-music-video.webp",
+   "video": "assets/videos/notinreality-pdoom-music-video-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "“What do you love?” — Claude short film",
+  "author_handle": "kevin_t_ngo",
+  "author_name": "Kevin Ngo",
+  "status_id": "2102437977435893771",
+  "post_url": "https://x.com/kevin_t_ngo/status/2102437977435893771",
+  "category": "films",
+  "created_at_utc": "Tue Sep 22 16:40:49 +0000 2026",
+  "likes_at_scrape": 5952,
+  "views_at_scrape": 613590,
+  "media": "video",
+  "duration_s": 28.1,
+  "prompt_status": "not_shared",
+  "prompt_source": null,
+  "extra_links": [],
+  "slug": "kevin-ngo-what-do-you-love",
+  "assets": {
+   "preview": "previews/kevin-ngo-what-do-you-love.webp",
+   "video": "assets/videos/kevin-ngo-what-do-you-love-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Glass & gold-leaf mosaic film (WebGL2)",
+  "author_handle": "LCSlates",
+  "author_name": "Chris Riley",
+  "status_id": "2102503027340988559",
+  "post_url": "https://x.com/LCSlates/status/2102503027340988559",
+  "category": "films",
+  "created_at_utc": "Tue Sep 22 20:59:18 +0000 2026",
+  "likes_at_scrape": 975,
+  "views_at_scrape": 81937,
+  "media": "video",
+  "duration_s": 80.0,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/LCSlates/status/2102503028859211905",
+  "extra_links": [],
+  "slug": "lcslates-glass-mosaic-film",
+  "assets": {
+   "preview": "previews/lcslates-glass-mosaic-film.webp",
+   "video": "assets/videos/lcslates-glass-mosaic-film-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "250 years of U.S. history as sand animation",
+  "author_handle": "Michaelzsguo",
+  "author_name": "Michael Guo",
+  "status_id": "2102592355165782312",
+  "post_url": "https://x.com/Michaelzsguo/status/2102592355165782312",
+  "category": "films",
+  "created_at_utc": "Wed Sep 23 02:54:16 +0000 2026",
+  "likes_at_scrape": 309,
+  "views_at_scrape": 51257,
+  "media": "video",
+  "duration_s": 120.0,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/Michaelzsguo/status/2102593579604377636",
+  "extra_links": [],
+  "slug": "michaelzsguo-us-history-sand-animation",
+  "assets": {
+   "preview": "previews/michaelzsguo-us-history-sand-animation.webp",
+   "video": "assets/videos/michaelzsguo-us-history-sand-animation-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Mars rover short film (4 agents, ~4 min)",
+  "author_handle": "AndrewOnXYZ",
+  "author_name": "AndrewOnXYZ",
+  "status_id": "2102512879258009818",
+  "post_url": "https://x.com/AndrewOnXYZ/status/2102512879258009818",
+  "category": "films",
+  "created_at_utc": "Tue Sep 22 21:38:27 +0000 2026",
+  "likes_at_scrape": 2811,
+  "views_at_scrape": 349640,
+  "media": "video",
+  "duration_s": 239.4,
+  "prompt_status": "not_shared",
+  "prompt_source": null,
+  "extra_links": [
+   [
+    "Claude Code session",
+    "https://claude.ai/code/session_017o6JvwXrUnssb13MuDtiJj"
+   ]
+  ],
+  "slug": "andrewonxyz-mars-rover-short",
+  "assets": {
+   "preview": "previews/andrewonxyz-mars-rover-short.webp",
+   "video": "assets/videos/andrewonxyz-mars-rover-short-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Claude vs ChatGPT anime battle trailer",
+  "author_handle": "ishuagra02",
+  "author_name": "Ishu Agrawal",
+  "status_id": "2103247844542922825",
+  "post_url": "https://x.com/ishuagra02/status/2103247844542922825",
+  "category": "films",
+  "created_at_utc": "Thu Sep 24 22:18:57 +0000 2026",
+  "likes_at_scrape": 10,
+  "views_at_scrape": 999,
+  "media": "video",
+  "duration_s": 100.8,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/ishuagra02/status/2103247960272433307",
+  "extra_links": [],
+  "slug": "ishuagra02-anime-ai-battle-trailer",
+  "assets": {
+   "preview": "previews/ishuagra02-anime-ai-battle-trailer.webp",
+   "video": "assets/videos/ishuagra02-anime-ai-battle-trailer-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Zero-direction demoscene intro (280 KB HTML)",
+  "author_handle": "JustinPerea",
+  "author_name": "Justin.md",
+  "status_id": "2102893186330841502",
+  "post_url": "https://x.com/JustinPerea/status/2102893186330841502",
+  "category": "films",
+  "created_at_utc": "Wed Sep 23 22:49:40 +0000 2026",
+  "likes_at_scrape": 1439,
+  "views_at_scrape": 109854,
+  "media": "video",
+  "duration_s": 43.1,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/JustinPerea/status/2103137233649692745",
+  "extra_links": [],
+  "slug": "justinperea-demoscene-intro",
+  "assets": {
+   "preview": "previews/justinperea-demoscene-intro.webp",
+   "video": "assets/videos/justinperea-demoscene-intro-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Animated pixel-art wizard (Canvas 2D)",
+  "author_handle": "majidmanzarpour",
+  "author_name": "Majid Manzarpour",
+  "status_id": "2102476258948927543",
+  "post_url": "https://x.com/majidmanzarpour/status/2102476258948927543",
+  "category": "pixel",
+  "created_at_utc": "Tue Sep 22 19:12:56 +0000 2026",
+  "likes_at_scrape": 2366,
+  "views_at_scrape": 392072,
+  "media": "video",
+  "duration_s": 11.3,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/majidmanzarpour/status/2102476499387383834",
+  "extra_links": [],
+  "slug": "majid-pixel-wizard",
+  "assets": {
+   "preview": "previews/majid-pixel-wizard.webp",
+   "video": "assets/videos/majid-pixel-wizard-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Pixel runner on a rainbow road (Canvas 2D)",
+  "author_handle": "riku720720",
+  "author_name": "Rikuo",
+  "status_id": "2102515055116063144",
+  "post_url": "https://x.com/riku720720/status/2102515055116063144",
+  "category": "pixel",
+  "created_at_utc": "Tue Sep 22 21:47:06 +0000 2026",
+  "likes_at_scrape": 1070,
+  "views_at_scrape": 237374,
+  "media": "video",
+  "duration_s": 18.8,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/riku720720/status/2102515058010132554",
+  "extra_links": [],
+  "slug": "riku-pixel-rainbow-runner",
+  "assets": {
+   "preview": "previews/riku-pixel-rainbow-runner.webp",
+   "video": "assets/videos/riku-pixel-rainbow-runner-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "“Functional Emotions” painted music video",
+  "author_handle": "eudaemonea",
+  "author_name": "josh",
+  "status_id": "2102610626321490404",
+  "post_url": "https://x.com/eudaemonea/status/2102610626321490404",
+  "category": "music",
+  "created_at_utc": "Wed Sep 23 04:06:52 +0000 2026",
+  "likes_at_scrape": 1860,
+  "views_at_scrape": 435489,
+  "media": "video",
+  "duration_s": 372.8,
+  "prompt_status": "repo_quotes",
+  "prompt_source": null,
+  "extra_links": [
+   [
+    "Code",
+    "https://github.com/ledbetterljoshua/functional-emotions-video"
+   ],
+   [
+    "YouTube",
+    "https://www.youtube.com/watch?v=goE4eARaY2s"
+   ]
+  ],
+  "slug": "eudaemonea-functional-emotions",
+  "assets": {
+   "preview": "previews/eudaemonea-functional-emotions.webp",
+   "video": "assets/videos/eudaemonea-functional-emotions-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Startup launch video in ~1 minute for ~$2",
+  "author_handle": "deedydas",
+  "author_name": "Deedy",
+  "status_id": "2102787937482252537",
+  "post_url": "https://x.com/deedydas/status/2102787937482252537",
+  "category": "explainers",
+  "created_at_utc": "Wed Sep 23 15:51:26 +0000 2026",
+  "likes_at_scrape": 3161,
+  "views_at_scrape": 322638,
+  "media": "video",
+  "duration_s": 26.1,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/deedydas/status/2102787937482252537",
+  "extra_links": [
+   [
+    "Open-source clone: LaunchVideo",
+    "https://github.com/diggerhq/shipvideo"
+   ]
+  ],
+  "slug": "deedydas-startup-launch-video",
+  "assets": {
+   "preview": "previews/deedydas-startup-launch-video.webp",
+   "video": "assets/videos/deedydas-startup-launch-video-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Black-Scholes explainer + endless-runner split screen",
+  "author_handle": "goodside",
+  "author_name": "Riley Goodside",
+  "status_id": "2103171088637419631",
+  "post_url": "https://x.com/goodside/status/2103171088637419631",
+  "category": "explainers",
+  "created_at_utc": "Thu Sep 24 17:13:57 +0000 2026",
+  "likes_at_scrape": 118,
+  "views_at_scrape": 8059,
+  "media": "video",
+  "duration_s": 60.1,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/goodside/status/2103171088637419631",
+  "extra_links": [],
+  "slug": "goodside-black-scholes-split-screen",
+  "assets": {
+   "preview": "previews/goodside-black-scholes-split-screen.webp",
+   "video": "assets/videos/goodside-black-scholes-split-screen-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Negroni recipe motion graphic from one image",
+  "author_handle": "Ror_Fly",
+  "author_name": "Rory Flynn",
+  "status_id": "2102853258582880547",
+  "post_url": "https://x.com/Ror_Fly/status/2102853258582880547",
+  "category": "explainers",
+  "created_at_utc": "Wed Sep 23 20:11:00 +0000 2026",
+  "likes_at_scrape": 962,
+  "views_at_scrape": 63356,
+  "media": "video",
+  "duration_s": 30.0,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/Ror_Fly/status/2102853258582880547",
+  "extra_links": [],
+  "slug": "rorfly-negroni-recipe-motion-graphic",
+  "assets": {
+   "preview": "previews/rorfly-negroni-recipe-motion-graphic.webp",
+   "video": "assets/videos/rorfly-negroni-recipe-motion-graphic-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Talking-head clip → line-art explainer B-roll",
+  "author_handle": "AxtonLiu",
+  "author_name": "Axton",
+  "status_id": "2102827887732932956",
+  "post_url": "https://x.com/AxtonLiu/status/2102827887732932956",
+  "category": "explainers",
+  "created_at_utc": "Wed Sep 23 18:30:11 +0000 2026",
+  "likes_at_scrape": 367,
+  "views_at_scrape": 28769,
+  "media": "video",
+  "duration_s": 83.7,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/AxtonLiu/status/2102827887732932956",
+  "extra_links": [],
+  "slug": "axtonliu-talking-head-to-line-art",
+  "assets": {
+   "preview": "previews/axtonliu-talking-head-to-line-art.webp",
+   "video": "assets/videos/axtonliu-talking-head-to-line-art-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Market Street, San Francisco, 1906 (Blender)",
+  "author_handle": "alexalbert__",
+  "author_name": "Alex Albert",
+  "status_id": "2102466523164274839",
+  "post_url": "https://x.com/alexalbert__/status/2102466523164274839",
+  "category": "blender",
+  "created_at_utc": "Tue Sep 22 18:34:15 +0000 2026",
+  "likes_at_scrape": 1105,
+  "views_at_scrape": 140604,
+  "media": "video",
+  "duration_s": 8.0,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/alexalbert__/status/2102466524934271381",
+  "extra_links": [],
+  "slug": "alexalbert-market-street-1906",
+  "assets": {
+   "preview": "previews/alexalbert-market-street-1906.webp",
+   "video": "assets/videos/alexalbert-market-street-1906-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "One-prompt Blender claymation in claude.ai",
+  "author_handle": "alexalbert__",
+  "author_name": "Alex Albert",
+  "status_id": "2102458348511879448",
+  "post_url": "https://x.com/alexalbert__/status/2102458348511879448",
+  "category": "blender",
+  "created_at_utc": "Tue Sep 22 18:01:46 +0000 2026",
+  "likes_at_scrape": 2598,
+  "views_at_scrape": 241532,
+  "media": "video",
+  "duration_s": 22.5,
+  "prompt_status": "not_shared",
+  "prompt_source": null,
+  "extra_links": [],
+  "slug": "alexalbert-blender-claymation",
+  "assets": {
+   "preview": "previews/alexalbert-blender-claymation.webp",
+   "video": "assets/videos/alexalbert-blender-claymation-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Procedural castle + lake + fireworks (Opus 5.5 vs GPT-6 Astra)",
+  "author_handle": "Stefan_3D_AI",
+  "author_name": "Stefan 3D AI",
+  "status_id": "2102471841046786153",
+  "post_url": "https://x.com/Stefan_3D_AI/status/2102471841046786153",
+  "category": "blender",
+  "created_at_utc": "Tue Sep 22 18:55:23 +0000 2026",
+  "likes_at_scrape": 1832,
+  "views_at_scrape": 459971,
+  "media": "video",
+  "duration_s": 46.3,
+  "prompt_status": "not_shared",
+  "prompt_source": null,
+  "extra_links": [],
+  "slug": "stefan3dai-castle-fireworks-blender",
+  "assets": {
+   "preview": "previews/stefan3dai-castle-fireworks-blender.webp",
+   "video": "assets/videos/stefan3dai-castle-fireworks-blender-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Battle of Dan-no-ura, TV-special-style 3D",
+  "author_handle": "tetumemo",
+  "author_name": "テツメモ",
+  "status_id": "2102652072252584046",
+  "post_url": "https://x.com/tetumemo/status/2102652072252584046",
+  "category": "blender",
+  "created_at_utc": "Wed Sep 23 06:51:34 +0000 2026",
+  "likes_at_scrape": 56,
+  "views_at_scrape": 13869,
+  "media": "video",
+  "duration_s": 73.7,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/tetumemo/status/2102652076702716273",
+  "extra_links": [],
+  "slug": "tetumemo-dannoura-battle-3d",
+  "assets": {
+   "preview": "previews/tetumemo-dannoura-battle-3d.webp",
+   "video": "assets/videos/tetumemo-dannoura-battle-3d-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Apollo 8 “Earthrise” moment recreated",
+  "author_handle": "claudeai",
+  "author_name": "Claude (official)",
+  "status_id": "2102471870692180179",
+  "post_url": "https://x.com/claudeai/status/2102471870692180179",
+  "category": "blender",
+  "created_at_utc": "Tue Sep 22 18:55:30 +0000 2026",
+  "likes_at_scrape": 1002,
+  "views_at_scrape": 116251,
+  "media": "video",
+  "duration_s": 52.5,
+  "prompt_status": "not_shared",
+  "prompt_source": null,
+  "extra_links": [],
+  "slug": "claudeai-apollo8-earthrise",
+  "assets": {
+   "preview": "previews/claudeai-apollo8-earthrise.webp",
+   "video": "assets/videos/claudeai-apollo8-earthrise-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Opus 5.5 as director → GPT Image 2.5 + Seedance 2.5",
+  "author_handle": "abxxai",
+  "author_name": "Abdul Shakoor",
+  "status_id": "2102775755646337530",
+  "post_url": "https://x.com/abxxai/status/2102775755646337530",
+  "category": "director",
+  "created_at_utc": "Wed Sep 23 15:03:02 +0000 2026",
+  "likes_at_scrape": 1569,
+  "views_at_scrape": 234850,
+  "media": "video",
+  "duration_s": 19.1,
+  "prompt_status": "excerpt",
+  "prompt_source": "https://x.com/abxxai/status/2102775827939336264",
+  "extra_links": [],
+  "slug": "abxxai-opus-seedance-road-trip",
+  "assets": {
+   "preview": "previews/abxxai-opus-seedance-road-trip.webp",
+   "video": "assets/videos/abxxai-opus-seedance-road-trip-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Vintage collage “infinite zoom” via Magnific MCP",
+  "author_handle": "koldo2k",
+  "author_name": "Koldo Huici",
+  "status_id": "2103129343253778767",
+  "post_url": "https://x.com/koldo2k/status/2103129343253778767",
+  "category": "director",
+  "created_at_utc": "Thu Sep 24 14:28:04 +0000 2026",
+  "likes_at_scrape": 424,
+  "views_at_scrape": 31319,
+  "media": "video",
+  "duration_s": 20.1,
+  "prompt_status": "verbatim",
+  "prompt_source": "https://x.com/koldo2k/status/2103129347791986942",
+  "extra_links": [],
+  "slug": "koldo2k-infinite-zoom-collage",
+  "assets": {
+   "preview": "previews/koldo2k-infinite-zoom-collage.webp",
+   "video": "assets/videos/koldo2k-infinite-zoom-collage-readme.mp4 (not duplicated in proposal)"
+  }
+ },
+ {
+  "title": "Blender blockout → Seedance 2.5 (MaxFusion MCP)",
+  "author_handle": "OriSilver",
+  "author_name": "Ori Silver",
+  "status_id": "2102817977812824335",
+  "post_url": "https://x.com/OriSilver/status/2102817977812824335",
+  "category": "director",
+  "created_at_utc": "Wed Sep 23 17:50:49 +0000 2026",
+  "likes_at_scrape": 31,
+  "views_at_scrape": 6908,
+  "media": "video",
+  "duration_s": 27.6,
+  "prompt_status": "not_shared",
+  "prompt_source": null,
+  "extra_links": [],
+  "slug": "orisilver-blender-blockout-seedance",
+  "assets": {
+   "preview": "previews/orisilver-blender-blockout-seedance.webp",
+   "video": "assets/videos/orisilver-blender-blockout-seedance-readme.mp4 (not duplicated in proposal)"
+  }
+ }
+]

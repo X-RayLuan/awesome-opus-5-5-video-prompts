@@ -1,0 +1,22 @@
+- [“I’m Upping My P(doom)” Clawd music video](#notinreality-pdoom-music-video) · @other__reality · video
+- [“What do you love?” — Claude short film](#kevin-ngo-what-do-you-love) · @kevin_t_ngo · video
+- [Glass & gold-leaf mosaic film (WebGL2)](#lcslates-glass-mosaic-film) · @LCSlates · video
+- [250 years of U.S. history as sand animation](#michaelzsguo-us-history-sand-animation) · @Michaelzsguo · video
+- [Mars rover short film (4 agents, ~4 min)](#andrewonxyz-mars-rover-short) · @AndrewOnXYZ · video
+- [Claude vs ChatGPT anime battle trailer](#ishuagra02-anime-ai-battle-trailer) · @ishuagra02 · video
+- [Zero-direction demoscene intro (280 KB HTML)](#justinperea-demoscene-intro) · @JustinPerea · video
+- [Animated pixel-art wizard (Canvas 2D)](#majid-pixel-wizard) · @majidmanzarpour · video
+- [Pixel runner on a rainbow road (Canvas 2D)](#riku-pixel-rainbow-runner) · @riku720720 · video
+- [“Functional Emotions” painted music video](#eudaemonea-functional-emotions) · @eudaemonea · video
+- [Startup launch video in ~1 minute for ~$2](#deedydas-startup-launch-video) · @deedydas · video
+- [Black-Scholes explainer + endless-runner split screen](#goodside-black-scholes-split-screen) · @goodside · video
+- [Negroni recipe motion graphic from one image](#rorfly-negroni-recipe-motion-graphic) · @Ror_Fly · video
+- [Talking-head clip → line-art explainer B-roll](#axtonliu-talking-head-to-line-art) · @AxtonLiu · video
+- [Market Street, San Francisco, 1906 (Blender)](#alexalbert-market-street-1906) · @alexalbert__ · video
+- [One-prompt Blender claymation in claude.ai](#alexalbert-blender-claymation) · @alexalbert__ · video
+- [Procedural castle + lake + fireworks (Opus 5.5 vs GPT-6 Astra)](#stefan3dai-castle-fireworks-blender) · @Stefan_3D_AI · video
+- [Battle of Dan-no-ura, TV-special-style 3D](#tetumemo-dannoura-battle-3d) · @tetumemo · video
+- [Apollo 8 “Earthrise” moment recreated](#claudeai-apollo8-earthrise) · @claudeai · video
+- [Opus 5.5 as director → GPT Image 2.5 + Seedance 2.5](#abxxai-opus-seedance-road-trip) · @abxxai · video
+- [Vintage collage “infinite zoom” via Magnific MCP](#koldo2k-infinite-zoom-collage) · @koldo2k · video
+- [Blender blockout → Seedance 2.5 (MaxFusion MCP)](#orisilver-blender-blockout-seedance) · @OriSilver · video
