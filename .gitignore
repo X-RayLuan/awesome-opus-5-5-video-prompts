@@ -1,5 +1,5 @@
 # Source downloads and encoder logs stay local (size); README embeds use *-readme.mp4
-raw/
+/raw/
 proposals/*/raw/*.mp4
 proposals/*/raw/*.jpg
 proposals/*/raw/*.html

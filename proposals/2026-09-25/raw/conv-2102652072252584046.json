@@ -1,0 +1,17 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><meta content="FxTwitter" property="og:title"/><meta content="#6363ff" name="theme-color"/><meta content="Owie, you crashed FxTwitter :(
+
+This may be caused by API downtime or a new bug. Try again in a little while." property="og:description"/></head><title>:(</title><style>
+body {
+font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+padding: 0 20px;
+}
+h1 {
+font-size: 4em;
+font-weight: 900;
+margin-bottom: 0;
+}
+p {
+font-size: 10px;
+opacity: 0.3;
+}
+</style></head><body><h1>Owie :(</h1><h2>You hit a snag that broke FxTwitter. It's not your fault though&mdash;This is usually caused by an upstream outage or a new bug.</h2><p>fixtweet-main-c422d52-2026-09-24T05:53:37</p></body></html>
