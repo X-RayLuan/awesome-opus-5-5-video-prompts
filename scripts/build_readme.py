@@ -46,6 +46,7 @@ L = {
    play="▶ Play", playv="▶ Play video", orig="Original on X", promptlink="Prompt →",
    prompt_v="**Prompt** · verbatim from the [author’s post]({src})", prompt_lang={"ja": " · original in Japanese", "zh": " · original in Chinese"},
    prompt_x="**Prompt** · excerpt, written by Opus 5.5 and posted in the [author’s thread]({src}) — truncated here; see the thread for every prompt",
+   prompt_xa="**Prompt** · excerpt, verbatim from the [author’s reply]({src}) — truncated here; see the reply for the full prompt",
    prompt_ns="**Prompt** · _not shared by the author._",
    prompt_ad="**Prompt** · _not shared verbatim._ The author’s description of the direction ([reply]({src})):",
    prompt_rq="**Prompt** · the author’s messages to Claude, as quoted in the [project README]({src})",
@@ -67,6 +68,7 @@ L = {
    play="▶ 播放", playv="▶ 播放视频", orig="X 原帖", promptlink="提示词 →",
    prompt_v="**提示词** · 原文摘自[作者帖子]({src})", prompt_lang={"ja": " · 原文为日语", "zh": " · 原文为中文"},
    prompt_x="**提示词** · 节选，由 Opus 5.5 撰写、作者发布于[原线程]({src})；此处已截断，完整提示词见原线程",
+   prompt_xa="**提示词** · 节选，原文摘自[作者回复]({src})；此处已截断，完整提示词见原回复",
    prompt_ns="**提示词** · _作者未公开。_",
    prompt_ad="**提示词** · _未公开原文。_ 作者对指令的描述（[回复]({src})）：",
    prompt_rq="**提示词** · 作者发给 Claude 的原话，引自[项目 README]({src})",
@@ -83,7 +85,8 @@ def load():
     for e in es:
         p = os.path.join(ROOT, "data/prompts", e["slug"] + ".txt")
         e["prompt_text"] = open(p).read().rstrip("\n") if os.path.exists(p) else None
-        e["has_video"] = os.path.exists(os.path.join(ROOT, "assets/videos", e["slug"] + "-readme.mp4"))
+        e["has_preview"] = os.path.exists(os.path.join(ROOT, "assets/previews", e["slug"] + ".webp"))
+        e["has_video"] = e["has_preview"] and os.path.exists(os.path.join(ROOT, "assets/videos", e["slug"] + "-readme.mp4"))
         e["media"] = MEDIA.get(e["slug"], {})
     return es
 
@@ -124,7 +127,7 @@ def entry(e, lang):
     if e["has_video"]:
         out += [f'<a href="{vid}"><img src="{img}" width="640" loading="lazy" alt="Play video"></a><br>',
                 f'<sub><a href="{vid}">{t["playv"]}</a>{clip_note(e, lang)} · <a href="{e["post"]}">{t["orig"]}</a></sub>', ""]
-    else:
+    elif e["has_preview"]:
         out += [f'<a href="{e["post"]}"><img src="{img}" width="640" loading="lazy" alt="{title}"></a>', ""]
     out += [f"_{desc}_", ""]
     p = e["prompt"]; src = status_url(e)
@@ -132,6 +135,8 @@ def entry(e, lang):
         out += [t["prompt_v"].format(src=src) + t["prompt_lang"].get(p.get("lang"), ""), "", fence(e["prompt_text"])]
     elif p["type"] == "excerpt":
         out += [t["prompt_x"].format(src=src), "", fence(e["prompt_text"] + "\n\n[…]")]
+    elif p["type"] == "excerpt_author":
+        out += [t["prompt_xa"].format(src=src) + t["prompt_lang"].get(p.get("lang"), ""), "", fence(e["prompt_text"] + "\n\n[…]")]
     elif p["type"] == "author_description":
         out += [t["prompt_ad"].format(src=src), "", "> " + e["prompt_text"].replace("\n", "\n> ")]
     elif p["type"] == "repo_quotes":
@@ -164,7 +169,7 @@ def toc(es, lang):
         for e in [x for x in es if x["cat"] == key]:
             title = e["title_zh"] if lang == "zh" else e["title"]
             tag = " · video" if e["has_video"] else ""
-            pr = " · prompt" if e["prompt"]["type"] in ("verbatim", "excerpt", "repo_quotes") else ""
+            pr = " · prompt" if e["prompt"]["type"] in ("verbatim", "excerpt", "excerpt_author", "repo_quotes") else ""
             out.append(f"- [{title}](#{e['slug']}) · @{e['handle']}{tag}{pr}")
         if key == "director":
             out.append(f"- [{t['ev_title']}](#easyveo-remake-loop)")

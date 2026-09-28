@@ -13,3 +13,7 @@ assets/videos/*
 node_modules/
 .env.local
 __pycache__/
+# Scrape internals stay local: pre-filter model logs/costs; proposal clips duplicate assets/videos
+proposals/*/prefilter/
+proposals/*/videos/*
+!proposals/*/videos/.gitkeep

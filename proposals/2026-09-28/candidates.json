@@ -1,0 +1,242 @@
+[
+  {
+    "slug": "pradeepxkapoor-pip-ai-generated-world",
+    "cat": "films",
+    "title": "Pip the Robot in an AI-Generated World",
+    "title_zh": "困在 AI 生成世界里的机器人 Pip",
+    "handle": "pradeepXkapoor",
+    "name": "Pradeep Kapoor",
+    "post": "https://x.com/pradeepXkapoor/status/2103099194693271874",
+    "links": [],
+    "desc": "An animated short about a robot who realizes his world is AI-generated, with changing worlds and visual styles. The author says it was made entirely in code with Claude Opus 5.5, without a video model.",
+    "desc_zh": "一部关于机器人发现自己身处 AI 生成世界的动画短片，场景和视觉风格不断变化。作者称，作品借助 Claude Opus 5.5 完全用代码制作，没有使用视频模型。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2103099194693271874",
+      "conv": "2103099194693271874",
+      "text_verbatim": "ou are the director, animator, rigger, compositor, sound designer and render engineer for a 45–50 second animated short made entirely in code. The bar is \"this looks like a real studio short and goes viral on X.\" Treat this as a multi-session production. Do not rush to a final render. Work in milestones, render stills constantly, look at them, criticize them honestly, and fix them.",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 668,
+      "views": 64079
+    },
+    "flags": []
+  },
+  {
+    "slug": "gandamu-ml-nightcall-pixel-art-demo",
+    "cat": "pixel",
+    "title": "Nightcall Pixel-Art Realtime Demo",
+    "title_zh": "《Nightcall》像素风实时演示",
+    "handle": "gandamu_ml",
+    "name": "gandamu",
+    "post": "https://x.com/gandamu_ml/status/2103116003689550013",
+    "links": [],
+    "desc": "A pixel-art realtime demo accompanying Kavinsky’s “Nightcall,” generated with Opus 5.5. The author says they directed it to use Blender MCP for consistent geometry to rotoscope, then changed the initial result toward the flat, low-poly style of Another World.",
+    "desc_zh": "一个由 Opus 5.5 生成、配合 Kavinsky《Nightcall》的像素风实时演示。作者称，自己先让模型使用 Blender MCP 制作便于转描的一致几何结构，随后将初版改为类似《Another World》的扁平低多边形风格。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2103116003689550013",
+      "conv": "2103116003689550013",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 158,
+      "views": 6521
+    },
+    "flags": []
+  },
+  {
+    "slug": "axtonliu-pelican-riding-a-bicycle",
+    "cat": "films",
+    "title": "Pelican Riding a Bicycle: Theater Edition",
+    "title_zh": "《鹈鹕骑自行车》剧场版",
+    "handle": "AxtonLiu",
+    "name": "Axton",
+    "post": "https://x.com/AxtonLiu/status/2103119648271290566",
+    "links": [],
+    "desc": "A pelican-riding-a-bicycle animation generated from a single prompt. The author says Opus 5.5 wrote a GPU ray-marching renderer and generated the pelican, bicycle, pier, sea, sky, and music in code, without 3D models, textures, or audio assets.",
+    "desc_zh": "一部通过单次提示词生成的“鹈鹕骑自行车”动画。作者称，Opus 5.5 编写了 GPU 光线步进渲染器，并用代码生成鹈鹕、自行车、栈桥、海面、天空和配乐，没有使用 3D 模型、贴图或音频素材。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2103119648271290566",
+      "conv": "2103119648271290566",
+      "text_verbatim": "每次一个新的模型出来呢，大家都让它去画 “鹈鹕骑自行车” 来判断这个模型的空间能力，基本上都是用 HTML、SVG 来画动画。当我实在看得都有审美疲劳了，我希望你能画一个最复杂、最精细、最精美的 “鹈鹕骑自行车”的动画视频，你可以用任何的技术，不用着急，画一天都可以。",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 69,
+      "views": 10076
+    },
+    "flags": []
+  },
+  {
+    "slug": "mengto-code-sculpted-japanese-ship",
+    "cat": "blender",
+    "title": "Code-Sculpted Japanese Ship in Three.js",
+    "title_zh": "用 Three.js 代码雕刻的日式船",
+    "handle": "MengTo",
+    "name": "Meng To",
+    "post": "https://x.com/MengTo/status/2103122947133309311",
+    "links": [],
+    "desc": "Opus 5.5 sculpted the ship, dragon, sails, and architecture in code; the author says the scene was made entirely in Three.js without a library. To steer the work, the author asked Opus to score parts of the scene and keep improving each until it reached at least 8 out of 10, subject to their time and token budget.",
+    "desc_zh": "Opus 5.5 用代码雕刻了船、龙、船帆和建筑；作者称整个场景都用 Three.js 制作，没有使用库。为了引导制作，作者让 Opus 为场景各部分评分，并在时间和 token 预算允许的范围内持续改进，直到每部分至少达到 8 分（满分 10 分）。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2103122947133309311",
+      "conv": "2103122947133309311",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 1037,
+      "views": 52482
+    },
+    "flags": []
+  },
+  {
+    "slug": "linearuncle-derivative-lesson-manim",
+    "cat": "explainers",
+    "title": "Derivative Lesson Video Made with Manim",
+    "title_zh": "用 Manim 制作的导数教学视频",
+    "handle": "LinearUncle",
+    "name": "LinearUncle",
+    "post": "https://x.com/LinearUncle/status/2103128559174971663",
+    "links": [],
+    "desc": "The author made a video teaching derivatives with Claude Opus 5.5 and Manim.",
+    "desc_zh": "作者使用 Claude Opus 5.5 和 Manim 制作了一段讲解导数的教学视频。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2103128559174971663",
+      "conv": "2103128559174971663",
+      "text_verbatim": "请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 257,
+      "views": 22039
+    },
+    "flags": []
+  },
+  {
+    "slug": "jackfriks-lovelee-animated-short",
+    "cat": "films",
+    "title": "One-Shot Animated Short for Lovelee",
+    "title_zh": "Lovelee 应用的一次成型动画短片",
+    "handle": "jackfriks",
+    "name": "jack friks",
+    "post": "https://x.com/jackfriks/status/2103132260589338762",
+    "links": [],
+    "desc": "The author reports that Claude Opus 5.5 made a short film for their app in one shot, using new redesign assets. According to the author, Claude also made the sound and exported the finished film as an MP4 without edits.",
+    "desc_zh": "作者称，Claude Opus 5.5 使用应用改版的新素材，一次生成了一部短片。作者表示，声音也由 Claude 制作，成片未经修改，并由 Claude 自行导出为 MP4。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2103132260589338762",
+      "conv": "2103132260589338762",
+      "text_verbatim": "can you help me use the pig assets on new branch of lovelee to make a 9:16 short story animation with sound effects about the pig sending his partner love notes in the mailbox and make it fun and good tease app at end?",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 161,
+      "views": 51479
+    },
+    "flags": []
+  },
+  {
+    "slug": "sab8a-opus-55-talking-head-edit",
+    "cat": "director",
+    "title": "Opus 5.5 Talking-Head Edit with OpenEdit",
+    "title_zh": "Opus 5.5 与 OpenEdit 制作口播视频剪辑",
+    "handle": "sab8a",
+    "name": "Sabba Keynejad",
+    "post": "https://x.com/sab8a/status/2103144778481475686",
+    "links": [],
+    "desc": "The author demonstrates using Opus 5.5 with OpenEdit to turn a raw talking-head clip into an edit with subtitles, graphics, and music. The author reports a runtime of about 1 hour 51 minutes, $23 in token usage, and $49 in fal usage.",
+    "desc_zh": "作者演示了使用 Opus 5.5 和 OpenEdit 将原始口播视频剪辑成带有字幕、图形和音乐的成片。作者称，制作耗时约 1 小时 51 分钟，token 用量费用约为 23 美元，fal 用量费用约为 49 美元。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2103144778481475686",
+      "conv": "2103144778481475686",
+      "text_verbatim": "Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and music",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 288,
+      "views": 60873
+    },
+    "flags": []
+  },
+  {
+    "slug": "lucas-ia-javascript-drawn-ad",
+    "cat": "explainers",
+    "title": "JavaScript-Drawn Ad Made in Claude Code",
+    "title_zh": "用 Claude Code 制作 JavaScript 绘制的广告",
+    "handle": "Lucas_IA_",
+    "name": "Lucas | Ecom IA",
+    "post": "https://x.com/Lucas_IA_/status/2103152093733253544",
+    "links": [],
+    "desc": "The author shows an ad made in Claude Code using a custom skill: Claude writes JavaScript to draw the scenes, ElevenLabs provides the voiceover, Whisper supplies word-level timing, and HyperFrames renders the video to MP4. The author says Claude reviews capture boards and corrects the visuals during production.",
+    "desc_zh": "作者展示了一支用 Claude Code 和自定义 skill 制作的广告：Claude 编写 JavaScript 绘制场景，ElevenLabs 生成配音，Whisper 提供逐词时间信息，HyperFrames 将视频渲染为 MP4。作者称，Claude 在制作过程中会查看画面截图拼板并修正视觉内容。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2103152093733253544",
+      "conv": "2103152093733253544",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 410,
+      "views": 61010
+    },
+    "flags": []
+  },
+  {
+    "slug": "deedydas-ikea-manual-3d-assembly-video",
+    "cat": "explainers",
+    "title": "IKEA Manual as a Narrated 3D Assembly Video",
+    "title_zh": "将宜家组装手册变成带旁白的 3D 视频",
+    "handle": "deedydas",
+    "name": "Deedy",
+    "post": "https://x.com/deedydas/status/2103174501345493197",
+    "links": [],
+    "desc": "Deedy shows an IKEA assembly manual translated into a narrated 3D instructional video with Opus 5.5. The author says the video was made via code.",
+    "desc_zh": "Deedy 展示了用 Opus 5.5 将宜家组装手册转化为带旁白的 3D 教学视频。作者称该视频是通过代码制作的。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2103174501345493197",
+      "conv": "2103174501345493197",
+      "text_verbatim": "Translate this IKEA assembly manual into a 3D narrated instructional video",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 1040,
+      "views": 72908
+    },
+    "flags": []
+  },
+  {
+    "slug": "jake11moran-notchbrowser-teaser",
+    "cat": "explainers",
+    "title": "NotchBrowser Teaser Made with HyperFrames",
+    "title_zh": "用 HyperFrames 制作的 NotchBrowser 预告片",
+    "handle": "jake11moran",
+    "name": "Jake Moran",
+    "post": "https://x.com/jake11moran/status/2103237884564414633",
+    "links": [],
+    "desc": "Jake Moran made a NotchBrowser product teaser with HyperFrames and Opus 5.5, using one prompt dictated via Whispr. The teaser moves across a Mac desktop, then shows the browser panel opening from the notch.",
+    "desc_zh": "Jake Moran 使用 HyperFrames 和 Opus 5.5，通过 Whispr 口述一段提示词，制作了 NotchBrowser 产品预告片。片中镜头掠过 Mac 桌面，随后展示从刘海区域展开的浏览器面板。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2103237884564414633",
+      "conv": "2103237884564414633",
+      "text_verbatim": "Using HyperFrames, make a hype teaser for the product in this post - [link]. Landscape, around 27 seconds. Match the product UI, wallpaper and copy from the post's video \n\nMotion should feel slow and polished - one continuous camera over one Mac desktop, no hard cuts. Camera pushes, pulls and pans run like 1.5 to 3 seconds on gentle ease-in-out curves, nothing snappy - aim for half the speed you'd default to. Add motion blur on fast moves and a light film grain finish. Use an oversized macOS cursor. No audio. All on-screen copy lowercase like the post.\n\n1. Open on a big centered line - \"in the AI era, the hard part is\" - entering word by word from the right with an orange colorama text wipe over it (the `colorama-wipe` registry component). Hold it about a second, then scale it down into place above a spinning list.\n2. The list rotates through 30 hard things about working in the AI era - spending tokens wisely, picking the right model, managing context windows, etc - each with a real app icon. Go fast, it's not meant to be read, then land slowly on \"managing your desktop\". 0.2s after it lands a question mark pops on after it.\n3. Pull the camera back to reveal the Mac desktop as windows pile in on top of each other, arriving from behind the camera - Claude, ChatGPT, Grok, Linear, Chrome, Spotify, Slack and Claude Code in a terminal. Build these as accurate recreations of the real apps with real icons. \n4. Push back in so the windows fly past the camera, back to text - \"don't make your browser / one of them\".\n5. Pan up to a really tight framing of just the notch and the top of the wallpaper. A cursor comes up and hovers - the notch morphs into a pill with the name \"NotchBrowser\", then opens into the browser panel exactly like in the video. \n6. Click through the tabs like the video does, then click the collapse chevron so the panel retracts into the notch.\n7. End on a checklist of the post's claims with rings and ticks drawing on",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 38,
+      "views": 6727
+    },
+    "flags": []
+  }
+]

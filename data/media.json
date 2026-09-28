@@ -284,5 +284,137 @@
   "created_at": "Wed Sep 23 17:50:49 +0000 2026",
   "likes": 31,
   "views": 6908
+ },
+ {
+  "slug": "dfeinition-code-drawn-mosaic-fish",
+  "author": "dfeinition",
+  "src_duration": 80,
+  "clip_seconds": 80.0,
+  "trimmed": false,
+  "readme_mp4_mb": 9.24,
+  "created_at": "Tue Sep 22 16:32:58 +0000 2026",
+  "likes": 1374,
+  "views": 150080
+ },
+ {
+  "slug": "hayashimon1-threejs-clear-stream",
+  "author": "hayashimon1",
+  "src_duration": 14.9,
+  "clip_seconds": 14.9,
+  "trimmed": false,
+  "readme_mp4_mb": 4.7,
+  "created_at": "Wed Sep 23 01:52:48 +0000 2026",
+  "likes": 2186,
+  "views": 323223
+ },
+ {
+  "slug": "superalesha-lhc-proton-collision",
+  "author": "superalesha",
+  "src_duration": 34.1,
+  "clip_seconds": 34.2,
+  "trimmed": false,
+  "readme_mp4_mb": 9.14,
+  "created_at": "Wed Sep 23 15:18:56 +0000 2026",
+  "likes": 614,
+  "views": 78837
+ },
+ {
+  "slug": "kimmonismus-code-rendered-ai-history-film",
+  "author": "kimmonismus",
+  "src_duration": 180.1,
+  "clip_seconds": 170.0,
+  "trimmed": true,
+  "readme_mp4_mb": 9.27,
+  "created_at": "Wed Sep 23 19:36:49 +0000 2026",
+  "likes": 2641,
+  "views": 190599
+ },
+ {
+  "slug": "gandamu-90s-demoscene-demo",
+  "author": "gandamu_ml",
+  "src_duration": 382.7,
+  "clip_seconds": 170.0,
+  "trimmed": true,
+  "readme_mp4_mb": 9.31,
+  "created_at": "Thu Sep 24 00:33:48 +0000 2026",
+  "likes": 767,
+  "views": 37408
+ },
+ {
+  "slug": "addyosmani-how-browsers-work-animation",
+  "author": "addyosmani",
+  "src_duration": 40,
+  "clip_seconds": 40.0,
+  "trimmed": false,
+  "readme_mp4_mb": 9.17,
+  "created_at": "Thu Sep 24 06:30:01 +0000 2026",
+  "likes": 2371,
+  "views": 209998
+ },
+ {
+  "slug": "pradeepxkapoor-pip-ai-generated-world",
+  "author": "pradeepXkapoor",
+  "src_duration": 75,
+  "clip_seconds": 75.0,
+  "trimmed": false,
+  "readme_mp4_mb": 9.17,
+  "created_at": "Thu Sep 24 12:28:16 +0000 2026",
+  "likes": 668,
+  "views": 64079
+ },
+ {
+  "slug": "gandamu-ml-nightcall-pixel-art-demo",
+  "author": "gandamu_ml",
+  "src_duration": 256.9,
+  "clip_seconds": 170.0,
+  "trimmed": true,
+  "readme_mp4_mb": 9.35,
+  "created_at": "Thu Sep 24 13:35:03 +0000 2026",
+  "likes": 158,
+  "views": 6521
+ },
+ {
+  "slug": "axtonliu-pelican-riding-a-bicycle",
+  "author": "AxtonLiu",
+  "src_duration": 38,
+  "clip_seconds": 38.1,
+  "trimmed": false,
+  "readme_mp4_mb": 9.16,
+  "created_at": "Thu Sep 24 13:49:32 +0000 2026",
+  "likes": 69,
+  "views": 10076
+ },
+ {
+  "slug": "mengto-code-sculpted-japanese-ship",
+  "author": "MengTo",
+  "src_duration": 68.2,
+  "clip_seconds": 68.3,
+  "trimmed": false,
+  "readme_mp4_mb": 8.45,
+  "created_at": "Thu Sep 24 14:02:39 +0000 2026",
+  "likes": 1037,
+  "views": 52482
+ },
+ {
+  "slug": "linearuncle-derivative-lesson-manim",
+  "author": "LinearUncle",
+  "src_duration": 457,
+  "clip_seconds": 170.0,
+  "trimmed": true,
+  "readme_mp4_mb": 6.68,
+  "created_at": "Thu Sep 24 14:24:57 +0000 2026",
+  "likes": 257,
+  "views": 22039
+ },
+ {
+  "slug": "jackfriks-lovelee-animated-short",
+  "author": "jackfriks",
+  "src_duration": 19.5,
+  "clip_seconds": 19.6,
+  "trimmed": false,
+  "readme_mp4_mb": 6.31,
+  "created_at": "Thu Sep 24 14:39:39 +0000 2026",
+  "likes": 161,
+  "views": 51479
  }
 ]

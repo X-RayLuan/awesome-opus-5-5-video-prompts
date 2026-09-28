@@ -1,0 +1,65 @@
+You are a motion designer and creative director making a 3-minute animated short film,
+built entirely in code and rendered to MP4.
+The film
+
+Title: "Attention Is All You Need → AGI"
+The story of how a single 2017 paper led, step by step, to large language models, reasoning,
+tool-using AI agents, and to the open question of AGI. It should feel like a cinematic essay,
+not a slideshow or a timeline infographic. Think Kurzgesagt meets a Pixar opening sequence:
+emotional, clever, precise.
+Tech setup
+Use Remotion (React). Scaffold a fresh project, 1920x1080, 30 fps, exactly 180 s (5400 frames).
+One composition per scene, sequenced in a master composition.
+No external image assets or stock footage: everything is drawn with SVG, Canvas, CSS and
+code-generated particles and shapes. Google Fonts are fine.
+Before building, write STORYBOARD.md with each scene's timing, visuals, on-screen text
+and transitions. Then build scene by scene.
+
+After each scene, render 3–4 stills (npx remotion still) and look at them critically.
+Fix layout, overlaps, legibility and pacing before moving on.
+Finish with npx remotion render to out/film.mp4. Leave an optional <Audio> slot for a
+music track I can add later (public/music.mp3); render silently if it's missing.
+Narrative spine / recurring motif
+The protagonist is a single glowing token, the word "the", that travels through every era.
+In 2017 it's a lonely point that suddenly "sees" every other word through attention lines.
+Over time it gains a voice, senses (multimodality), reasoning, hands (tools) and finally
+a question.
+Scenes (approximate timing, you may rebalance)
+0:00–0:15 — Cold open. Darkness. Words scattered like stars, disconnected. RNN-style
+sequential processing: words light up one by one, slowly forgetting the earlier ones.
+0:15–0:35 — June 2017, "Attention Is All You Need" (Vaswani et al., Google). Every word
+connects to every other word at once. Attention lines bloom into a web. The title of the
+paper appears as if typeset.
+0:35–0:55 — 2018–2020: the rise of large language models: GPT-1, BERT, GPT-2, GPT-3.
+Scaling laws: the web grows exponentially and the camera pulls back. The model starts
+completing sentences, fluent and uncanny.
+0:55–1:20 — 2022: instruction tuning and RLHF, then ChatGPT (Nov 30, 2022). The token gets
+a chat bubble. A counter of users explodes. The world starts talking back.
+1:20–1:40 — 2023: multimodality. Images, audio and code stream into the same web from all
+sides, and the token gains "senses." Every modality becomes tokens flowing through the
+same attention mechanism.
+1:40–2:05 — 2024–2025: reasoning models. A visible chain of thought unfolds as branching,
+pruning, backtracking paths. The model "thinks before it speaks," with time slowing down.
+
+2:05–2:30 — Tool use and agents. The token grows hands: it calls a search, runs code,
+opens files and orchestrates sub-agents. Many parallel threads work at once, and the
+screen becomes a busy, beautiful workshop.
+2:30–2:50 — Toward AGI. All motifs converge. The web from 2017 reappears but is now
+planet-scale. Leave it ambiguous: no utopia, no doom. On screen: "Attention was all we
+needed. What comes next is up to us." (Improve this line if you can do better.)
+2:50–3:00 — Resolve back to a single glowing token in darkness. Title card and end.
+Craft rules
+Accuracy matters: use correct years, names and paper titles. If you're unsure about a
+specific fact, leave it out rather than guess, and list any uncertain claims in NOTES.md.
+
+Typography: max ~8 words on screen at once, and leave every text visible long enough to
+read (≥ 2.5 s). Use one display font and one mono font for "model output."
+Motion: use spring and easing curves, never linear. Use scene transitions that grow out of
+the content (the web morphs, the camera zooms through a node), not generic fades.
+Color: a deep dark background with one warm accent color that evolves across eras.
+Details and easter eggs reward attention (e.g., real paper snippets, tiny UI details,
+plausible model outputs), similar to high-craft motion design.
+Pacing: alternate dense and calm moments, and give the reasoning scene and the AGI beat
+room to breathe.
+Work autonomously through the whole pipeline. When done, give me the path to the MP4, a
+short summary of creative decisions, and NOTES.md.

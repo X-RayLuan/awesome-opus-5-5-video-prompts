@@ -3,24 +3,30 @@
 and write data/prompts/<slug>.txt. Only text written by the post author is used; nothing is paraphrased.
 
 Rules per entry (data/entries.json -> prompt):
-  type=verbatim|excerpt|author_description : fetch `status` (author's post), cut between start_after / end_before
+  type=verbatim|excerpt|excerpt_author|author_description : fetch `status` (author's post), cut between start_after / end_before
   type=repo_quotes : quote the author's messages as documented in the creator's GitHub README
   type=not_shared  : no file written; README shows "Not shared"
 Cached fxtwitter JSON in --cache (fx-<id>.json / conv-<id>.json) is used when present.
 """
-import json, os, re, sys, urllib.request
+import glob, json, os, re, sys, urllib.request
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-CACHE = sys.argv[1] if len(sys.argv) > 1 else os.path.join(ROOT, "proposals/2026-09-25/raw")
+# cache dirs: CLI args, else every proposals/<date>/raw (newest first)
+CACHES = sys.argv[1:] or sorted(glob.glob(os.path.join(ROOT, "proposals/*/raw")), reverse=True)
 UA = {"User-Agent": "Mozilla/5.0"}
 
+def cached(fn):
+    for c in CACHES:
+        p = os.path.join(c, fn)
+        if os.path.exists(p):
+            return p
+
 def status_text(sid, conv=None):
-    for fn in (f"fx-{sid}.json",):
-        p = os.path.join(CACHE, fn)
-        if os.path.exists(p):
-            return json.load(open(p))["tweet"]["text"]
+    p = cached(f"fx-{sid}.json")
+    if p and json.load(open(p))["tweet"]["id"] == sid:
+        return json.load(open(p))["tweet"]["text"]
     if conv:
-        p = os.path.join(CACHE, f"conv-{conv}.json")
-        if os.path.exists(p):
+        p = cached(f"conv-{conv}.json")
+        if p:
             d = json.load(open(p))
             for t in [d.get("status")] + (d.get("thread") or []) + (d.get("replies") or []):
                 if t and t.get("id") == sid:
@@ -37,7 +43,7 @@ def cut(text, p):
     return text.strip()
 
 def repo_quotes(fn):
-    s = open(os.path.join(CACHE, fn)).read()
+    s = open(cached(fn)).read()
     return "\n\n".join(q.strip() for q in re.findall(r'\*"(.+?)"\*', s))
 
 def main():

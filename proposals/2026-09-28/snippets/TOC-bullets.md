@@ -1,0 +1,10 @@
+- [Pip the Robot in an AI-Generated World](#pradeepxkapoor-pip-ai-generated-world) · @pradeepXkapoor · video
+- [Nightcall Pixel-Art Realtime Demo](#gandamu-ml-nightcall-pixel-art-demo) · @gandamu_ml · video
+- [Pelican Riding a Bicycle: Theater Edition](#axtonliu-pelican-riding-a-bicycle) · @AxtonLiu · video
+- [Code-Sculpted Japanese Ship in Three.js](#mengto-code-sculpted-japanese-ship) · @MengTo · video
+- [Derivative Lesson Video Made with Manim](#linearuncle-derivative-lesson-manim) · @LinearUncle · video
+- [One-Shot Animated Short for Lovelee](#jackfriks-lovelee-animated-short) · @jackfriks · video
+- [Opus 5.5 Talking-Head Edit with OpenEdit](#sab8a-opus-55-talking-head-edit) · @sab8a · video
+- [JavaScript-Drawn Ad Made in Claude Code](#lucas-ia-javascript-drawn-ad) · @Lucas_IA_ · video
+- [IKEA Manual as a Narrated 3D Assembly Video](#deedydas-ikea-manual-3d-assembly-video) · @deedydas · video
+- [NotchBrowser Teaser Made with HyperFrames](#jake11moran-notchbrowser-teaser) · @jake11moran · video

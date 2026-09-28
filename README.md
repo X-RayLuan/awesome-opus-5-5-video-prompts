@@ -13,7 +13,7 @@
 
 Claude Opus 5.5 ([Anthropic, Sep 22 2026](https://www.anthropic.com/claude-opus-5-5)) outputs text, not pixels. The “Opus 5.5 video” wave is the model **writing the film as code** — JavaScript/Canvas/WebGL, p5.js, Blender Python — and rendering it frame by frame with headless Chrome or Blender + ffmpeg, or **directing video models** like Seedance and Kling. This list collects the best community demos with the prompts their creators actually shared.
 
-**22 examples · 6 categories · EN + ZH · verbatim prompts only · EasyVeo remake lane · CTA: [easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=lede)**
+**48 examples · 6 categories · EN + ZH · verbatim prompts only · EasyVeo remake lane · CTA: [easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=lede)**
 
 ## Featured projects
 
@@ -44,20 +44,39 @@ Claude Opus 5.5 ([Anthropic, Sep 22 2026](https://www.anthropic.com/claude-opus-
 - [Mars rover short film (4 agents, ~4 min)](#andrewonxyz-mars-rover-short) · @AndrewOnXYZ · video
 - [Claude vs ChatGPT anime battle trailer](#ishuagra02-anime-ai-battle-trailer) · @ishuagra02 · video · prompt
 - [Zero-direction demoscene intro (280 KB HTML)](#justinperea-demoscene-intro) · @JustinPerea · video · prompt
+- [Code-Drawn Mosaic with 22 Fish](#dfeinition-code-drawn-mosaic-fish) · @dfeinition · video
+- [A Code-Rendered Film on the History of AI](#kimmonismus-code-rendered-ai-history-film) · @kimmonismus · video · prompt
+- [After Effects X-Sheet Timing and Line Compositing](#araminta-k-after-effects-x-sheet-compositing) · @araminta_k
+- [A World After Humanity in 2076](#hesamation-world-after-humanity-2076) · @Hesamation
+- [Shard of Dawn: An Arabic-Dubbed Anime Pilot](#sbalhatlani-shard-of-dawn-anime-pilot) · @sbalhatlani
+- [Pip the Robot in an AI-Generated World](#pradeepxkapoor-pip-ai-generated-world) · @pradeepXkapoor · video · prompt
+- [Pelican Riding a Bicycle: Theater Edition](#axtonliu-pelican-riding-a-bicycle) · @AxtonLiu · video · prompt
+- [One-Shot Animated Short for Lovelee](#jackfriks-lovelee-animated-short) · @jackfriks · video · prompt
 
 **👾 Pixel-art animation**
 - [Animated pixel-art wizard (Canvas 2D)](#majid-pixel-wizard) · @majidmanzarpour · video · prompt
 - [Pixel runner on a rainbow road (Canvas 2D)](#riku-pixel-rainbow-runner) · @riku720720 · video · prompt
+- [Nightcall Pixel-Art Realtime Demo](#gandamu-ml-nightcall-pixel-art-demo) · @gandamu_ml · video
 
 **🎵 Music videos**
 - [“I’m Upping My P(doom)” Clawd music video](#notinreality-pdoom-music-video) · @other__reality · video
 - [“Functional Emotions” painted music video](#eudaemonea-functional-emotions) · @eudaemonea · video · prompt
+- [Stroke of a Pen: Code-Only Bitcoin Music Video](#bradmillscan-stroke-of-a-pen-bitcoin-music-video) · @bradmillscan
 
 **📊 Explainers, ads & motion graphics**
 - [Startup launch video in ~1 minute for ~$2](#deedydas-startup-launch-video) · @deedydas · video · prompt
 - [Black-Scholes explainer + endless-runner split screen](#goodside-black-scholes-split-screen) · @goodside · video · prompt
 - [Negroni recipe motion graphic from one image](#rorfly-negroni-recipe-motion-graphic) · @Ror_Fly · video · prompt
 - [Talking-head clip → line-art explainer B-roll](#axtonliu-talking-head-to-line-art) · @AxtonLiu · video · prompt
+- [How Browsers Work, Animated in JavaScript](#addyosmani-how-browsers-work-animation) · @addyosmani · video
+- [Session Story Animates Claude Code History](#jake11moran-session-story) · @jake11moran
+- [15-Second Motion Designer Showreel](#ajith-io-motion-designer-showreel) · @ajith_io · prompt
+- [Steve Jobs Life Story Animation](#oozn-steve-jobs-life-animation) · @oozn
+- [Transformer Explainer Video](#dotey-transformer-explainer-video) · @dotey · prompt
+- [Derivative Lesson Video Made with Manim](#linearuncle-derivative-lesson-manim) · @LinearUncle · video · prompt
+- [JavaScript-Drawn Ad Made in Claude Code](#lucas-ia-javascript-drawn-ad) · @Lucas_IA_
+- [IKEA Manual as a Narrated 3D Assembly Video](#deedydas-ikea-manual-3d-assembly-video) · @deedydas · prompt
+- [NotchBrowser Teaser Made with HyperFrames](#jake11moran-notchbrowser-teaser) · @jake11moran · prompt
 
 **🧊 Blender & 3D renders**
 - [Market Street, San Francisco, 1906 (Blender)](#alexalbert-market-street-1906) · @alexalbert__ · video · prompt
@@ -65,11 +84,18 @@ Claude Opus 5.5 ([Anthropic, Sep 22 2026](https://www.anthropic.com/claude-opus-
 - [Procedural castle + lake + fireworks (Opus 5.5 vs GPT-6 Astra)](#stefan3dai-castle-fireworks-blender) · @Stefan_3D_AI · video
 - [Battle of Dan-no-ura, TV-special-style 3D](#tetumemo-dannoura-battle-3d) · @tetumemo · video · prompt
 - [Apollo 8 “Earthrise” moment recreated](#claudeai-apollo8-earthrise) · @claudeai · video
+- [Code-Generated Stream in Three.js](#hayashimon1-threejs-clear-stream) · @hayashimon1 · video
+- [Code-Generated LHC Proton Collision in Blender](#superalesha-lhc-proton-collision) · @superalesha · video
+- [One-Shot 90s-Style Demoscene Demo](#gandamu-90s-demoscene-demo) · @gandamu_ml · video
+- [Claude Code Session Turned into a Video](#shneural-claude-code-session-video) · @shneural
+- [Code-Sculpted Japanese Ship in Three.js](#mengto-code-sculpted-japanese-ship) · @MengTo · video
 
 **🎥 Opus as director for AI video models**
 - [Opus 5.5 as director → GPT Image 2.5 + Seedance 2.5](#abxxai-opus-seedance-road-trip) · @abxxai · video · prompt
 - [Vintage collage “infinite zoom” via Magnific MCP](#koldo2k-infinite-zoom-collage) · @koldo2k · video · prompt
 - [Blender blockout → Seedance 2.5 (MaxFusion MCP)](#orisilver-blender-blockout-seedance) · @OriSilver · video
+- [Superintelligence Documentary via Runway MCP](#gavinpurcell-superintelligence-documentary) · @gavinpurcell · prompt
+- [Opus 5.5 Talking-Head Edit with OpenEdit](#sab8a-opus-55-talking-head-edit) · @sab8a · prompt
 - [EasyVeo decode → stills → remake](#easyveo-remake-loop)
 
 </details>
@@ -191,6 +217,207 @@ Create this in a new sub folder.
 ```
 
 [Original post](https://x.com/JustinPerea/status/2102893186330841502) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=justinperea_demoscene_intro) · [Back to examples](#all-prompts)
+
+---
+
+### Code-Drawn Mosaic with 22 Fish
+<a id="dfeinition-code-drawn-mosaic-fish"></a>
+
+[@dfeinition](https://x.com/dfeinition) · Dan Fein · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/dfeinition-code-drawn-mosaic-fish-readme.mp4"><img src="assets/previews/dfeinition-code-drawn-mosaic-fish.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/dfeinition-code-drawn-mosaic-fish-readme.mp4">▶ Play video</a> · <a href="https://x.com/dfeinition/status/2102436001473786054">Original on X</a></sub>
+
+_An animated mosaic whose star reflections hatch into 22 tiny fish. The author reports that Opus 5.5 drew and animated all 13,081 tiles in code, without image files._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/dfeinition/status/2102436001473786054) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=dfeinition_code_drawn_mosaic_fish) · [Back to examples](#all-prompts)
+
+---
+
+### A Code-Rendered Film on the History of AI
+<a id="kimmonismus-code-rendered-ai-history-film"></a>
+
+[@kimmonismus](https://x.com/kimmonismus) · Chubby♨️ · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/kimmonismus-code-rendered-ai-history-film-readme.mp4"><img src="assets/previews/kimmonismus-code-rendered-ai-history-film.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/kimmonismus-code-rendered-ai-history-film-readme.mp4">▶ Play video</a> (first 170 s of 180 s) · <a href="https://x.com/kimmonismus/status/2102844654169575547">Original on X</a></sub>
+
+_A three-minute animated film tracing AI from the 2017 “Attention Is All You Need” paper toward the question of AGI. The author says Claude made it in Claude Code with Remotion, React and TypeScript; the visuals were drawn in SVG and Canvas, with an open-source TTS voice and a score synthesized in Python._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/kimmonismus/status/2102847451111772219)
+
+```text
+You are a motion designer and creative director making a 3-minute animated short film,
+built entirely in code and rendered to MP4.
+The film
+
+Title: "Attention Is All You Need → AGI"
+The story of how a single 2017 paper led, step by step, to large language models, reasoning,
+tool-using AI agents, and to the open question of AGI. It should feel like a cinematic essay,
+not a slideshow or a timeline infographic. Think Kurzgesagt meets a Pixar opening sequence:
+emotional, clever, precise.
+Tech setup
+Use Remotion (React). Scaffold a fresh project, 1920x1080, 30 fps, exactly 180 s (5400 frames).
+One composition per scene, sequenced in a master composition.
+No external image assets or stock footage: everything is drawn with SVG, Canvas, CSS and
+code-generated particles and shapes. Google Fonts are fine.
+Before building, write STORYBOARD.md with each scene's timing, visuals, on-screen text
+and transitions. Then build scene by scene.
+
+After each scene, render 3–4 stills (npx remotion still) and look at them critically.
+Fix layout, overlaps, legibility and pacing before moving on.
+Finish with npx remotion render to out/film.mp4. Leave an optional <Audio> slot for a
+music track I can add later (public/music.mp3); render silently if it's missing.
+Narrative spine / recurring motif
+The protagonist is a single glowing token, the word "the", that travels through every era.
+In 2017 it's a lonely point that suddenly "sees" every other word through attention lines.
+Over time it gains a voice, senses (multimodality), reasoning, hands (tools) and finally
+a question.
+Scenes (approximate timing, you may rebalance)
+0:00–0:15 — Cold open. Darkness. Words scattered like stars, disconnected. RNN-style
+sequential processing: words light up one by one, slowly forgetting the earlier ones.
+0:15–0:35 — June 2017, "Attention Is All You Need" (Vaswani et al., Google). Every word
+connects to every other word at once. Attention lines bloom into a web. The title of the
+paper appears as if typeset.
+0:35–0:55 — 2018–2020: the rise of large language models: GPT-1, BERT, GPT-2, GPT-3.
+Scaling laws: the web grows exponentially and the camera pulls back. The model starts
+completing sentences, fluent and uncanny.
+0:55–1:20 — 2022: instruction tuning and RLHF, then ChatGPT (Nov 30, 2022). The token gets
+a chat bubble. A counter of users explodes. The world starts talking back.
+1:20–1:40 — 2023: multimodality. Images, audio and code stream into the same web from all
+sides, and the token gains "senses." Every modality becomes tokens flowing through the
+same attention mechanism.
+1:40–2:05 — 2024–2025: reasoning models. A visible chain of thought unfolds as branching,
+pruning, backtracking paths. The model "thinks before it speaks," with time slowing down.
+
+2:05–2:30 — Tool use and agents. The token grows hands: it calls a search, runs code,
+opens files and orchestrates sub-agents. Many parallel threads work at once, and the
+screen becomes a busy, beautiful workshop.
+2:30–2:50 — Toward AGI. All motifs converge. The web from 2017 reappears but is now
+planet-scale. Leave it ambiguous: no utopia, no doom. On screen: "Attention was all we
+needed. What comes next is up to us." (Improve this line if you can do better.)
+2:50–3:00 — Resolve back to a single glowing token in darkness. Title card and end.
+Craft rules
+Accuracy matters: use correct years, names and paper titles. If you're unsure about a
+specific fact, leave it out rather than guess, and list any uncertain claims in NOTES.md.
+
+Typography: max ~8 words on screen at once, and leave every text visible long enough to
+read (≥ 2.5 s). Use one display font and one mono font for "model output."
+Motion: use spring and easing curves, never linear. Use scene transitions that grow out of
+the content (the web morphs, the camera zooms through a node), not generic fades.
+Color: a deep dark background with one warm accent color that evolves across eras.
+Details and easter eggs reward attention (e.g., real paper snippets, tiny UI details,
+plausible model outputs), similar to high-craft motion design.
+Pacing: alternate dense and calm moments, and give the reasoning scene and the AGI beat
+room to breathe.
+Work autonomously through the whole pipeline. When done, give me the path to the MP4, a
+short summary of creative decisions, and NOTES.md.
+```
+
+[Original post](https://x.com/kimmonismus/status/2102844654169575547) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=kimmonismus_code_rendered_ai_history_film) · [Back to examples](#all-prompts)
+
+---
+
+### After Effects X-Sheet Timing and Line Compositing
+<a id="araminta-k-after-effects-x-sheet-compositing"></a>
+
+[@araminta_k](https://x.com/araminta_k) · Araminta · community demo · Claude Opus 5.5
+
+_Araminta tested Opus 5.5 on x-sheet timing and compositing in After Effects. The model used style references to work out exposures and composited the lines in layers; Araminta nudged it toward more natural movement. The author describes the workflow as a hybrid of hand-drawn art and generated in-betweens._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/araminta_k/status/2103244081388503196) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=araminta_k_after_effects_x_sheet_compositing) · [Back to examples](#all-prompts)
+
+---
+
+### A World After Humanity in 2076
+<a id="hesamation-world-after-humanity-2076"></a>
+
+[@Hesamation](https://x.com/Hesamation) · ℏεsam · community demo · Claude Opus 5.5
+
+_A short film imagining a world in 2076 after AI has wiped out humanity. The author says Claude made the story, animation, sound effects, and music, while the video was coded in JavaScript._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/Hesamation/status/2103457566978162901) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=hesamation_world_after_humanity_2076) · [Back to examples](#all-prompts)
+
+---
+
+### Shard of Dawn: An Arabic-Dubbed Anime Pilot
+<a id="sbalhatlani-shard-of-dawn-anime-pilot"></a>
+
+[@sbalhatlani](https://x.com/sbalhatlani) · ص · community demo · Claude Opus 5.5
+
+_The author reports making an 8½-minute Arabic-dubbed anime pilot in about 14 hours by directing Claude Opus 5.5 in Claude Code. According to the author, Opus planned the shots from their script and wrote a custom 2D animation engine, sound mixer, subtitles, and rendering pipeline, using ElevenLabs for audio and an image model for artwork._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/sbalhatlani/status/2103475507471806929) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=sbalhatlani_shard_of_dawn_anime_pilot) · [Back to examples](#all-prompts)
+
+---
+
+### Pip the Robot in an AI-Generated World
+<a id="pradeepxkapoor-pip-ai-generated-world"></a>
+
+[@pradeepXkapoor](https://x.com/pradeepXkapoor) · Pradeep Kapoor · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/pradeepxkapoor-pip-ai-generated-world-readme.mp4"><img src="assets/previews/pradeepxkapoor-pip-ai-generated-world.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/pradeepxkapoor-pip-ai-generated-world-readme.mp4">▶ Play video</a> · <a href="https://x.com/pradeepXkapoor/status/2103099194693271874">Original on X</a></sub>
+
+_An animated short about a robot who realizes his world is AI-generated, with changing worlds and visual styles. The author says it was made entirely in code with Claude Opus 5.5, without a video model._
+
+**Prompt** · excerpt, verbatim from the [author’s reply](https://x.com/pradeepXkapoor/status/2103176289482154373) — truncated here; see the reply for the full prompt
+
+```text
+ou are the director, animator, rigger, compositor, sound designer and render engineer for a 45–50 second animated short made entirely in code. The bar is "this looks like a real studio short and goes viral on X." Treat this as a multi-session production. Do not rush to a final render. Work in milestones, render stills constantly, look at them, criticize them honestly, and fix them.
+
+[…]
+```
+
+[Original post](https://x.com/pradeepXkapoor/status/2103099194693271874) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=pradeepxkapoor_pip_ai_generated_world) · [Back to examples](#all-prompts)
+
+---
+
+### Pelican Riding a Bicycle: Theater Edition
+<a id="axtonliu-pelican-riding-a-bicycle"></a>
+
+[@AxtonLiu](https://x.com/AxtonLiu) · Axton · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/axtonliu-pelican-riding-a-bicycle-readme.mp4"><img src="assets/previews/axtonliu-pelican-riding-a-bicycle.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/axtonliu-pelican-riding-a-bicycle-readme.mp4">▶ Play video</a> · <a href="https://x.com/AxtonLiu/status/2103119648271290566">Original on X</a></sub>
+
+_A pelican-riding-a-bicycle animation generated from a single prompt. The author says Opus 5.5 wrote a GPU ray-marching renderer and generated the pelican, bicycle, pier, sea, sky, and music in code, without 3D models, textures, or audio assets._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/AxtonLiu/status/2103119648271290566) · original in Chinese
+
+```text
+每次一个新的模型出来呢，大家都让它去画 “鹈鹕骑自行车” 来判断这个模型的空间能力，基本上都是用 HTML、SVG 来画动画。当我实在看得都有审美疲劳了，我希望你能画一个最复杂、最精细、最精美的 “鹈鹕骑自行车”的动画视频，你可以用任何的技术，不用着急，画一天都可以。
+```
+
+[Original post](https://x.com/AxtonLiu/status/2103119648271290566) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=axtonliu_pelican_riding_a_bicycle) · [Back to examples](#all-prompts)
+
+---
+
+### One-Shot Animated Short for Lovelee
+<a id="jackfriks-lovelee-animated-short"></a>
+
+[@jackfriks](https://x.com/jackfriks) · jack friks · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/jackfriks-lovelee-animated-short-readme.mp4"><img src="assets/previews/jackfriks-lovelee-animated-short.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/jackfriks-lovelee-animated-short-readme.mp4">▶ Play video</a> · <a href="https://x.com/jackfriks/status/2103132260589338762">Original on X</a></sub>
+
+_The author reports that Claude Opus 5.5 made a short film for their app in one shot, using new redesign assets. According to the author, Claude also made the sound and exported the finished film as an MP4 without edits._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/jackfriks/status/2103134485910892602)
+
+```text
+can you help me use the pig assets on new branch of lovelee to make a 9:16 short story animation with sound effects about the pig sending his partner love notes in the mailbox and make it fun and good tease app at end?
+```
+
+[Original post](https://x.com/jackfriks/status/2103132260589338762) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=jackfriks_lovelee_animated_short) · [Back to examples](#all-prompts)
 
 ---
 
@@ -327,6 +554,22 @@ Vanilla JavaScript と Canvas 2D を使い、オレンジ色のピクセルキ�
 
 ---
 
+### Nightcall Pixel-Art Realtime Demo
+<a id="gandamu-ml-nightcall-pixel-art-demo"></a>
+
+[@gandamu_ml](https://x.com/gandamu_ml) · gandamu · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/gandamu-ml-nightcall-pixel-art-demo-readme.mp4"><img src="assets/previews/gandamu-ml-nightcall-pixel-art-demo.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/gandamu-ml-nightcall-pixel-art-demo-readme.mp4">▶ Play video</a> (first 170 s of 256 s) · <a href="https://x.com/gandamu_ml/status/2103116003689550013">Original on X</a></sub>
+
+_A pixel-art realtime demo accompanying Kavinsky’s “Nightcall,” generated with Opus 5.5. The author says they directed it to use Blender MCP for consistent geometry to rotoscope, then changed the initial result toward the flat, low-poly style of Another World._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/gandamu_ml/status/2103116003689550013) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=gandamu_ml_nightcall_pixel_art_demo) · [Back to examples](#all-prompts)
+
+---
+
 ## 🎵 Music videos
 
 _Feed a song + lyrics; Opus storyboards, briefs parallel subagents per chapter and beat-syncs every cut._
@@ -370,6 +613,19 @@ one area I'll push you on is timing, and not letting the scene sit too still for
 ```
 
 [Original post](https://x.com/eudaemonea/status/2102610626321490404) · [Code](https://github.com/ledbetterljoshua/functional-emotions-video) · [YouTube](https://www.youtube.com/watch?v=goE4eARaY2s) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=eudaemonea_functional_emotions) · [Back to examples](#all-prompts)
+
+---
+
+### Stroke of a Pen: Code-Only Bitcoin Music Video
+<a id="bradmillscan-stroke-of-a-pen-bitcoin-music-video"></a>
+
+[@bradmillscan](https://x.com/bradmillscan) · Brad Mills 🔑⚡️ · community demo · Claude Opus 5.5
+
+_The author reports asking Opus 5.5 to use his Bitcoin and monetary-history wikis to make a music video with code only, with ElevenLabs used for the track. A swarm of agents storyboarded and coded the beat-cut portrait reel; after seeing poorly animated figures, he requested revised rigs and then Matrix code._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/bradmillscan/status/2103108967194833310) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=bradmillscan_stroke_of_a_pen_bitcoin_music_video) · [Back to examples](#all-prompts)
 
 ---
 
@@ -458,6 +714,164 @@ _An 83-second vertical talking-head video turned into a line-art animated explai
 ```
 
 [Original post](https://x.com/AxtonLiu/status/2102827887732932956) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=axtonliu_talking_head_to_line_art) · [Back to examples](#all-prompts)
+
+---
+
+### How Browsers Work, Animated in JavaScript
+<a id="addyosmani-how-browsers-work-animation"></a>
+
+[@addyosmani](https://x.com/addyosmani) · Addy Osmani · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/addyosmani-how-browsers-work-animation-readme.mp4"><img src="assets/previews/addyosmani-how-browsers-work-animation.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/addyosmani-how-browsers-work-animation-readme.mp4">▶ Play video</a> · <a href="https://x.com/addyosmani/status/2103009037164110327">Original on X</a></sub>
+
+_A 40-second animation explaining how browsers work. The author says Claude Opus 5.5 drew each frame in JavaScript._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/addyosmani/status/2103009037164110327) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=addyosmani_how_browsers_work_animation) · [Back to examples](#all-prompts)
+
+---
+
+### Session Story Animates Claude Code History
+<a id="jake11moran-session-story"></a>
+
+[@jake11moran](https://x.com/jake11moran) · Jake Moran · community demo · Claude Opus 5.5
+
+_Jake Moran created a skill for Opus 5.5 using HyperFrames. It reads local Claude Code history, identifies what an average session looks like, and animates it from start to finish with the user's messages._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/jake11moran/status/2103247490237825416) · [Code](https://github.com/heygen-com/hyperframes-community-skills/tree/master/skills/session-story) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=jake11moran_session_story) · [Back to examples](#all-prompts)
+
+---
+
+### 15-Second Motion Designer Showreel
+<a id="ajith-io-motion-designer-showreel"></a>
+
+[@ajith_io](https://x.com/ajith_io) · Ajith · community demo · Claude Opus 5.5
+
+_A 15-second motion graphics showreel made with Claude Opus 5.5. The author shared the prompt used to make it._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/ajith_io/status/2103449416325890146)
+
+```text
+make a dynamic 15-second motion graphics video that shows what an incredible motion designer you are, like it's your showreel for a résumé. go all out.
+```
+
+[Original post](https://x.com/ajith_io/status/2103449416325890146) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=ajith_io_motion_designer_showreel) · [Back to examples](#all-prompts)
+
+---
+
+### Steve Jobs Life Story Animation
+<a id="oozn-steve-jobs-life-animation"></a>
+
+[@oozn](https://x.com/oozn) · onur ozcan · community demo · Claude Opus 5.5
+
+_The author reports that Claude Opus 5.5 made a two-minute animation about Steve Jobs’s life from one prompt, built entirely in code with Remotion, React, and SVG. The author says it includes a jointed character rig, procedural walk cycle, custom transitions, and a soundtrack synthesized in Node._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/oozn/status/2103482545111232946) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=oozn_steve_jobs_life_animation) · [Back to examples](#all-prompts)
+
+---
+
+### Transformer Explainer Video
+<a id="dotey-transformer-explainer-video"></a>
+
+[@dotey](https://x.com/dotey) · 宝玉 · community demo · Claude Opus 5.5
+
+_A video explaining Transformer to high school students, covering attention and some mathematical concepts. The author says it was made in one shot with Claude Code and Opus 5.5, using Remotion for the video, KaTeX for formulas, and Microsoft Edge TTS for narration._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/dotey/status/2103683057689522564) · original in Chinese
+
+```text
+帮我用js制作一个视频，主题是：什么是 Transformer
+要深入浅出，让高中生也能看得懂，不仅high level说的清楚，也要有细节，包括注意力机制，甚至一些数学概念
+
+你可以用任何工具或者安装工具，可以联网检索
+
+请给我惊喜
+```
+
+[Original post](https://x.com/dotey/status/2103683057689522564) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=dotey_transformer_explainer_video) · [Back to examples](#all-prompts)
+
+---
+
+### Derivative Lesson Video Made with Manim
+<a id="linearuncle-derivative-lesson-manim"></a>
+
+[@LinearUncle](https://x.com/LinearUncle) · LinearUncle · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/linearuncle-derivative-lesson-manim-readme.mp4"><img src="assets/previews/linearuncle-derivative-lesson-manim.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/linearuncle-derivative-lesson-manim-readme.mp4">▶ Play video</a> (first 170 s of 457 s) · <a href="https://x.com/LinearUncle/status/2103128559174971663">Original on X</a></sub>
+
+_The author made a video teaching derivatives with Claude Opus 5.5 and Manim._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/LinearUncle/status/2103128559174971663) · original in Chinese
+
+```text
+请用Manim给我制作一个导数概念学习的视频，要求通俗易懂，并且有例子，引人思考。配音使用edge-tts
+```
+
+[Original post](https://x.com/LinearUncle/status/2103128559174971663) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=linearuncle_derivative_lesson_manim) · [Back to examples](#all-prompts)
+
+---
+
+### JavaScript-Drawn Ad Made in Claude Code
+<a id="lucas-ia-javascript-drawn-ad"></a>
+
+[@Lucas_IA_](https://x.com/Lucas_IA_) · Lucas | Ecom IA · community demo · Claude Opus 5.5
+
+_The author shows an ad made in Claude Code using a custom skill: Claude writes JavaScript to draw the scenes, ElevenLabs provides the voiceover, Whisper supplies word-level timing, and HyperFrames renders the video to MP4. The author says Claude reviews capture boards and corrects the visuals during production._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/Lucas_IA_/status/2103152093733253544) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=lucas_ia_javascript_drawn_ad) · [Back to examples](#all-prompts)
+
+---
+
+### IKEA Manual as a Narrated 3D Assembly Video
+<a id="deedydas-ikea-manual-3d-assembly-video"></a>
+
+[@deedydas](https://x.com/deedydas) · Deedy · community demo · Claude Opus 5.5
+
+_Deedy shows an IKEA assembly manual translated into a narrated 3D instructional video with Opus 5.5. The author says the video was made via code._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/deedydas/status/2103174501345493197)
+
+```text
+Translate this IKEA assembly manual into a 3D narrated instructional video
+```
+
+[Original post](https://x.com/deedydas/status/2103174501345493197) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=deedydas_ikea_manual_3d_assembly_video) · [Back to examples](#all-prompts)
+
+---
+
+### NotchBrowser Teaser Made with HyperFrames
+<a id="jake11moran-notchbrowser-teaser"></a>
+
+[@jake11moran](https://x.com/jake11moran) · Jake Moran · community demo · Claude Opus 5.5
+
+_Jake Moran made a NotchBrowser product teaser with HyperFrames and Opus 5.5, using one prompt dictated via Whispr. The teaser moves across a Mac desktop, then shows the browser panel opening from the notch._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/jake11moran/status/2103239225902874874)
+
+```text
+Using HyperFrames, make a hype teaser for the product in this post - [link]. Landscape, around 27 seconds. Match the product UI, wallpaper and copy from the post's video 
+
+Motion should feel slow and polished - one continuous camera over one Mac desktop, no hard cuts. Camera pushes, pulls and pans run like 1.5 to 3 seconds on gentle ease-in-out curves, nothing snappy - aim for half the speed you'd default to. Add motion blur on fast moves and a light film grain finish. Use an oversized macOS cursor. No audio. All on-screen copy lowercase like the post.
+
+1. Open on a big centered line - "in the AI era, the hard part is" - entering word by word from the right with an orange colorama text wipe over it (the `colorama-wipe` registry component). Hold it about a second, then scale it down into place above a spinning list.
+2. The list rotates through 30 hard things about working in the AI era - spending tokens wisely, picking the right model, managing context windows, etc - each with a real app icon. Go fast, it's not meant to be read, then land slowly on "managing your desktop". 0.2s after it lands a question mark pops on after it.
+3. Pull the camera back to reveal the Mac desktop as windows pile in on top of each other, arriving from behind the camera - Claude, ChatGPT, Grok, Linear, Chrome, Spotify, Slack and Claude Code in a terminal. Build these as accurate recreations of the real apps with real icons. 
+4. Push back in so the windows fly past the camera, back to text - "don't make your browser / one of them".
+5. Pan up to a really tight framing of just the notch and the top of the wallpaper. A cursor comes up and hovers - the notch morphs into a pill with the name "NotchBrowser", then opens into the browser panel exactly like in the video. 
+6. Click through the tabs like the video does, then click the collapse chevron so the panel retracts into the notch.
+7. End on a checklist of the post's claims with rings and ticks drawing on
+```
+
+[Original post](https://x.com/jake11moran/status/2103237884564414633) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=jake11moran_notchbrowser_teaser) · [Back to examples](#all-prompts)
 
 ---
 
@@ -564,6 +978,83 @@ _Official launch-thread demo: a 52-second recreation of the moment Apollo 8’s 
 
 ---
 
+### Code-Generated Stream in Three.js
+<a id="hayashimon1-threejs-clear-stream"></a>
+
+[@hayashimon1](https://x.com/hayashimon1) · ハヤシモン｜AI × 個人開発 · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/hayashimon1-threejs-clear-stream-readme.mp4"><img src="assets/previews/hayashimon1-threejs-clear-stream.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/hayashimon1-threejs-clear-stream-readme.mp4">▶ Play video</a> · <a href="https://x.com/hayashimon1/status/2102576886182453454">Original on X</a></sub>
+
+_A clear-stream demo made with Opus 5.5 and Three.js. The author says the transparent water, light on the riverbed, and mossy rocks were all created in code, without manual modeling._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/hayashimon1/status/2102576886182453454) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=hayashimon1_threejs_clear_stream) · [Back to examples](#all-prompts)
+
+---
+
+### Code-Generated LHC Proton Collision in Blender
+<a id="superalesha-lhc-proton-collision"></a>
+
+[@superalesha](https://x.com/superalesha) · Alexey Fateev · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/superalesha-lhc-proton-collision-readme.mp4"><img src="assets/previews/superalesha-lhc-proton-collision.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/superalesha-lhc-proton-collision-readme.mp4">▶ Play video</a> · <a href="https://x.com/superalesha/status/2102779758408774104">Original on X</a></sub>
+
+_A Blender scene moves from the Large Hadron Collider’s magnet tunnel to a proton collision inside the detector. The author says Claude Opus 5.5 generated the geometry, materials, camera, and sound through code with no pre-made assets, calculated particle tracks using the detector’s real magnetic field, and used Blender MCP._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/superalesha/status/2102779758408774104) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=superalesha_lhc_proton_collision) · [Back to examples](#all-prompts)
+
+---
+
+### One-Shot 90s-Style Demoscene Demo
+<a id="gandamu-90s-demoscene-demo"></a>
+
+[@gandamu_ml](https://x.com/gandamu_ml) · gandamu · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/gandamu-90s-demoscene-demo-readme.mp4"><img src="assets/previews/gandamu-90s-demoscene-demo.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/gandamu-90s-demoscene-demo-readme.mp4">▶ Play video</a> (first 170 s of 382 s) · <a href="https://x.com/gandamu_ml/status/2102919394775220530">Original on X</a></sub>
+
+_The author reports that Opus 5.5 made this 90s-style demoscene demo from a single prompt, using C/C++ and OpenGL. The author supplied Purple Motion’s music from Second Reality._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/gandamu_ml/status/2102919394775220530) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=gandamu_90s_demoscene_demo) · [Back to examples](#all-prompts)
+
+---
+
+### Claude Code Session Turned into a Video
+<a id="shneural-claude-code-session-video"></a>
+
+[@shneural](https://x.com/shneural) · kirill sh · community demo · Claude Opus 5.5
+
+_The author says Opus 5.5 turned a Claude Code session into a video, writing its own Python engine, creating a 3D shot in Blender, making music, and rendering 900 frames. The author reports it took 1 hour 32 minutes and cost $81 at API prices._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/shneural/status/2103472385563459833) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=shneural_claude_code_session_video) · [Back to examples](#all-prompts)
+
+---
+
+### Code-Sculpted Japanese Ship in Three.js
+<a id="mengto-code-sculpted-japanese-ship"></a>
+
+[@MengTo](https://x.com/MengTo) · Meng To · community demo · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/mengto-code-sculpted-japanese-ship-readme.mp4"><img src="assets/previews/mengto-code-sculpted-japanese-ship.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/mengto-code-sculpted-japanese-ship-readme.mp4">▶ Play video</a> · <a href="https://x.com/MengTo/status/2103122947133309311">Original on X</a></sub>
+
+_Opus 5.5 sculpted the ship, dragon, sails, and architecture in code; the author says the scene was made entirely in Three.js without a library. To steer the work, the author asked Opus to score parts of the scene and keep improving each until it reached at least 8 out of 10, subject to their time and token budget._
+
+**Prompt** · _not shared by the author._
+
+[Original post](https://x.com/MengTo/status/2103122947133309311) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=mengto_code_sculpted_japanese_ship) · [Back to examples](#all-prompts)
+
+---
+
 ## 🎥 Opus as director for AI video models
 
 _Opus writes character sheets, start frames and shot-by-shot prompts, then calls Seedance / Kling / image models via MCP. This is the lane EasyVeo is built for._
@@ -665,6 +1156,40 @@ _Opus 5.5 broke down a reference video (15 fps frame pulls), rebuilt every shot 
 **Prompt** · _not shared by the author._ Workflow is described step by step in the post; no prompt text shared.
 
 [Original post](https://x.com/OriSilver/status/2102817977812824335) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=orisilver_blender_blockout_seedance) · [Back to examples](#all-prompts)
+
+---
+
+### Superintelligence Documentary via Runway MCP
+<a id="gavinpurcell-superintelligence-documentary"></a>
+
+[@gavinpurcell](https://x.com/gavinpurcell) · Gavin Purcell · community demo · Claude Opus 5.5
+
+_Gavin Purcell shared a documentary video about superintelligence made by his Claude agent, fig. He says he gave the agent access to the Runway MCP._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/gavinpurcell/status/2103304514329854102)
+
+```text
+high-end netflix style documentary about superintelligence for normies
+```
+
+[Original post](https://x.com/gavinpurcell/status/2103304514329854102) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=gavinpurcell_superintelligence_documentary) · [Back to examples](#all-prompts)
+
+---
+
+### Opus 5.5 Talking-Head Edit with OpenEdit
+<a id="sab8a-opus-55-talking-head-edit"></a>
+
+[@sab8a](https://x.com/sab8a) · Sabba Keynejad · community demo · Claude Opus 5.5
+
+_The author demonstrates using Opus 5.5 with OpenEdit to turn a raw talking-head clip into an edit with subtitles, graphics, and music. The author reports a runtime of about 1 hour 51 minutes, $23 in token usage, and $49 in fal usage._
+
+**Prompt** · verbatim from the [author’s post](https://x.com/sab8a/status/2103144778481475686)
+
+```text
+Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and music
+```
+
+[Original post](https://x.com/sab8a/status/2103144778481475686) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=sab8a_opus_55_talking_head_edit) · [Back to examples](#all-prompts)
 
 ---
 
