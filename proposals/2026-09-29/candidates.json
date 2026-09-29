@@ -1,0 +1,199 @@
+[
+  {
+    "slug": "ctgptlb-one-minute-code-drawn-animation",
+    "cat": "films",
+    "title": "One-Minute Animation Drawn Entirely in Code",
+    "title_zh": "完全用代码绘制的一分钟动画",
+    "handle": "ctgptlb",
+    "name": "AGIラボ",
+    "post": "https://x.com/ctgptlb/status/2102726428991373480",
+    "links": [],
+    "desc": "The author reports that Claude Opus 5.5 (effort max) drew this roughly one-minute animation frame by frame in code, without image assets. The author says they gave it only six instructions.",
+    "desc_zh": "据作者称，Claude Opus 5.5（effort max）未使用图片素材，而是逐帧用代码绘制了这段约一分钟的动画。作者表示，人工只给出了六次指示。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2102726428991373480",
+      "conv": "2102726428991373480",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 96,
+      "views": 21309
+    },
+    "flags": []
+  },
+  {
+    "slug": "illscience-playable-1990s-record-store",
+    "cat": "blender",
+    "title": "Playable 1990s Record Store Replica",
+    "title_zh": "可游玩的 1990 年代唱片店复刻",
+    "handle": "illscience",
+    "name": "Anish Acharya",
+    "post": "https://x.com/illscience/status/2102913284190220421",
+    "links": [],
+    "desc": "The author says they one-shotted a playable replica of the 1990s record store Play De Record with Opus 5.5, and highlights the model’s use of Blender. In a reply, they say the music appears to use Apple previews.",
+    "desc_zh": "作者称，他们用 Opus 5.5 一次生成了可游玩的 1990 年代 Play De Record 唱片店复刻，并特别提到模型对 Blender 的运用。作者在回复中表示，音乐似乎来自 Apple 的试听片段。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102913284190220421",
+      "conv": "2102913284190220421",
+      "text_verbatim": "I want you to create a Habbo Hotel isometric game where you wander around a record shop inspired by Play De Record in Toronto or Gramophone. You can look through stacks of records, which are real songs. You can preview them, and when you're not, there's a turntable at the back where people are playing tracks that everyone who's in the room can listen to. I want to match the visual style of Habbo Hotel with the layout of these record stores in the 1990s, and obviously have everybody look like they're kind of DJ-inspired and from the 1990s potentially. We've done a bunch of work on Blender and things like that in the past, so feel free to look past our old threads to look at how we did the Contra game and see if that helps you at all, and feel free to use anything you need that's remote, like GPU rendering to make this faster.",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 63,
+      "views": 5638
+    },
+    "flags": []
+  },
+  {
+    "slug": "gregpr07-opus-55-launch-video",
+    "cat": "director",
+    "title": "Opus 5.5 Edits 13 Takes into a Launch Video",
+    "title_zh": "Opus 5.5 将 13 条拍摄片段剪成发布视频",
+    "handle": "gregpr07",
+    "name": "Gregor Zunic",
+    "post": "https://x.com/gregpr07/status/2102984873351037161",
+    "links": [],
+    "desc": "Gregor Zunic gave Opus 5.5 with video-use 13 takes of himself trying to say one sentence. He reports that it reviewed the transcripts, compared the top three takes frame by frame, selected and edited one, revised its captions, and made a launch video around it.",
+    "desc_zh": "Gregor Zunic 将自己尝试说出同一句话的 13 条拍摄片段交给搭配 video-use 的 Opus 5.5。他表示，模型阅读了各条转录文本，逐帧比较最好的三条片段，选出一条进行剪辑，并修改字幕，随后围绕它制作了一段发布视频。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2102984873351037161",
+      "conv": "2102984873351037161",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 301,
+      "views": 56799
+    },
+    "flags": []
+  },
+  {
+    "slug": "ring-hyacinth-mid-autumn-collage-animation",
+    "cat": "films",
+    "title": "Mid-Autumn Collage Animation Made with Opus 5.5",
+    "title_zh": "Opus 5.5 制作的中秋拼贴动画",
+    "handle": "ring_hyacinth",
+    "name": "Ring Hyacinth",
+    "post": "https://x.com/ring_hyacinth/status/2102986085328716066",
+    "links": [],
+    "desc": "A Mid-Autumn Festival collage-style animation for which the author supplied the script and music. According to the author, Opus 5.5 drew the animation frame by frame in JavaScript, used p5.js and p5.brush for hand-drawn textures, and synthesized sound effects with Node.js; Nano Banana Pro generated the background drafts and paper textures.",
+    "desc_zh": "一部中秋节拼贴风动画，脚本和音乐由作者提供。据作者介绍，Opus 5.5 用 JavaScript 逐帧绘制动画，用 p5.js 和 p5.brush 制作手绘纹理，并通过 Node.js 合成音效；背景底稿和纸张材质由 Nano Banana Pro 生成。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2102986085328716066",
+      "conv": "2102986085328716066",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 683,
+      "views": 54679
+    },
+    "flags": []
+  },
+  {
+    "slug": "bubustd-zhao-yun-voxel-musou",
+    "cat": "pixel",
+    "title": "Zhao Yun Voxel Musou Game",
+    "title_zh": "赵云像素风无双游戏",
+    "handle": "BubuStd",
+    "name": "BubuAi",
+    "post": "https://x.com/BubuStd/status/2102991290568954264",
+    "links": [
+      [
+        "Code",
+        "https://github.com/mike007jd/voxel-musou"
+      ]
+    ],
+    "desc": "The author built a Dynasty Warriors-inspired game with Opus 5.5 ultracode and Three.js, featuring Zhao Yun fighting 300 soldiers with combos, dodges, and Musou attacks. In a reply, the author says Opus handled the models and animations.",
+    "desc_zh": "作者使用 Opus 5.5 ultracode 和 Three.js 制作了一款受《真·三国无双》启发的游戏，赵云可与 300 名士兵交战，并使用连招、闪避和无双技。作者在回复中表示，模型和动画也由 Opus 完成。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2102991290568954264",
+      "conv": "2102991290568954264",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 1498,
+      "views": 165921
+    },
+    "flags": []
+  },
+  {
+    "slug": "chetanankola-3d-road-sheet-music",
+    "cat": "blender",
+    "title": "A 3D Road That Turns into Sheet Music",
+    "title_zh": "化作乐谱的 3D 道路",
+    "handle": "chetanankola",
+    "name": "Chetan Ankola",
+    "post": "https://x.com/chetanankola/status/2103001194696458512",
+    "links": [],
+    "desc": "The author made a Three.js 3D experience with Opus 5.5 in which a road climbs a wall, crosses a ceiling upside down, then becomes sheet music; steering through the notes plays each street’s melody. The author says the idea and reference images were theirs, Opus executed the design direction, and no existing 3D assets were used.",
+    "desc_zh": "作者使用 Opus 5.5 制作了一个 Three.js 3D 体验：道路沿墙向上、倒悬于天花板，随后化作乐谱；玩家转向穿过音符，就能奏响每条街道的旋律。作者表示，创意和参考图片由自己提供，Opus 实现了设计方向，且没有使用现成的 3D 素材。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2103001194696458512",
+      "conv": "2103001194696458512",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 1411,
+      "views": 65823
+    },
+    "flags": []
+  },
+  {
+    "slug": "ryansael-explorable-ai-history-museum",
+    "cat": "explainers",
+    "title": "Explorable Museum of AI History",
+    "title_zh": "可探索的 AI 历史博物馆",
+    "handle": "RyanSael",
+    "name": "Ryan Sael",
+    "post": "https://x.com/RyanSael/status/2103021886045348073",
+    "links": [],
+    "desc": "An explorable museum of nine years of AI history built with Opus 5.5. The author reports that the initial build took 1 hour 30 minutes in one shot, followed by a few rounds of fixes.",
+    "desc_zh": "一个由 Opus 5.5 构建、可逐间探索的 AI 历史博物馆，呈现九年的 AI 历史。作者称，初版历时 1 小时 30 分钟一次完成，随后又进行了几轮修正。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2103021886045348073",
+      "conv": "2103021886045348073",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 266,
+      "views": 32532
+    },
+    "flags": []
+  },
+  {
+    "slug": "dhruvalgolakiya-code-generated-video",
+    "cat": "explainers",
+    "title": "Code-Generated Video with Opus 5.5",
+    "title_zh": "用 Opus 5.5 编程制作的视频",
+    "handle": "dhruvalgolakiya",
+    "name": "Dhruval",
+    "post": "https://x.com/dhruvalgolakiya/status/2103037586663235713",
+    "links": [],
+    "desc": "A start-to-finish video made with Opus 5.5. The author says it uses JavaScript, HTML, and FFmpeg, with ElevenLabs for audio, and that they have not made manual edits yet.",
+    "desc_zh": "一段从头到尾使用 Opus 5.5 制作的视频。作者表示，制作中使用了 JavaScript、HTML 和 FFmpeg，音频使用 ElevenLabs，且尚未手动修改。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2103037586663235713",
+      "conv": "2103037586663235713",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 252,
+      "views": 45161
+    },
+    "flags": []
+  }
+]

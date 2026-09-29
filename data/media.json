@@ -416,5 +416,71 @@
   "created_at": "Thu Sep 24 14:39:39 +0000 2026",
   "likes": 161,
   "views": 51479
+ },
+ {
+  "slug": "ctgptlb-one-minute-code-drawn-animation",
+  "author": "ctgptlb",
+  "src_duration": 64,
+  "clip_seconds": 64.0,
+  "trimmed": false,
+  "readme_mp4_mb": 9.19,
+  "created_at": "Wed Sep 23 11:47:02 +0000 2026",
+  "likes": 96,
+  "views": 21309
+ },
+ {
+  "slug": "illscience-playable-1990s-record-store",
+  "author": "illscience",
+  "src_duration": 19.818,
+  "clip_seconds": 19.9,
+  "trimmed": false,
+  "readme_mp4_mb": 6.63,
+  "created_at": "Thu Sep 24 00:09:31 +0000 2026",
+  "likes": 63,
+  "views": 5638
+ },
+ {
+  "slug": "gregpr07-opus-55-launch-video",
+  "author": "gregpr07",
+  "src_duration": 17.966,
+  "clip_seconds": 18.0,
+  "trimmed": false,
+  "readme_mp4_mb": 5.93,
+  "created_at": "Thu Sep 24 04:54:00 +0000 2026",
+  "likes": 301,
+  "views": 56799
+ },
+ {
+  "slug": "ring-hyacinth-mid-autumn-collage-animation",
+  "author": "ring_hyacinth",
+  "src_duration": 40.306,
+  "clip_seconds": 40.4,
+  "trimmed": false,
+  "readme_mp4_mb": 9.04,
+  "created_at": "Thu Sep 24 04:58:48 +0000 2026",
+  "likes": 683,
+  "views": 54679
+ },
+ {
+  "slug": "bubustd-zhao-yun-voxel-musou",
+  "author": "BubuStd",
+  "src_duration": 19.4,
+  "clip_seconds": 19.5,
+  "trimmed": false,
+  "readme_mp4_mb": 6.3,
+  "created_at": "Thu Sep 24 05:19:30 +0000 2026",
+  "likes": 1498,
+  "views": 165921
+ },
+ {
+  "slug": "chetanankola-3d-road-sheet-music",
+  "author": "chetanankola",
+  "src_duration": 51.765,
+  "clip_seconds": 51.8,
+  "trimmed": false,
+  "readme_mp4_mb": 9.34,
+  "created_at": "Thu Sep 24 05:58:51 +0000 2026",
+  "likes": 1411,
+  "views": 65823
  }
 ]

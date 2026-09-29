@@ -13,7 +13,7 @@
 
 Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropic.com/claude-opus-5-5)）只输出文本，不直接生成像素。所谓“Opus 5.5 做视频”，是让模型**把整部片子写成代码** —— JavaScript/Canvas/WebGL、p5.js、Blender Python —— 再用 headless Chrome 或 Blender + ffmpeg 逐帧渲染；或让它**充当导演驱动 Seedance、Kling 等视频模型**。本列表收录社区最佳演示，只收录作者本人公开的原始提示词。
 
-**48 个案例 · 6 个分类 · 中英双语 · 仅收录原文提示词 · EasyVeo 复刻车道 · CTA：[easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=zh_lede)**
+**56 个案例 · 6 个分类 · 中英双语 · 仅收录原文提示词 · EasyVeo 复刻车道 · CTA：[easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=zh_lede)**
 
 ## 精选项目
 
@@ -52,11 +52,14 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [困在 AI 生成世界里的机器人 Pip](#pradeepxkapoor-pip-ai-generated-world) · @pradeepXkapoor · video · prompt
 - [《鹈鹕骑自行车》剧场版](#axtonliu-pelican-riding-a-bicycle) · @AxtonLiu · video · prompt
 - [Lovelee 应用的一次成型动画短片](#jackfriks-lovelee-animated-short) · @jackfriks · video · prompt
+- [完全用代码绘制的一分钟动画](#ctgptlb-one-minute-code-drawn-animation) · @ctgptlb · video
+- [Opus 5.5 制作的中秋拼贴动画](#ring-hyacinth-mid-autumn-collage-animation) · @ring_hyacinth · video
 
 **👾 像素动画**
 - [像素风巫师施法动画（Canvas 2D）](#majid-pixel-wizard) · @majidmanzarpour · video · prompt
 - [彩虹跑道像素角色闪避动画（Canvas 2D）](#riku-pixel-rainbow-runner) · @riku720720 · video · prompt
 - [《Nightcall》像素风实时演示](#gandamu-ml-nightcall-pixel-art-demo) · @gandamu_ml · video
+- [赵云像素风无双游戏](#bubustd-zhao-yun-voxel-musou) · @BubuStd · video
 
 **🎵 音乐 MV**
 - [《I’m Upping My P(doom)》Clawd 音乐 MV](#notinreality-pdoom-music-video) · @other__reality · video
@@ -77,6 +80,8 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [用 Claude Code 制作 JavaScript 绘制的广告](#lucas-ia-javascript-drawn-ad) · @Lucas_IA_
 - [将宜家组装手册变成带旁白的 3D 视频](#deedydas-ikea-manual-3d-assembly-video) · @deedydas · prompt
 - [用 HyperFrames 制作的 NotchBrowser 预告片](#jake11moran-notchbrowser-teaser) · @jake11moran · prompt
+- [可探索的 AI 历史博物馆](#ryansael-explorable-ai-history-museum) · @RyanSael
+- [用 Opus 5.5 编程制作的视频](#dhruvalgolakiya-code-generated-video) · @dhruvalgolakiya
 
 **🧊 Blender 与 3D 渲染**
 - [1906 年旧金山市场街复原（Blender）](#alexalbert-market-street-1906) · @alexalbert__ · video · prompt
@@ -89,6 +94,8 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [一次提示生成的 90 年代风格演示程序](#gandamu-90s-demoscene-demo) · @gandamu_ml · video
 - [将 Claude Code 会话制作成视频](#shneural-claude-code-session-video) · @shneural
 - [用 Three.js 代码雕刻的日式船](#mengto-code-sculpted-japanese-ship) · @MengTo · video
+- [可游玩的 1990 年代唱片店复刻](#illscience-playable-1990s-record-store) · @illscience · video · prompt
+- [化作乐谱的 3D 道路](#chetanankola-3d-road-sheet-music) · @chetanankola · video
 
 **🎥 Opus 当导演：驱动 AI 视频模型**
 - [Opus 5.5 当导演 → GPT Image 2.5 + Seedance 2.5](#abxxai-opus-seedance-road-trip) · @abxxai · video · prompt
@@ -96,6 +103,7 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [Blender 预演 → Seedance 2.5（MaxFusion MCP）](#orisilver-blender-blockout-seedance) · @OriSilver · video
 - [通过 Runway MCP 制作的超级智能纪录片](#gavinpurcell-superintelligence-documentary) · @gavinpurcell · prompt
 - [Opus 5.5 与 OpenEdit 制作口播视频剪辑](#sab8a-opus-55-talking-head-edit) · @sab8a · prompt
+- [Opus 5.5 将 13 条拍摄片段剪成发布视频](#gregpr07-opus-55-launch-video) · @gregpr07 · video
 - [EasyVeo：拆解 → 分镜静帧 → 复刻](#easyveo-remake-loop)
 
 </details>
@@ -421,6 +429,38 @@ can you help me use the pig assets on new branch of lovelee to make a 9:16 short
 
 ---
 
+### 完全用代码绘制的一分钟动画
+<a id="ctgptlb-one-minute-code-drawn-animation"></a>
+
+[@ctgptlb](https://x.com/ctgptlb) · AGIラボ · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/ctgptlb-one-minute-code-drawn-animation-readme.mp4"><img src="assets/previews/ctgptlb-one-minute-code-drawn-animation.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/ctgptlb-one-minute-code-drawn-animation-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/ctgptlb/status/2102726428991373480">X 原帖</a></sub>
+
+_据作者称，Claude Opus 5.5（effort max）未使用图片素材，而是逐帧用代码绘制了这段约一分钟的动画。作者表示，人工只给出了六次指示。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/ctgptlb/status/2102726428991373480) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=ctgptlb_one_minute_code_drawn_animation) · [返回列表](#all-prompts)
+
+---
+
+### Opus 5.5 制作的中秋拼贴动画
+<a id="ring-hyacinth-mid-autumn-collage-animation"></a>
+
+[@ring_hyacinth](https://x.com/ring_hyacinth) · Ring Hyacinth · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/ring-hyacinth-mid-autumn-collage-animation-readme.mp4"><img src="assets/previews/ring-hyacinth-mid-autumn-collage-animation.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/ring-hyacinth-mid-autumn-collage-animation-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/ring_hyacinth/status/2102986085328716066">X 原帖</a></sub>
+
+_一部中秋节拼贴风动画，脚本和音乐由作者提供。据作者介绍，Opus 5.5 用 JavaScript 逐帧绘制动画，用 p5.js 和 p5.brush 制作手绘纹理，并通过 Node.js 合成音效；背景底稿和纸张材质由 Nano Banana Pro 生成。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/ring_hyacinth/status/2102986085328716066) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=ring_hyacinth_mid_autumn_collage_animation) · [返回列表](#all-prompts)
+
+---
+
 ## 👾 像素动画
 
 _用严格的技术规格（逻辑分辨率、调色板、状态机、零分配循环）得到清晰的 16-bit 风格循环动画。_
@@ -567,6 +607,22 @@ _一个由 Opus 5.5 生成、配合 Kavinsky《Nightcall》的像素风实时演
 **提示词** · _作者未公开。_
 
 [原帖](https://x.com/gandamu_ml/status/2103116003689550013) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=gandamu_ml_nightcall_pixel_art_demo) · [返回列表](#all-prompts)
+
+---
+
+### 赵云像素风无双游戏
+<a id="bubustd-zhao-yun-voxel-musou"></a>
+
+[@BubuStd](https://x.com/BubuStd) · BubuAi · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/bubustd-zhao-yun-voxel-musou-readme.mp4"><img src="assets/previews/bubustd-zhao-yun-voxel-musou.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/bubustd-zhao-yun-voxel-musou-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/BubuStd/status/2102991290568954264">X 原帖</a></sub>
+
+_作者使用 Opus 5.5 ultracode 和 Three.js 制作了一款受《真·三国无双》启发的游戏，赵云可与 300 名士兵交战，并使用连招、闪避和无双技。作者在回复中表示，模型和动画也由 Opus 完成。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/BubuStd/status/2102991290568954264) · [Code](https://github.com/mike007jd/voxel-musou) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=bubustd_zhao_yun_voxel_musou) · [返回列表](#all-prompts)
 
 ---
 
@@ -875,6 +931,32 @@ Motion should feel slow and polished - one continuous camera over one Mac deskto
 
 ---
 
+### 可探索的 AI 历史博物馆
+<a id="ryansael-explorable-ai-history-museum"></a>
+
+[@RyanSael](https://x.com/RyanSael) · Ryan Sael · 社区演示 · Claude Opus 5.5
+
+_一个由 Opus 5.5 构建、可逐间探索的 AI 历史博物馆，呈现九年的 AI 历史。作者称，初版历时 1 小时 30 分钟一次完成，随后又进行了几轮修正。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/RyanSael/status/2103021886045348073) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=ryansael_explorable_ai_history_museum) · [返回列表](#all-prompts)
+
+---
+
+### 用 Opus 5.5 编程制作的视频
+<a id="dhruvalgolakiya-code-generated-video"></a>
+
+[@dhruvalgolakiya](https://x.com/dhruvalgolakiya) · Dhruval · 社区演示 · Claude Opus 5.5
+
+_一段从头到尾使用 Opus 5.5 制作的视频。作者表示，制作中使用了 JavaScript、HTML 和 FFmpeg，音频使用 ElevenLabs，且尚未手动修改。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/dhruvalgolakiya/status/2103037586663235713) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=dhruvalgolakiya_code_generated_video) · [返回列表](#all-prompts)
+
+---
+
 ## 🧊 Blender 与 3D 渲染
 
 _Opus 通过 Blender Python / Blender MCP 或实时 3D 程序化搭建场景并渲染运镜。_
@@ -1055,6 +1137,42 @@ _Opus 5.5 用代码雕刻了船、龙、船帆和建筑；作者称整个场景�
 
 ---
 
+### 可游玩的 1990 年代唱片店复刻
+<a id="illscience-playable-1990s-record-store"></a>
+
+[@illscience](https://x.com/illscience) · Anish Acharya · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/illscience-playable-1990s-record-store-readme.mp4"><img src="assets/previews/illscience-playable-1990s-record-store.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/illscience-playable-1990s-record-store-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/illscience/status/2102913284190220421">X 原帖</a></sub>
+
+_作者称，他们用 Opus 5.5 一次生成了可游玩的 1990 年代 Play De Record 唱片店复刻，并特别提到模型对 Blender 的运用。作者在回复中表示，音乐似乎来自 Apple 的试听片段。_
+
+**提示词** · 原文摘自[作者帖子](https://x.com/illscience/status/2102913284190220421)
+
+```text
+I want you to create a Habbo Hotel isometric game where you wander around a record shop inspired by Play De Record in Toronto or Gramophone. You can look through stacks of records, which are real songs. You can preview them, and when you're not, there's a turntable at the back where people are playing tracks that everyone who's in the room can listen to. I want to match the visual style of Habbo Hotel with the layout of these record stores in the 1990s, and obviously have everybody look like they're kind of DJ-inspired and from the 1990s potentially. We've done a bunch of work on Blender and things like that in the past, so feel free to look past our old threads to look at how we did the Contra game and see if that helps you at all, and feel free to use anything you need that's remote, like GPU rendering to make this faster.
+```
+
+[原帖](https://x.com/illscience/status/2102913284190220421) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=illscience_playable_1990s_record_store) · [返回列表](#all-prompts)
+
+---
+
+### 化作乐谱的 3D 道路
+<a id="chetanankola-3d-road-sheet-music"></a>
+
+[@chetanankola](https://x.com/chetanankola) · Chetan Ankola · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/chetanankola-3d-road-sheet-music-readme.mp4"><img src="assets/previews/chetanankola-3d-road-sheet-music.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/chetanankola-3d-road-sheet-music-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/chetanankola/status/2103001194696458512">X 原帖</a></sub>
+
+_作者使用 Opus 5.5 制作了一个 Three.js 3D 体验：道路沿墙向上、倒悬于天花板，随后化作乐谱；玩家转向穿过音符，就能奏响每条街道的旋律。作者表示，创意和参考图片由自己提供，Opus 实现了设计方向，且没有使用现成的 3D 素材。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/chetanankola/status/2103001194696458512) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=chetanankola_3d_road_sheet_music) · [返回列表](#all-prompts)
+
+---
+
 ## 🎥 Opus 当导演：驱动 AI 视频模型
 
 _Opus 撰写角色设定、首帧和逐镜提示词，再通过 MCP 调用 Seedance / Kling / 图像模型 —— 这正是 EasyVeo 所服务的场景。_
@@ -1190,6 +1308,22 @@ Cut a raw talking-head clip into a punchy, fun edit with subtitles, graphics and
 ```
 
 [原帖](https://x.com/sab8a/status/2103144778481475686) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=sab8a_opus_55_talking_head_edit) · [返回列表](#all-prompts)
+
+---
+
+### Opus 5.5 将 13 条拍摄片段剪成发布视频
+<a id="gregpr07-opus-55-launch-video"></a>
+
+[@gregpr07](https://x.com/gregpr07) · Gregor Zunic · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/gregpr07-opus-55-launch-video-readme.mp4"><img src="assets/previews/gregpr07-opus-55-launch-video.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/gregpr07-opus-55-launch-video-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/gregpr07/status/2102984873351037161">X 原帖</a></sub>
+
+_Gregor Zunic 将自己尝试说出同一句话的 13 条拍摄片段交给搭配 video-use 的 Opus 5.5。他表示，模型阅读了各条转录文本，逐帧比较最好的三条片段，选出一条进行剪辑，并修改字幕，随后围绕它制作了一段发布视频。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/gregpr07/status/2102984873351037161) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=gregpr07_opus_55_launch_video) · [返回列表](#all-prompts)
 
 ---
 
