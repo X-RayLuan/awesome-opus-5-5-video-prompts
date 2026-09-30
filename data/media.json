@@ -482,5 +482,71 @@
   "created_at": "Thu Sep 24 05:58:51 +0000 2026",
   "likes": 1411,
   "views": 65823
+ },
+ {
+  "slug": "sundyme-github-version-control-explainer",
+  "author": "sundyme",
+  "src_duration": 225.885,
+  "clip_seconds": 170.0,
+  "trimmed": true,
+  "readme_mp4_mb": 8.24,
+  "created_at": "Wed Sep 23 13:25:11 +0000 2026",
+  "likes": 130,
+  "views": 10235
+ },
+ {
+  "slug": "mengto-japanese-valley-boat-journey",
+  "author": "MengTo",
+  "src_duration": 59.683,
+  "clip_seconds": 59.7,
+  "trimmed": false,
+  "readme_mp4_mb": 9.38,
+  "created_at": "Wed Sep 23 14:03:32 +0000 2026",
+  "likes": 6535,
+  "views": 473337
+ },
+ {
+  "slug": "cherry-mx-reds-jet-moto",
+  "author": "cherry_mx_reds",
+  "src_duration": 50.016,
+  "clip_seconds": 50.1,
+  "trimmed": false,
+  "readme_mp4_mb": 9.32,
+  "created_at": "Wed Sep 23 14:10:15 +0000 2026",
+  "likes": 146,
+  "views": 13411
+ },
+ {
+  "slug": "cryptomanavan-threejs-lagoon-tree-village",
+  "author": "cryptomanavan",
+  "src_duration": 115.733,
+  "clip_seconds": 115.8,
+  "trimmed": false,
+  "readme_mp4_mb": 7.91,
+  "created_at": "Wed Sep 23 14:50:50 +0000 2026",
+  "likes": 305,
+  "views": 20860
+ },
+ {
+  "slug": "scheemunai-one-shot-threejs-cartoon",
+  "author": "scheemunai",
+  "src_duration": 229.642,
+  "clip_seconds": 170.0,
+  "trimmed": true,
+  "readme_mp4_mb": 9.36,
+  "created_at": "Wed Sep 23 15:52:35 +0000 2026",
+  "likes": 494,
+  "views": 101310
+ },
+ {
+  "slug": "ishuagra02-claude-capability-training-montage",
+  "author": "ishuagra02",
+  "src_duration": 30.0,
+  "clip_seconds": 30.1,
+  "trimmed": false,
+  "readme_mp4_mb": 9.23,
+  "created_at": "Wed Sep 23 15:53:10 +0000 2026",
+  "likes": 331,
+  "views": 15810
  }
 ]

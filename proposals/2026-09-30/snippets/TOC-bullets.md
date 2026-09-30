@@ -1,0 +1,12 @@
+- [Animated GitHub Version Control Explainer](#sundyme-github-version-control-explainer) · @sundyme · video
+- [Playable Boat Journey Through a Japanese Valley](#mengto-japanese-valley-boat-journey) · @MengTo · video
+- [One-Shot Jet Moto with Opus 5.5](#cherry-mx-reds-jet-moto) · @cherry_mx_reds · video
+- [Three.js Lagoon Tree Village](#cryptomanavan-threejs-lagoon-tree-village) · @cryptomanavan · video
+- [One-Shot Three.js Cartoon](#scheemunai-one-shot-threejs-cartoon) · @scheemunai · video
+- [Claude Capability Training Montage](#ishuagra02-claude-capability-training-montage) · @ishuagra02 · video
+- [How an LLM Context Window Works](#joaoli13-llm-context-window-animation) · @joaoli13 · video
+- [Procedural Kaiju Simulation in Three.js](#majidmanzarpour-procedural-kaiju-simulation) · @majidmanzarpour · video
+- [Wrapscribe Promo Video with Opus 5.5](#shribuilds-wrapscribe-promo-video) · @shribuilds · video
+- [Password vs. Passkey Explainer Video](#tz-2022-password-passkey-explainer) · @Tz_2022 · video
+- [FishSlop Game with an Economy and Unlocks](#theo-fishslop-economy-unlocks) · @theo · video
+- [Code-Drawn Animated Film in Claude Code](#itsolelehmann-code-drawn-animated-film) · @itsolelehmann · video

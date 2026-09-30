@@ -1,0 +1,290 @@
+[
+  {
+    "slug": "sundyme-github-version-control-explainer",
+    "cat": "explainers",
+    "title": "Animated GitHub Version Control Explainer",
+    "title_zh": "GitHub 版本管理动画讲解",
+    "handle": "sundyme",
+    "name": "sundyme",
+    "post": "https://x.com/sundyme/status/2102751132502446549",
+    "links": [],
+    "desc": "The author used Claude Opus 5.5 in Claude Code to create a chaptered web animation explaining GitHub version control, with subtitles and narration. The author says a third-party voice API enabled export as a 1080p video ready for YouTube.",
+    "desc_zh": "作者在 Claude Code 中使用 Claude Opus 5.5，制作了讲解 GitHub 版本管理的网页动画，包含章节、字幕和旁白。作者称，接入第三方语音 API 后，可以导出可直接上传 YouTube 的 1080p 视频。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102751132502446549",
+      "conv": "2102751132502446549",
+      "text_verbatim": "我是非专业编码者，在用 Claude Code 做网站，请做个动画视频，讲解 GitHub 版本管理及如何使用",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 130,
+      "views": 10235
+    },
+    "flags": []
+  },
+  {
+    "slug": "mengto-japanese-valley-boat-journey",
+    "cat": "blender",
+    "title": "Playable Boat Journey Through a Japanese Valley",
+    "title_zh": "可游玩的日本山谷泛舟场景",
+    "handle": "MengTo",
+    "name": "Meng To",
+    "post": "https://x.com/MengTo/status/2102760783344189761",
+    "links": [],
+    "desc": "A playable three.js boat scene travels through Japanese landscapes with changing weather and day–night lighting. The author says Opus 5 generated the scene except for the characters, which used Higgsfield.",
+    "desc_zh": "一个可游玩的 three.js 泛舟场景，呈现日本风景、变化的天气和昼夜光照。作者称场景由 Opus 5 生成，角色除外；角色使用了 Higgsfield。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102760783344189761",
+      "conv": "2102760783344189761",
+      "text_verbatim": "Create from scratch a fully interactive 3D scene of a traditional wooden riverboat being poled upstream through a mountain river valley in feudal Japan during cherry-blossom season. The visual style should be cinematic and painterly rather than photorealistic, while still being exceptionally rich, detailed, polished, and visually sophisticated.\n\nBuild the valley terrain, river, riverbanks, rocks, cherry trees, maples, pines, forest, ground cover, temple architecture, boat, boatman, villagers, sky, clouds, distant mountains, lighting, materials, water, reflections, petals, mist, particles, wildlife, weather, a full day-and-night cycle, sound, animation, camera work, composition, atmospheric depth, and color grading. The final result should feel like a premium, high-production 3D artwork, not a prototype, technical demo, or low-quality scene.\n\nStart from a completely blank page. Do not reuse or depend on any previous project or scene. You may create the assets yourself or use reliable, trusted, open-source assets and libraries when necessary.\n\nMandatory requirements:\n\nNo text of any kind may appear anywhere inside the scene, including the loading screen. No titles, names, logos, descriptions, credits, labels, or control instructions in any language. Any loading indicator must be purely graphic.\n\nDeliver the entire project as one final standalone page file that can be opened directly in a web browser, with assets embedded inside it as much as reasonably possible and no runtime requests to external CDNs.\n\nThe valley must feel like one continuous, believable place. A winding river flows down a long valley that narrows into a gorge upstream. It has a deep channel and shallow pebbled margins. Its banks vary between gravel bars and steeper earthen banks. Forested valley walls rise into rounded mountains, and far ranges fade layer by layer into haze.\n\nBuild these landmarks along the river:\n- An arched vermilion wooden bridge on piers that stand in the water.\n- A torii gate at the bridge's end.\n- A path to stone steps and a temple terrace held up by dry-stone retaining walls.\n- A main hall with a curved tile hip-and-gable roof, upturned corners, bracket sets, a railed veranda, and lattice doors.\n- A five-storey pagoda with a ringed spire on a knoll.\n- Stone lanterns along the approach.\n- A small wayside shrine in a clearing on the far bank.\n- A tunnel of small vermilion torii climbing the bank upstream to a hillside shrine.\n- A rope fence with paper streamers.\n- Bells hanging from the roof corners that swing in the wind.\n\nFor vegetation, place hero cherry trees by hand, including a weeping cherry. Give them gnarled, leaning trunks, let some overhang the water, and cover them in dense blossom. Add Japanese maples, cloud-pruned pines, and a dense mixed forest of cedars and broadleaf crowns on the slopes. Cover the ground with wind-blown grass, reeds, spring wildflowers, ferns, clipped azalea shrubs, mossy boulders, and exposed roots at the water's edge. All foliage must move in one shared, gusting wind, and the blossoms must glow when backlit.\n\nThe hero boat is a takasebune-style river cargo boat. It needs a planked hull with real thickness, ribs, thwarts, floorboards, and iron clamps. Give it a reed-mat canopy on bamboo hoops, a cargo of rice bales, crates, and a glazed jar, plus coiled rope, a bow lantern on an arching bamboo pole, and a sculling oar stowed at the stern quarter.\n\nA boatman in a straw cape stands on a raised bow platform and poles the boat with a long bamboo pole, using his whole body: hips drop, the spine leans into the push, the feet stay planted, and both hands grip the pole firmly. The cape reacts to the wind and to each stroke. The pole must never pass through the hull, the hands, or anything else.\n\nAdd two villagers. A woman under a red oiled-paper umbrella stands at the bridge rail watching the boats. An old monk sweeps petals off the temple approach. Both breathe and move subtly.\n\nThe water must be the centrepiece. It needs:\n- Accurate reflections of everything above it.\n- Refraction and depth-based color absorption, with the pebbled riverbed visible in the shallows.\n- Ripples that follow the flow.\n- Faster water and white foam collars around boulders and bridge piers, with foam trailing downstream.\n- A convincing wake that follows the boat: a bow wave, V-shaped arms, and a disturbed band along the hull.\n- Rafts of petals drifting in the slack water along the banks.\n\nFill the valley with life and particles:\n- Petals tumble from each cherry canopy and through the air.\n- Petals ride the current downstream and settle on the banks, the steps, and the bridge deck.\n- Dust motes glow only inside the sunbeams.\n- Banks of low river mist drift over the water.\n- Flocks of birds wheel over the valley, and a pair of herons sometimes crosses the river ahead of the boat.\n- Fireflies come out at dusk.\n\nRun a continuous day-and-night cycle of several minutes that loops: dawn, morning, afternoon, a thunderstorm, golden hour, sunset, blue hour, moonlit night, pre-dawn. The sun travels a real arc, the moon takes over as the key light at night, and shadows follow whichever one is lit. Sky color, clouds with silver-gold linings, fog, ambient light, exposure, and the color grade all change with the hour. At night, show stars, a faint Milky Way band, and a cratered moon.\n\nThe afternoon storm thickens the clouds into a dark overcast. It brings rain streaks, splash crowns on the river, and branching lightning that lights the clouds and the whole valley. Surfaces turn wet and glossy, then dry slowly through sunset.\n\nAfter dusk:\n- The stone lanterns and the hall's doors glow.\n- Paper lanterns set adrift on the river (tōrō nagashi) flow past and part around the boat.\n- Pale spirit wisps with comet-like trails drift above the water. Each one lights the water, mist, and banks around it and appears in the reflections.\n\nGolden hour is the signature look: a low warm sun up the valley, long shadows, god rays through the trees and mist, backlit blossoms, and a warm haze.\n\nAdd a quiet synthesized soundscape of flowing river, rain, and thunder that rolls in after each flash, with a keyboard toggle to mute it.\n\nThe boat must travel upstream on its own. An autopilot threads it between rocks and bridge piers without ever touching them. The viewer can take over with WASD or the arrow keys. Steering needs momentum, turning inertia, water drag, and a heel into turns. Banks, rocks, and piers push the boat back physically. After a short idle period, the autopilot resumes.\n\nA third-person chase camera follows the boat with drag-to-orbit, scroll-to-zoom, and a slow cinematic drift. It must never dip below the banks or into tree canopies. Holding a key fast-forwards the time of day. When the boat reaches the head of the gorge, the scene fades into mist and restarts downstream, so the journey loops forever.\n\nThe water, boat, boatman, foliage, petals, and camera must all be animated naturally and smoothly. Avoid artificial slow motion or sluggish movement. The boat should feel like it is genuinely being pushed upstream against the current.\n\nDo not rely on primitive geometric shapes as the finished result. The trees, architecture, boat, characters, and rocks need carefully shaped geometry and clearly visible small-scale details: bark, roof tiles, rafters, joinery, planking, rope lashings, and bamboo nodes. Use detailed, scanned, or high-quality textures for rock, bark, ground, stone walls, and wood. Everything must rest on the ground or the water. Nothing may float, and no objects may intersect.\n\nLighting must reveal the geometry and materials clearly at every hour. Use soft shadows, ambient occlusion in crevices and at roots, light shafts, bloom, and a filmic grade. Shadow sides must stay readable, never crushed to black.\n\nMaintain a strong balance between visual quality and real-time performance, including on high-density (Retina) displays, preserving smooth interaction and animation without making an obvious sacrifice in quality.\n\nAutomatically use the most appropriate skills, tools, libraries, techniques, and available assets needed to achieve the best result. Do not wait for me to specify which technologies to use.\n\nActually test the finished result in a desktop web browser. Capture screenshots at morning, during the storm, at golden hour, and at night. Inspect the browser console for errors, and fix every visible or technical issue you find. That includes distorted geometry, black screens, failed asset loading, broken animation, poor composition, rendering artifacts, floating or intersecting objects, the boat or pole clipping through anything, and camera problems.\n\nAt the end, verify that the final file opens and works directly, that the scene contains no text whatsoever, and that there are no remaining runtime or loading errors. Then finish the task with only a brief response.",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 6535,
+      "views": 473337
+    },
+    "flags": []
+  },
+  {
+    "slug": "cherry-mx-reds-jet-moto",
+    "cat": "pixel",
+    "title": "One-Shot Jet Moto with Opus 5.5",
+    "title_zh": "Opus 5.5 一次生成的 Jet Moto",
+    "handle": "cherry_mx_reds",
+    "name": "Tak 🦞",
+    "post": "https://x.com/cherry_mx_reds/status/2102762471543144631",
+    "links": [],
+    "desc": "The author says Opus 5.5 made this Jet Moto demo in one shot. They shared a Claude artifact to try it and later linked an improved version.",
+    "desc_zh": "作者称 Opus 5.5 一次生成了这个 Jet Moto 演示，并分享了可供体验的 Claude artifact，随后又提供了改进版本的链接。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2102762471543144631",
+      "conv": "2102762471543144631",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 146,
+      "views": 13411
+    },
+    "flags": []
+  },
+  {
+    "slug": "cryptomanavan-threejs-lagoon-tree-village",
+    "cat": "blender",
+    "title": "Three.js Lagoon Tree Village",
+    "title_zh": "Three.js 泻湖树屋村庄",
+    "handle": "cryptomanavan",
+    "name": "cryptomanavan ☀️",
+    "post": "https://x.com/cryptomanavan/status/2102772685541347618",
+    "links": [],
+    "desc": "A browser-based 3D village made with Claude Opus 5.5 and Three.js. The author says they supplied concepts, ideas, and drawings, used no external assets or Blender, and had been working on it for about seven hours when they posted the video.",
+    "desc_zh": "一个使用 Claude Opus 5.5 和 Three.js 制作的浏览器端 3D 村庄。作者表示，自己向模型提供了构想、创意和图画，没有使用外部素材或 Blender；发布视频时，项目已制作约七小时。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2102772685541347618",
+      "conv": "2102772685541347618",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 305,
+      "views": 20860
+    },
+    "flags": []
+  },
+  {
+    "slug": "scheemunai-one-shot-threejs-cartoon",
+    "cat": "films",
+    "title": "One-Shot Three.js Cartoon",
+    "title_zh": "一次生成的 Three.js 动画短片",
+    "handle": "scheemunai",
+    "name": "Shimecki",
+    "post": "https://x.com/scheemunai/status/2102788223835463902",
+    "links": [],
+    "desc": "Shimecki asked Claude Opus 5.5 to imagine a story and animate it with Three.js. The author says there were no follow-up prompts; Claude interpreted “90s” as a 1990s style rather than a 90-second runtime.",
+    "desc_zh": "Shimecki 请 Claude Opus 5.5 构思故事，并用 Three.js 将其制作成动画。作者表示没有追加提示；Claude 将“90s”理解为 1990 年代的风格，而不是 90 秒的时长。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102788223835463902",
+      "conv": "2102788223835463902",
+      "text_verbatim": "I want you to imagine a story. And then using threejs I want you to create full animation, Pixar-level quality 90s cartoon out of the story you imagine.",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 494,
+      "views": 101310
+    },
+    "flags": []
+  },
+  {
+    "slug": "ishuagra02-claude-capability-training-montage",
+    "cat": "films",
+    "title": "Claude Capability Training Montage",
+    "title_zh": "Claude 能力成长训练蒙太奇",
+    "handle": "ishuagra02",
+    "name": "Ishu Agrawal",
+    "post": "https://x.com/ishuagra02/status/2102788371114246177",
+    "links": [],
+    "desc": "Opus 5.5 created a training montage showing Claude becoming more capable over the years. The author says every frame, model, and audio element was generated in JavaScript, and two follow-up prompts mostly smoothed the transitions.",
+    "desc_zh": "Opus 5.5 制作了一段展现 Claude 多年来能力不断提升的训练蒙太奇。作者表示，每一帧、模型和音频都由 JavaScript 生成，之后又用了两条提示词，主要用于让转场更流畅。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102788371114246177",
+      "conv": "2102788371114246177",
+      "text_verbatim": "Create a 30 second animation entirely in code featuring a growth montage, inspired by Kung Fu Panda's training sequence, with the Claude mascot as the main character, showcasing it getting more capable since its initial release across its skillset, such as searching the internet, writing code, creating 3D models, and solving humanity's hardest problems, with emotionally impactful music.",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 331,
+      "views": 15810
+    },
+    "flags": []
+  },
+  {
+    "slug": "joaoli13-llm-context-window-animation",
+    "cat": "explainers",
+    "title": "How an LLM Context Window Works",
+    "title_zh": "LLM 上下文窗口如何运作",
+    "handle": "joaoli13",
+    "name": "João Lima",
+    "post": "https://x.com/joaoli13/status/2102805376466891137",
+    "links": [],
+    "desc": "An animation explaining how user questions and generated answers fill an LLM’s input and output context windows. The author says they asked Opus 5.5 to make it in JavaScript, then asked for an MP4 download.",
+    "desc_zh": "这段动画解释用户问题和生成的回答如何进入 LLM 的输入与输出上下文窗口。作者称，他先让 Opus 5.5 用 JavaScript 制作动画，再要求生成可下载的 MP4。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102805376466891137",
+      "conv": "2102805376466891137",
+      "text_verbatim": "Faça uma animação javascript de como um LLM vai compondo na janela de contexto as perguntas do usuário e as respostas geradas. É importante diferenciar a janela de contexto de entrada da de saída, que normalmente possuem tamanhos diferentes, e deve-se mostrar também que a resposta que foi gerada na janela de contexto de saída é transferida e concatenada ào contexto  da janela de entrada. Deve ser claro e didático e pode ter labels em português",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 274,
+      "views": 31048
+    },
+    "flags": []
+  },
+  {
+    "slug": "majidmanzarpour-procedural-kaiju-simulation",
+    "cat": "blender",
+    "title": "Procedural Kaiju Simulation in Three.js",
+    "title_zh": "Three.js 程序化怪兽模拟",
+    "handle": "majidmanzarpour",
+    "name": "Majid Manzarpour",
+    "post": "https://x.com/majidmanzarpour/status/2102810710791401883",
+    "links": [],
+    "desc": "A kaiju simulation made with pure Three.js code. The author says they used a minimal prompt to test Opus 5.5’s creativity, set it to max reasoning effort, and reports that it worked for 3.5 hours before producing the demo artifact.",
+    "desc_zh": "这是一个使用纯 Three.js 代码制作的怪兽模拟。作者称，他们用一条简短提示词测试 Opus 5.5 的创造力，将推理强度设为最高，并表示模型运行了 3.5 小时后产出了演示作品。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102810710791401883",
+      "conv": "2102810710791401883",
+      "text_verbatim": "Build a fully procedural AAA quality kaiju simulation in three.js using pure TSL and modern techniques",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 169,
+      "views": 12029
+    },
+    "flags": []
+  },
+  {
+    "slug": "shribuilds-wrapscribe-promo-video",
+    "cat": "director",
+    "title": "Wrapscribe Promo Video with Opus 5.5",
+    "title_zh": "Opus 5.5 制作的 Wrapscribe 宣传视频",
+    "handle": "shribuilds",
+    "name": "Shri",
+    "post": "https://x.com/shribuilds/status/2102827288190689364",
+    "links": [],
+    "desc": "A promotional video for Wrapscribe made with Opus 5.5. The author says they used Remotion and added a fal.ai API key to generate music and voiceovers.",
+    "desc_zh": "这是使用 Opus 5.5 制作的 Wrapscribe 宣传视频。作者表示，他们使用了 Remotion，并添加了 fal.ai API 密钥来生成音乐和配音。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102827288190689364",
+      "conv": "2102827288190689364",
+      "text_verbatim": "Make a modern slick and punchy video for wrapscribe, check the wholebase to learn more about the features",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 298,
+      "views": 29046
+    },
+    "flags": []
+  },
+  {
+    "slug": "tz-2022-password-passkey-explainer",
+    "cat": "explainers",
+    "title": "Password vs. Passkey Explainer Video",
+    "title_zh": "密码与通行密钥讲解视频",
+    "handle": "Tz_2022",
+    "name": "Tz",
+    "post": "https://x.com/Tz_2022/status/2102838830285898214",
+    "links": [],
+    "desc": "The author asked Claude Opus 5.5 for an interactive animated explanation of passwords and passkeys, including their history, made into a beginner-friendly video. The author reports receiving a finished video with narration and subtitles, plus a cover image.",
+    "desc_zh": "作者请 Claude Opus 5.5 制作交互式动画讲解，说明密码与通行密钥的区别及历史，并将其做成适合初学者观看的视频。作者表示收到了带配音和字幕的成片，以及一张封面图。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2102838830285898214",
+      "conv": "2102838830285898214",
+      "text_verbatim": "给我一个可互动交互动画页面，讲解清楚 password 和 passkey 到底有什么区别，也包括它们的历史沿革，把它制作成一个小白也能看懂的讲解视频",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 380,
+      "views": 40810
+    },
+    "flags": []
+  },
+  {
+    "slug": "theo-fishslop-economy-unlocks",
+    "cat": "director",
+    "title": "FishSlop Game with an Economy and Unlocks",
+    "title_zh": "带有经济系统和解锁内容的 FishSlop 游戏",
+    "handle": "theo",
+    "name": "Theo - t3.gg",
+    "post": "https://x.com/theo/status/2102877145399975952",
+    "links": [],
+    "desc": "The author shows an Opus 5.5 version of FishSlop with animated gameplay, controls, an in-game economy, and unlocks. They report that after asking for better graphics reduced the frame rate, a follow-up request restored smooth 120 fps with a slight loss of visual fidelity.",
+    "desc_zh": "作者展示了 Opus 5.5 制作的 FishSlop 版本，包含动画、操作控制、游戏内经济系统和解锁内容。作者称，在要求改进画质导致帧率下降后，再次提出要求使游戏恢复到流畅的 120 帧，同时画质略有退步。",
+    "prompt": {
+      "type": "not_shared",
+      "status": "2102877145399975952",
+      "conv": "2102877145399975952",
+      "text_verbatim": "",
+      "origin": "no verbatim prompt found"
+    },
+    "metrics_at_scrape": {
+      "likes": 1524,
+      "views": 108954
+    },
+    "flags": []
+  },
+  {
+    "slug": "itsolelehmann-code-drawn-animated-film",
+    "cat": "films",
+    "title": "Code-Drawn Animated Film in Claude Code",
+    "title_zh": "Claude Code 用代码绘制的动画短片",
+    "handle": "itsolelehmann",
+    "name": "Ole Lehmann",
+    "post": "https://x.com/itsolelehmann/status/2103124033365762215",
+    "links": [],
+    "desc": "Ole Lehmann shows an animated film he says Claude Opus 5.5 made in Claude Code, without other AI tools or reference images. According to the author, it drew and animated the scenes with code, synthesized the soundtrack, and delivered a finished MP4 in chat.",
+    "desc_zh": "Ole Lehmann 展示了一部动画短片；据他所说，Claude Opus 5.5 在 Claude Code 中完成了制作，没有使用其他 AI 工具或参考图像。他表示，Claude 用代码绘制并制作场景动画、合成配乐，最后在聊天中交付了 MP4 文件。",
+    "prompt": {
+      "type": "verbatim",
+      "status": "2103124033365762215",
+      "conv": "2103124033365762215",
+      "text_verbatim": "4 seasons passing outside a train window, a cozy carriage, a cup of coffee on the table, Grand Budapest Hotel style",
+      "origin": "LLM-located span, verified exact substring of creator text"
+    },
+    "metrics_at_scrape": {
+      "likes": 263,
+      "views": 18537
+    },
+    "flags": []
+  }
+]

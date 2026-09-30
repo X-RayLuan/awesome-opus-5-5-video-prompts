@@ -1,0 +1,80 @@
+Create from scratch a fully interactive 3D scene of a traditional wooden riverboat being poled upstream through a mountain river valley in feudal Japan during cherry-blossom season. The visual style should be cinematic and painterly rather than photorealistic, while still being exceptionally rich, detailed, polished, and visually sophisticated.
+
+Build the valley terrain, river, riverbanks, rocks, cherry trees, maples, pines, forest, ground cover, temple architecture, boat, boatman, villagers, sky, clouds, distant mountains, lighting, materials, water, reflections, petals, mist, particles, wildlife, weather, a full day-and-night cycle, sound, animation, camera work, composition, atmospheric depth, and color grading. The final result should feel like a premium, high-production 3D artwork, not a prototype, technical demo, or low-quality scene.
+
+Start from a completely blank page. Do not reuse or depend on any previous project or scene. You may create the assets yourself or use reliable, trusted, open-source assets and libraries when necessary.
+
+Mandatory requirements:
+
+No text of any kind may appear anywhere inside the scene, including the loading screen. No titles, names, logos, descriptions, credits, labels, or control instructions in any language. Any loading indicator must be purely graphic.
+
+Deliver the entire project as one final standalone page file that can be opened directly in a web browser, with assets embedded inside it as much as reasonably possible and no runtime requests to external CDNs.
+
+The valley must feel like one continuous, believable place. A winding river flows down a long valley that narrows into a gorge upstream. It has a deep channel and shallow pebbled margins. Its banks vary between gravel bars and steeper earthen banks. Forested valley walls rise into rounded mountains, and far ranges fade layer by layer into haze.
+
+Build these landmarks along the river:
+- An arched vermilion wooden bridge on piers that stand in the water.
+- A torii gate at the bridge's end.
+- A path to stone steps and a temple terrace held up by dry-stone retaining walls.
+- A main hall with a curved tile hip-and-gable roof, upturned corners, bracket sets, a railed veranda, and lattice doors.
+- A five-storey pagoda with a ringed spire on a knoll.
+- Stone lanterns along the approach.
+- A small wayside shrine in a clearing on the far bank.
+- A tunnel of small vermilion torii climbing the bank upstream to a hillside shrine.
+- A rope fence with paper streamers.
+- Bells hanging from the roof corners that swing in the wind.
+
+For vegetation, place hero cherry trees by hand, including a weeping cherry. Give them gnarled, leaning trunks, let some overhang the water, and cover them in dense blossom. Add Japanese maples, cloud-pruned pines, and a dense mixed forest of cedars and broadleaf crowns on the slopes. Cover the ground with wind-blown grass, reeds, spring wildflowers, ferns, clipped azalea shrubs, mossy boulders, and exposed roots at the water's edge. All foliage must move in one shared, gusting wind, and the blossoms must glow when backlit.
+
+The hero boat is a takasebune-style river cargo boat. It needs a planked hull with real thickness, ribs, thwarts, floorboards, and iron clamps. Give it a reed-mat canopy on bamboo hoops, a cargo of rice bales, crates, and a glazed jar, plus coiled rope, a bow lantern on an arching bamboo pole, and a sculling oar stowed at the stern quarter.
+
+A boatman in a straw cape stands on a raised bow platform and poles the boat with a long bamboo pole, using his whole body: hips drop, the spine leans into the push, the feet stay planted, and both hands grip the pole firmly. The cape reacts to the wind and to each stroke. The pole must never pass through the hull, the hands, or anything else.
+
+Add two villagers. A woman under a red oiled-paper umbrella stands at the bridge rail watching the boats. An old monk sweeps petals off the temple approach. Both breathe and move subtly.
+
+The water must be the centrepiece. It needs:
+- Accurate reflections of everything above it.
+- Refraction and depth-based color absorption, with the pebbled riverbed visible in the shallows.
+- Ripples that follow the flow.
+- Faster water and white foam collars around boulders and bridge piers, with foam trailing downstream.
+- A convincing wake that follows the boat: a bow wave, V-shaped arms, and a disturbed band along the hull.
+- Rafts of petals drifting in the slack water along the banks.
+
+Fill the valley with life and particles:
+- Petals tumble from each cherry canopy and through the air.
+- Petals ride the current downstream and settle on the banks, the steps, and the bridge deck.
+- Dust motes glow only inside the sunbeams.
+- Banks of low river mist drift over the water.
+- Flocks of birds wheel over the valley, and a pair of herons sometimes crosses the river ahead of the boat.
+- Fireflies come out at dusk.
+
+Run a continuous day-and-night cycle of several minutes that loops: dawn, morning, afternoon, a thunderstorm, golden hour, sunset, blue hour, moonlit night, pre-dawn. The sun travels a real arc, the moon takes over as the key light at night, and shadows follow whichever one is lit. Sky color, clouds with silver-gold linings, fog, ambient light, exposure, and the color grade all change with the hour. At night, show stars, a faint Milky Way band, and a cratered moon.
+
+The afternoon storm thickens the clouds into a dark overcast. It brings rain streaks, splash crowns on the river, and branching lightning that lights the clouds and the whole valley. Surfaces turn wet and glossy, then dry slowly through sunset.
+
+After dusk:
+- The stone lanterns and the hall's doors glow.
+- Paper lanterns set adrift on the river (tōrō nagashi) flow past and part around the boat.
+- Pale spirit wisps with comet-like trails drift above the water. Each one lights the water, mist, and banks around it and appears in the reflections.
+
+Golden hour is the signature look: a low warm sun up the valley, long shadows, god rays through the trees and mist, backlit blossoms, and a warm haze.
+
+Add a quiet synthesized soundscape of flowing river, rain, and thunder that rolls in after each flash, with a keyboard toggle to mute it.
+
+The boat must travel upstream on its own. An autopilot threads it between rocks and bridge piers without ever touching them. The viewer can take over with WASD or the arrow keys. Steering needs momentum, turning inertia, water drag, and a heel into turns. Banks, rocks, and piers push the boat back physically. After a short idle period, the autopilot resumes.
+
+A third-person chase camera follows the boat with drag-to-orbit, scroll-to-zoom, and a slow cinematic drift. It must never dip below the banks or into tree canopies. Holding a key fast-forwards the time of day. When the boat reaches the head of the gorge, the scene fades into mist and restarts downstream, so the journey loops forever.
+
+The water, boat, boatman, foliage, petals, and camera must all be animated naturally and smoothly. Avoid artificial slow motion or sluggish movement. The boat should feel like it is genuinely being pushed upstream against the current.
+
+Do not rely on primitive geometric shapes as the finished result. The trees, architecture, boat, characters, and rocks need carefully shaped geometry and clearly visible small-scale details: bark, roof tiles, rafters, joinery, planking, rope lashings, and bamboo nodes. Use detailed, scanned, or high-quality textures for rock, bark, ground, stone walls, and wood. Everything must rest on the ground or the water. Nothing may float, and no objects may intersect.
+
+Lighting must reveal the geometry and materials clearly at every hour. Use soft shadows, ambient occlusion in crevices and at roots, light shafts, bloom, and a filmic grade. Shadow sides must stay readable, never crushed to black.
+
+Maintain a strong balance between visual quality and real-time performance, including on high-density (Retina) displays, preserving smooth interaction and animation without making an obvious sacrifice in quality.
+
+Automatically use the most appropriate skills, tools, libraries, techniques, and available assets needed to achieve the best result. Do not wait for me to specify which technologies to use.
+
+Actually test the finished result in a desktop web browser. Capture screenshots at morning, during the storm, at golden hour, and at night. Inspect the browser console for errors, and fix every visible or technical issue you find. That includes distorted geometry, black screens, failed asset loading, broken animation, poor composition, rendering artifacts, floating or intersecting objects, the boat or pole clipping through anything, and camera problems.
+
+At the end, verify that the final file opens and works directly, that the scene contains no text whatsoever, and that there are no remaining runtime or loading errors. Then finish the task with only a brief response.
