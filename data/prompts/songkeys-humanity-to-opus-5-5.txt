@@ -1,0 +1,3 @@
+让 Opus 5.5 讲述人类从诞生到制作出它的故事 🤯
+
+花了 2个prompt，3小时。max effort，~130M token（大概是 $60 API 价格）。

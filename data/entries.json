@@ -1235,7 +1235,7 @@
  },
  {
   "slug": "theo-fishslop-economy-unlocks",
-  "cat": "director",
+  "cat": "pixel",
   "title": "FishSlop Game with an Economy and Unlocks",
   "title_zh": "带有经济系统和解锁内容的 FishSlop 游戏",
   "handle": "theo",
@@ -1269,6 +1269,261 @@
    "conv": "2103124033365762215",
    "text_verbatim": "4 seasons passing outside a train window, a cozy carriage, a cup of coffee on the table, Grand Budapest Hotel style",
    "origin": "LLM-located span, verified exact substring of creator text"
+  }
+ },
+ {
+  "slug": "pleometric-tiktok-feed-animation",
+  "cat": "pixel",
+  "title": "Opus 5.5’s TikTok Feed Animation",
+  "title_zh": "Opus 5.5 的 TikTok 信息流动画",
+  "handle": "pleometric",
+  "name": "Pleometric",
+  "post": "https://x.com/pleometric/status/2102572941699354900",
+  "links": [],
+  "desc": "An animation imagining Opus 5.5’s TikTok feed. The author says they suggested p5.js and supplied a frame from another viral animation, but the model wrote its own “paper code” instead.",
+  "desc_zh": "一段想象 Opus 5.5 的 TikTok 信息流的动画。作者表示，自己建议使用 p5.js，并提供了另一段热门动画中的一帧，但模型转而编写了自己的“paper code”。",
+  "prompt": {
+   "type": "not_shared",
+   "status": "2102572941699354900",
+   "conv": "2102572941699354900"
+  }
+ },
+ {
+  "slug": "aj-dev-smith-pop-punk-javascript-music-video",
+  "cat": "music",
+  "title": "Pop-Punk Song and Music Video Made with JavaScript",
+  "title_zh": "用 JavaScript 制作的流行朋克歌曲与 MV",
+  "handle": "aj_dev_smith",
+  "name": "A.J.",
+  "post": "https://x.com/aj_dev_smith/status/2102575577563570450",
+  "links": [],
+  "desc": "Claude Opus 5.5 wrote vanilla JavaScript to generate the song and music video without samples or libraries, according to the author. The author says Claude checked its code-generated vocals with a local speech-to-text model and animated the band playing frame by frame.",
+  "desc_zh": "据作者介绍，Claude Opus 5.5 编写了原生 JavaScript，在不使用采样或库的情况下生成歌曲和 MV。作者称，Claude 用本地语音转文字模型检查代码生成的人声，并逐帧制作乐队演奏的动画。",
+  "prompt": {
+   "type": "not_shared",
+   "status": "2102575577563570450",
+   "conv": "2102575577563570450"
+  }
+ },
+ {
+  "slug": "akokoi1-chinese-history-line-art-animation",
+  "cat": "explainers",
+  "title": "Five Thousand Years of Chinese History in Line Art",
+  "title_zh": "线稿动画速览中华五千年历史",
+  "handle": "akokoi1",
+  "name": "WY",
+  "post": "https://x.com/akokoi1/status/2102583898865873225",
+  "links": [],
+  "desc": "A short animated overview of Chinese history made with Claude Opus 5.5. The author says they used Claude Code and front-end SVG, and did not add voiceover.",
+  "desc_zh": "一段用 Claude Opus 5.5 制作的中华历史速览动画。作者称使用了 Claude Code 和前端 SVG，且未添加配音。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102583898865873225",
+   "conv": "2102583898865873225"
+  }
+ },
+ {
+  "slug": "xikhar-threejs-game-3d-assets",
+  "cat": "blender",
+  "title": "Three.js Game with Scratch-Made 3D Assets",
+  "title_zh": "使用从零制作的 3D 素材开发 Three.js 游戏",
+  "handle": "xikhar",
+  "name": "Shikhar",
+  "post": "https://x.com/xikhar/status/2102588571442188577",
+  "links": [],
+  "desc": "A three-minute video shows a Three.js game the author made with Opus 5.5 Medium. The author says the models, textures, and animations were made from scratch, with Blender used for complex assets and animations.",
+  "desc_zh": "一段三分钟的视频展示了作者使用 Opus 5.5 Medium 制作的 Three.js 游戏。作者称模型、纹理和动画均从零制作，并使用 Blender 制作复杂素材和动画。",
+  "prompt": {
+   "type": "not_shared",
+   "status": "2102588571442188577",
+   "conv": "2102588571442188577"
+  }
+ },
+ {
+  "slug": "akokoi1-atmospheric-circulation-animation",
+  "cat": "explainers",
+  "title": "Animated Atmospheric Circulation Geography Lesson",
+  "title_zh": "大气环流地理知识动画",
+  "handle": "akokoi1",
+  "name": "WY",
+  "post": "https://x.com/akokoi1/status/2102606609574941028",
+  "links": [],
+  "desc": "An almost five-minute video explaining atmospheric circulation with line-art animation, bilingual subtitles, music, and TTS narration. The author says they supplied TTS documentation and configuration files, and reports that Opus 5.5 generated the video in 26 minutes; in a reply, they say the visuals are SVGs.",
+  "desc_zh": "一段将近五分钟的大气环流讲解视频，采用线稿动画、中英双语字幕、音乐和 TTS 解说。作者称自己提供了 TTS 文档和配置文件，Opus 5.5 用 26 分钟生成了视频；作者还在回复中表示画面都是 SVG。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102606609574941028",
+   "conv": "2102606609574941028"
+  }
+ },
+ {
+  "slug": "kanaworks-ai-eight-stage-siege-game",
+  "cat": "pixel",
+  "title": "Eight-Stage Side-Scrolling Siege Game",
+  "title_zh": "八关横版攻城游戏",
+  "handle": "KanaWorks_AI",
+  "name": "KANA｜東京AI映像",
+  "post": "https://x.com/KanaWorks_AI/status/2102684116525437206",
+  "links": [],
+  "desc": "The author reports building a website and eight-stage side-scrolling siege game with Claude Opus 5.5 in two hours, then deploying it, recording gameplay, and editing a 60-second introduction video. They say they spent more time tuning siege-weapon behavior, enemy counterattacks, and stage balance than writing code.",
+  "desc_zh": "作者称使用 Claude Opus 5.5 在两小时内制作了网站和八关横版攻城游戏，随后完成部署、录制和一段 60 秒介绍视频的剪辑。作者表示，相比编写代码，更多时间花在调整攻城兵器的行为、敌方反击和关卡平衡上。",
+  "prompt": {
+   "type": "not_shared",
+   "status": "2102684116525437206",
+   "conv": "2102684116525437206"
+  }
+ },
+ {
+  "slug": "iannuttall-prince-of-persia-style-level",
+  "cat": "pixel",
+  "title": "One-Shot Prince of Persia-Style Level",
+  "title_zh": "一次生成的《波斯王子》风格关卡",
+  "handle": "iannuttall",
+  "name": "Ian Nuttall",
+  "post": "https://x.com/iannuttall/status/2102685186919932404",
+  "links": [],
+  "desc": "Ian Nuttall reports that Opus 5.5 built a playable Prince of Persia-style level in one shot, with graphics, NPCs, sound effects, and music. His prompt requested a self-contained HTML file using vanilla JavaScript and Canvas 2D.",
+  "desc_zh": "Ian Nuttall 称，Opus 5.5 一次生成了一个可玩的《波斯王子》风格关卡，包含画面、NPC、音效和音乐。他要求使用原生 JavaScript 和 Canvas 2D，制作成独立的 HTML 文件。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102685186919932404",
+   "conv": "2102685186919932404"
+  }
+ },
+ {
+  "slug": "hanifproduktif-indonesian-history-animation",
+  "cat": "explainers",
+  "title": "81 Years of Indonesian History in Under a Minute",
+  "title_zh": "一分钟内回顾印尼81年历史",
+  "handle": "hanifproduktif",
+  "name": "Hanif | AI For Productivity",
+  "post": "https://x.com/hanifproduktif/status/2102695622042411419",
+  "links": [],
+  "desc": "The author asked Claude Opus 5.5 to make a short, lighthearted line-drawing animation about 81 years of Indonesian history, with music and voiceover. The author says a second version used the same prompt and voiceover, with Tesseract CLI added.",
+  "desc_zh": "作者请 Claude Opus 5.5 制作一段配有音乐和旁白、以轻松有趣的线条动画回顾印尼81年历史的短视频。作者称第二个版本使用了相同的提示词和旁白，并加入了 Tesseract CLI。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102695622042411419",
+   "conv": "2102695622042411419"
+  }
+ },
+ {
+  "slug": "leo-xiaolei-procedural-animated-short",
+  "cat": "explainers",
+  "title": "Procedural Animated Short with Opus 5.5",
+  "title_zh": "Opus 5.5 程序化动画短片",
+  "handle": "leo_xiaolei",
+  "name": "XiaoLei Liu",
+  "post": "https://x.com/leo_xiaolei/status/2102724347446305104",
+  "links": [],
+  "desc": "The author shares a video of an animated short made directly with Claude Opus 5.5, along with the Chinese prompt they used.",
+  "desc_zh": "作者分享了一段由 Claude Opus 5.5 直接制作的动画短片视频，并附上了所用的中文提示词。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102724347446305104",
+   "conv": "2102724347446305104"
+  }
+ },
+ {
+  "slug": "0x0funky-one-shot-course-animation",
+  "cat": "explainers",
+  "title": "One-Shot Animated Course Video with Opus 5.5",
+  "title_zh": "Opus 5.5 一次生成课程动画视频",
+  "handle": "0x0funky",
+  "name": "0xFunky",
+  "post": "https://x.com/0x0funky/status/2102736587708854585",
+  "links": [],
+  "desc": "The author reports making a roughly six-minute animated video from prepared course content in one shot with Opus 5.5, using Remotion for the video and a local Cosy Voice model for narration. They say Opus 5.5 handled the script and voiceover preparation; React generated SVG lines, while HTML/CSS and web fonts styled the text.",
+  "desc_zh": "作者称，他们用 Opus 5.5 根据整理好的课程内容一次生成了一部约六分钟的动画视频，使用 Remotion 制作视频，并用本地 Cosy Voice 模型生成配音。作者表示，脚本和配音准备工作由 Opus 5.5 处理；SVG 线条由 React 生成，文字则使用 HTML/CSS 和网页字体设置样式。",
+  "prompt": {
+   "type": "not_shared",
+   "status": "2102736587708854585",
+   "conv": "2102736587708854585"
+  }
+ },
+ {
+  "slug": "dotcsv-pixel-art-neural-network-training",
+  "cat": "pixel",
+  "title": "Pixel-Art Neural Network Training Animation",
+  "title_zh": "像素风神经网络训练动画",
+  "handle": "DotCSV",
+  "name": "Carlos Santana",
+  "post": "https://x.com/DotCSV/status/2102737776219168939",
+  "links": [],
+  "desc": "A pixel-art animation of a neural network training, made with Opus 5.5. The author says Opus proactively trained a neural network on MNIST to make the animation accurate.",
+  "desc_zh": "一段用 Opus 5.5 制作的像素风神经网络训练动画。作者称，Opus 主动用 MNIST 训练了一个神经网络，以确保动画准确。",
+  "prompt": {
+   "type": "not_shared",
+   "status": "2102737776219168939",
+   "conv": "2102737776219168939"
+  }
+ },
+ {
+  "slug": "songkeys-humanity-to-opus-5-5",
+  "cat": "films",
+  "title": "From Humanity’s Origins to Opus 5.5",
+  "title_zh": "从人类诞生到 Opus 5.5",
+  "handle": "songkeys",
+  "name": "songkeys 🐿️🦋@song.work",
+  "post": "https://x.com/songkeys/status/2102743212922384673",
+  "links": [],
+  "desc": "A doodle-style animation traces humanity’s development and the emergence of AI, ending with Opus 5.5. The author says Opus drafted scenes, they suggested revisions, and the finished video was made in pure JavaScript without video or image generation.",
+  "desc_zh": "这部涂鸦风格动画讲述了人类的发展与 AI 的诞生，最终呈现 Opus 5.5。作者称，Opus 先拟出场景，随后他们提出修改建议；成片完全使用 JavaScript 制作，没有使用视频或图像生成。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102743212922384673",
+   "conv": "2102743212922384673"
+  }
+ },
+ {
+  "slug": "ggsimm-deep-sea-horror-game",
+  "cat": "pixel",
+  "title": "Deep-Sea Horror Game Built with an Existing Engine",
+  "title_zh": "用现有引擎制作的深海恐怖游戏",
+  "handle": "ggsimm",
+  "name": "gsimone",
+  "post": "https://x.com/ggsimm/status/2102882622053535814",
+  "links": [],
+  "desc": "The author reports asking Claude Opus 5.5 to make a game using only their engine’s existing abilities. It made a deep-sea horror game with a subtle drone soundtrack, largely reusing the author’s libraries for effects, illumination, projectiles, and collisions.",
+  "desc_zh": "作者称，他们让 Claude Opus 5.5 仅利用其引擎现有的能力制作游戏。模型做出了一款带有低沉持续配乐的深海恐怖游戏，基本复用了作者用于特效、照明、投射物和碰撞的代码库。",
+  "prompt": {
+   "type": "not_shared",
+   "status": "2102882622053535814",
+   "conv": "2102882622053535814"
+  }
+ },
+ {
+  "slug": "ehsanik-mona-lisa-js-paint",
+  "cat": "director",
+  "title": "Recreating the Mona Lisa in JS Paint",
+  "title_zh": "用 JS Paint 重绘《蒙娜丽莎》",
+  "handle": "ehsanik",
+  "name": "Kiana Ehsani",
+  "post": "https://x.com/ehsanik/status/2102885216692162993",
+  "links": [],
+  "desc": "The author used Opus 5.5 with Cowork and Claude in Chrome to recreate the Mona Lisa in JS Paint using mouse movements and brushes. They then asked it to make a video showing the movements and changes.",
+  "desc_zh": "作者通过 Cowork 和 Chrome 中的 Claude 使用 Opus 5.5，以鼠标操作和画笔在 JS Paint 中重绘《蒙娜丽莎》。随后，作者让它制作一段展示鼠标操作和画面变化的视频。",
+  "prompt": {
+   "type": "verbatim",
+   "status": "2102885216692162993",
+   "conv": "2102885216692162993"
+  }
+ },
+ {
+  "slug": "daniel-mac8-claude-code-usage-limits-animation",
+  "cat": "explainers",
+  "title": "Claude Code Usage Limits Animation",
+  "title_zh": "Claude Code 用量限制动画",
+  "handle": "daniel_mac8",
+  "name": "Dan McAteer",
+  "post": "https://x.com/daniel_mac8/status/2103666105461924131",
+  "links": [],
+  "desc": "Dan McAteer shared an animation about using Ultracode and Dynamic Workflows in Claude Code without exhausting usage limits. He says Opus 5.5 generated every pixel using Dynamic Workflows, with a reference animation MP4 and a prompt as inputs.",
+  "desc_zh": "Dan McAteer 分享了一段动画，介绍如何在 Claude Code 中使用 Ultracode 和 Dynamic Workflows，同时避免耗尽用量限额。他说，Opus 5.5 使用 Dynamic Workflows 生成了视频的每一个像素，输入素材包括一个参考动画 MP4 和一段提示词。",
+  "prompt": {
+   "type": "not_shared",
+   "status": "2103666105461924131",
+   "conv": "2103666105461924131"
   }
  }
 ]

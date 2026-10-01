@@ -1,0 +1,16 @@
+- [Code-Generated Anime Video with Opus 5.5](#onofumi-ai-code-generated-anime-video) · @onofumi_AI · video
+- [Opus 5.5’s TikTok Feed Animation](#pleometric-tiktok-feed-animation) · @pleometric · video
+- [Pop-Punk Song and Music Video Made with JavaScript](#aj-dev-smith-pop-punk-javascript-music-video) · @aj_dev_smith · video
+- [Five Thousand Years of Chinese History in Line Art](#akokoi1-chinese-history-line-art-animation) · @akokoi1 · video
+- [Three.js Game with Scratch-Made 3D Assets](#xikhar-threejs-game-3d-assets) · @xikhar · video
+- [Animated Atmospheric Circulation Geography Lesson](#akokoi1-atmospheric-circulation-animation) · @akokoi1 · video
+- [Eight-Stage Side-Scrolling Siege Game](#kanaworks-ai-eight-stage-siege-game) · @KanaWorks_AI · video
+- [One-Shot Prince of Persia-Style Level](#iannuttall-prince-of-persia-style-level) · @iannuttall · video
+- [81 Years of Indonesian History in Under a Minute](#hanifproduktif-indonesian-history-animation) · @hanifproduktif · video
+- [Procedural Animated Short with Opus 5.5](#leo-xiaolei-procedural-animated-short) · @leo_xiaolei · video
+- [One-Shot Animated Course Video with Opus 5.5](#0x0funky-one-shot-course-animation) · @0x0funky · video
+- [Pixel-Art Neural Network Training Animation](#dotcsv-pixel-art-neural-network-training) · @DotCSV · video
+- [From Humanity’s Origins to Opus 5.5](#songkeys-humanity-to-opus-5-5) · @songkeys · video
+- [Deep-Sea Horror Game Built with an Existing Engine](#ggsimm-deep-sea-horror-game) · @ggsimm · video
+- [Recreating the Mona Lisa in JS Paint](#ehsanik-mona-lisa-js-paint) · @ehsanik · video
+- [Claude Code Usage Limits Animation](#daniel-mac8-claude-code-usage-limits-animation) · @daniel_mac8 · video

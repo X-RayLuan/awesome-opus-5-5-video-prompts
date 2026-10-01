@@ -548,5 +548,70 @@
   "created_at": "Wed Sep 23 15:53:10 +0000 2026",
   "likes": 331,
   "views": 15810
+ },
+ {
+  "slug": "pleometric-tiktok-feed-animation",
+  "author": "pleometric",
+  "src_duration": 47.0,
+  "clip_seconds": 47.1,
+  "trimmed": false,
+  "readme_mp4_mb": 9.2,
+  "width": 1080,
+  "vbr_k": 1565,
+  "created_at": "Wed Sep 23 01:37:07 +0000 2026",
+  "likes": 3752,
+  "views": 409566
+ },
+ {
+  "slug": "aj-dev-smith-pop-punk-javascript-music-video",
+  "author": "aj_dev_smith",
+  "src_duration": 150.333,
+  "clip_seconds": 150.4,
+  "trimmed": false,
+  "readme_mp4_mb": 9.24,
+  "width": 640,
+  "vbr_k": 492,
+  "created_at": "Wed Sep 23 01:47:36 +0000 2026",
+  "likes": 1360,
+  "views": 157939
+ },
+ {
+  "slug": "akokoi1-chinese-history-line-art-animation",
+  "author": "akokoi1",
+  "src_duration": 157.593,
+  "clip_seconds": 157.6,
+  "trimmed": false,
+  "readme_mp4_mb": 7.56,
+  "width": 640,
+  "vbr_k": 384,
+  "created_at": "Wed Sep 23 02:20:40 +0000 2026",
+  "likes": 704,
+  "views": 160592
+ },
+ {
+  "slug": "akokoi1-atmospheric-circulation-animation",
+  "author": "akokoi1",
+  "src_duration": 288.133,
+  "clip_seconds": 170.0,
+  "trimmed": true,
+  "readme_mp4_mb": 9.34,
+  "width": 640,
+  "vbr_k": 440,
+  "created_at": "Wed Sep 23 03:50:54 +0000 2026",
+  "likes": 715,
+  "views": 140704
+ },
+ {
+  "slug": "xikhar-threejs-game-3d-assets",
+  "author": "xikhar",
+  "src_duration": 186.922,
+  "clip_seconds": 170.0,
+  "trimmed": true,
+  "readme_mp4_mb": 9.46,
+  "width": 640,
+  "vbr_k": 445,
+  "created_at": "Wed Sep 23 02:39:14 +0000 2026",
+  "likes": 1114,
+  "views": 107620
  }
 ]

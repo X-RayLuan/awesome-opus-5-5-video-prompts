@@ -1,0 +1,13 @@
+Since I am obsessed with painting these days I got Opus 5.5 to replicate Mona Lisa. This was my prompt:
+
+"can you search for the picture of Mona Lisa, then replicate it using mouse movement and brushes in JS paint using chrome?"
+
+It took 20 minutes for the drawing part using Cowork + Claude in Chrome. 
+
+After it was done I asked:
+
+"Ok now can you make a video of exactly what you just did? Showing every mouse movement and changes?"
+
+Result is the video you see! :D 
+
+More details in thread 🧵

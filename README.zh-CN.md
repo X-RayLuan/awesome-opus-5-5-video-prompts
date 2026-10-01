@@ -13,7 +13,7 @@
 
 Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropic.com/claude-opus-5-5)）只输出文本，不直接生成像素。所谓“Opus 5.5 做视频”，是让模型**把整部片子写成代码** —— JavaScript/Canvas/WebGL、p5.js、Blender Python —— 再用 headless Chrome 或 Blender + ffmpeg 逐帧渲染；或让它**充当导演驱动 Seedance、Kling 等视频模型**。本列表收录社区最佳演示，只收录作者本人公开的原始提示词。
 
-**68 个案例 · 6 个分类 · 中英双语 · 仅收录原文提示词 · EasyVeo 复刻车道 · CTA：[easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=zh_lede)**
+**83 个案例 · 6 个分类 · 中英双语 · 仅收录原文提示词 · EasyVeo 复刻车道 · CTA：[easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=zh_lede)**
 
 ## 精选项目
 
@@ -57,6 +57,7 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [一次生成的 Three.js 动画短片](#scheemunai-one-shot-threejs-cartoon) · @scheemunai · video · prompt
 - [Claude 能力成长训练蒙太奇](#ishuagra02-claude-capability-training-montage) · @ishuagra02 · video · prompt
 - [Claude Code 用代码绘制的动画短片](#itsolelehmann-code-drawn-animated-film) · @itsolelehmann · prompt
+- [从人类诞生到 Opus 5.5](#songkeys-humanity-to-opus-5-5) · @songkeys · prompt
 
 **👾 像素动画**
 - [像素风巫师施法动画（Canvas 2D）](#majid-pixel-wizard) · @majidmanzarpour · video · prompt
@@ -64,11 +65,18 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [《Nightcall》像素风实时演示](#gandamu-ml-nightcall-pixel-art-demo) · @gandamu_ml · video
 - [赵云像素风无双游戏](#bubustd-zhao-yun-voxel-musou) · @BubuStd · video
 - [Opus 5.5 一次生成的 Jet Moto](#cherry-mx-reds-jet-moto) · @cherry_mx_reds · video
+- [带有经济系统和解锁内容的 FishSlop 游戏](#theo-fishslop-economy-unlocks) · @theo
+- [Opus 5.5 的 TikTok 信息流动画](#pleometric-tiktok-feed-animation) · @pleometric · video
+- [八关横版攻城游戏](#kanaworks-ai-eight-stage-siege-game) · @KanaWorks_AI
+- [一次生成的《波斯王子》风格关卡](#iannuttall-prince-of-persia-style-level) · @iannuttall · prompt
+- [像素风神经网络训练动画](#dotcsv-pixel-art-neural-network-training) · @DotCSV
+- [用现有引擎制作的深海恐怖游戏](#ggsimm-deep-sea-horror-game) · @ggsimm
 
 **🎵 音乐 MV**
 - [《I’m Upping My P(doom)》Clawd 音乐 MV](#notinreality-pdoom-music-video) · @other__reality · video
 - [《Functional Emotions》油画风音乐 MV](#eudaemonea-functional-emotions) · @eudaemonea · video · prompt
 - [《Stroke of a Pen》：纯代码比特币音乐视频](#bradmillscan-stroke-of-a-pen-bitcoin-music-video) · @bradmillscan
+- [用 JavaScript 制作的流行朋克歌曲与 MV](#aj-dev-smith-pop-punk-javascript-music-video) · @aj_dev_smith · video
 
 **📊 讲解、广告与动效**
 - [约 1 分钟、约 2 美元的创业公司发布视频](#deedydas-startup-launch-video) · @deedydas · video · prompt
@@ -89,6 +97,12 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [GitHub 版本管理动画讲解](#sundyme-github-version-control-explainer) · @sundyme · video · prompt
 - [LLM 上下文窗口如何运作](#joaoli13-llm-context-window-animation) · @joaoli13 · prompt
 - [密码与通行密钥讲解视频](#tz-2022-password-passkey-explainer) · @Tz_2022 · prompt
+- [线稿动画速览中华五千年历史](#akokoi1-chinese-history-line-art-animation) · @akokoi1 · video · prompt
+- [大气环流地理知识动画](#akokoi1-atmospheric-circulation-animation) · @akokoi1 · video · prompt
+- [一分钟内回顾印尼81年历史](#hanifproduktif-indonesian-history-animation) · @hanifproduktif · prompt
+- [Opus 5.5 程序化动画短片](#leo-xiaolei-procedural-animated-short) · @leo_xiaolei · prompt
+- [Opus 5.5 一次生成课程动画视频](#0x0funky-one-shot-course-animation) · @0x0funky
+- [Claude Code 用量限制动画](#daniel-mac8-claude-code-usage-limits-animation) · @daniel_mac8
 
 **🧊 Blender 与 3D 渲染**
 - [1906 年旧金山市场街复原（Blender）](#alexalbert-market-street-1906) · @alexalbert__ · video · prompt
@@ -106,6 +120,7 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [可游玩的日本山谷泛舟场景](#mengto-japanese-valley-boat-journey) · @MengTo · video · prompt
 - [Three.js 泻湖树屋村庄](#cryptomanavan-threejs-lagoon-tree-village) · @cryptomanavan · video
 - [Three.js 程序化怪兽模拟](#majidmanzarpour-procedural-kaiju-simulation) · @majidmanzarpour · prompt
+- [使用从零制作的 3D 素材开发 Three.js 游戏](#xikhar-threejs-game-3d-assets) · @xikhar · video
 
 **🎥 Opus 当导演：驱动 AI 视频模型**
 - [Opus 5.5 当导演 → GPT Image 2.5 + Seedance 2.5](#abxxai-opus-seedance-road-trip) · @abxxai · video · prompt
@@ -115,7 +130,7 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [Opus 5.5 与 OpenEdit 制作口播视频剪辑](#sab8a-opus-55-talking-head-edit) · @sab8a · prompt
 - [Opus 5.5 将 13 条拍摄片段剪成发布视频](#gregpr07-opus-55-launch-video) · @gregpr07 · video
 - [Opus 5.5 制作的 Wrapscribe 宣传视频](#shribuilds-wrapscribe-promo-video) · @shribuilds · prompt
-- [带有经济系统和解锁内容的 FishSlop 游戏](#theo-fishslop-economy-unlocks) · @theo
+- [用 JS Paint 重绘《蒙娜丽莎》](#ehsanik-mona-lisa-js-paint) · @ehsanik · prompt
 - [EasyVeo：拆解 → 分镜静帧 → 复刻](#easyveo-remake-loop)
 
 </details>
@@ -530,6 +545,25 @@ _Ole Lehmann 展示了一部动画短片；据他所说，Claude Opus 5.5 在 Cl
 
 ---
 
+### 从人类诞生到 Opus 5.5
+<a id="songkeys-humanity-to-opus-5-5"></a>
+
+[@songkeys](https://x.com/songkeys) · songkeys 🐿️🦋@song.work · 社区演示 · Claude Opus 5.5
+
+_这部涂鸦风格动画讲述了人类的发展与 AI 的诞生，最终呈现 Opus 5.5。作者称，Opus 先拟出场景，随后他们提出修改建议；成片完全使用 JavaScript 制作，没有使用视频或图像生成。_
+
+**提示词** · 原文摘自[作者帖子](https://x.com/songkeys/status/2102743212922384673)
+
+```text
+让 Opus 5.5 讲述人类从诞生到制作出它的故事 🤯
+
+花了 2个prompt，3小时。max effort，~130M token（大概是 $60 API 价格）。
+```
+
+[原帖](https://x.com/songkeys/status/2102743212922384673) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=songkeys_humanity_to_opus_5_5) · [返回列表](#all-prompts)
+
+---
+
 ## 👾 像素动画
 
 _用严格的技术规格（逻辑分辨率、调色板、状态机、零分配循环）得到清晰的 16-bit 风格循环动画。_
@@ -711,6 +745,93 @@ _作者称 Opus 5.5 一次生成了这个 Jet Moto 演示，并分享了可供�
 
 ---
 
+### 带有经济系统和解锁内容的 FishSlop 游戏
+<a id="theo-fishslop-economy-unlocks"></a>
+
+[@theo](https://x.com/theo) · Theo - t3.gg · 社区演示 · Claude Opus 5.5
+
+_作者展示了 Opus 5.5 制作的 FishSlop 版本，包含动画、操作控制、游戏内经济系统和解锁内容。作者称，在要求改进画质导致帧率下降后，再次提出要求使游戏恢复到流畅的 120 帧，同时画质略有退步。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/theo/status/2102877145399975952) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=theo_fishslop_economy_unlocks) · [返回列表](#all-prompts)
+
+---
+
+### Opus 5.5 的 TikTok 信息流动画
+<a id="pleometric-tiktok-feed-animation"></a>
+
+[@pleometric](https://x.com/pleometric) · Pleometric · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/pleometric-tiktok-feed-animation-readme.mp4"><img src="assets/previews/pleometric-tiktok-feed-animation.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/pleometric-tiktok-feed-animation-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/pleometric/status/2102572941699354900">X 原帖</a></sub>
+
+_一段想象 Opus 5.5 的 TikTok 信息流的动画。作者表示，自己建议使用 p5.js，并提供了另一段热门动画中的一帧，但模型转而编写了自己的“paper code”。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/pleometric/status/2102572941699354900) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=pleometric_tiktok_feed_animation) · [返回列表](#all-prompts)
+
+---
+
+### 八关横版攻城游戏
+<a id="kanaworks-ai-eight-stage-siege-game"></a>
+
+[@KanaWorks_AI](https://x.com/KanaWorks_AI) · KANA｜東京AI映像 · 社区演示 · Claude Opus 5.5
+
+_作者称使用 Claude Opus 5.5 在两小时内制作了网站和八关横版攻城游戏，随后完成部署、录制和一段 60 秒介绍视频的剪辑。作者表示，相比编写代码，更多时间花在调整攻城兵器的行为、敌方反击和关卡平衡上。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/KanaWorks_AI/status/2102684116525437206) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=kanaworks_ai_eight_stage_siege_game) · [返回列表](#all-prompts)
+
+---
+
+### 一次生成的《波斯王子》风格关卡
+<a id="iannuttall-prince-of-persia-style-level"></a>
+
+[@iannuttall](https://x.com/iannuttall) · Ian Nuttall · 社区演示 · Claude Opus 5.5
+
+_Ian Nuttall 称，Opus 5.5 一次生成了一个可玩的《波斯王子》风格关卡，包含画面、NPC、音效和音乐。他要求使用原生 JavaScript 和 Canvas 2D，制作成独立的 HTML 文件。_
+
+**提示词** · 原文摘自[作者帖子](https://x.com/iannuttall/status/2102685186919932404)
+
+```text
+Okay Opus 5.5 is very fucking good. It literally one-shot a full Prince of Persia level for me with graphics, NPCs, sound effects and music. Sound on for the full effect.
+
+Full prompt below.
+```
+
+[原帖](https://x.com/iannuttall/status/2102685186919932404) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=iannuttall_prince_of_persia_style_level) · [返回列表](#all-prompts)
+
+---
+
+### 像素风神经网络训练动画
+<a id="dotcsv-pixel-art-neural-network-training"></a>
+
+[@DotCSV](https://x.com/DotCSV) · Carlos Santana · 社区演示 · Claude Opus 5.5
+
+_一段用 Opus 5.5 制作的像素风神经网络训练动画。作者称，Opus 主动用 MNIST 训练了一个神经网络，以确保动画准确。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/DotCSV/status/2102737776219168939) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=dotcsv_pixel_art_neural_network_training) · [返回列表](#all-prompts)
+
+---
+
+### 用现有引擎制作的深海恐怖游戏
+<a id="ggsimm-deep-sea-horror-game"></a>
+
+[@ggsimm](https://x.com/ggsimm) · gsimone · 社区演示 · Claude Opus 5.5
+
+_作者称，他们让 Claude Opus 5.5 仅利用其引擎现有的能力制作游戏。模型做出了一款带有低沉持续配乐的深海恐怖游戏，基本复用了作者用于特效、照明、投射物和碰撞的代码库。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/ggsimm/status/2102882622053535814) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=ggsimm_deep_sea_horror_game) · [返回列表](#all-prompts)
+
+---
+
 ## 🎵 音乐 MV
 
 _提供歌曲与歌词；Opus 先写分镜，再按章节分派并行子代理，并让每个剪辑点踩在节拍上。_
@@ -767,6 +888,22 @@ _作者称，他让 Opus 5.5 参考自己的比特币与货币史维基，仅用
 **提示词** · _作者未公开。_
 
 [原帖](https://x.com/bradmillscan/status/2103108967194833310) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=bradmillscan_stroke_of_a_pen_bitcoin_music_video) · [返回列表](#all-prompts)
+
+---
+
+### 用 JavaScript 制作的流行朋克歌曲与 MV
+<a id="aj-dev-smith-pop-punk-javascript-music-video"></a>
+
+[@aj_dev_smith](https://x.com/aj_dev_smith) · A.J. · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/aj-dev-smith-pop-punk-javascript-music-video-readme.mp4"><img src="assets/previews/aj-dev-smith-pop-punk-javascript-music-video.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/aj-dev-smith-pop-punk-javascript-music-video-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/aj_dev_smith/status/2102575577563570450">X 原帖</a></sub>
+
+_据作者介绍，Claude Opus 5.5 编写了原生 JavaScript，在不使用采样或库的情况下生成歌曲和 MV。作者称，Claude 用本地语音转文字模型检查代码生成的人声，并逐帧制作乐队演奏的动画。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/aj_dev_smith/status/2102575577563570450) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=aj_dev_smith_pop_punk_javascript_music_video) · [返回列表](#all-prompts)
 
 ---
 
@@ -1093,6 +1230,450 @@ _作者请 Claude Opus 5.5 制作交互式动画讲解，说明密码与通行�
 ```
 
 [原帖](https://x.com/Tz_2022/status/2102838830285898214) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=tz_2022_password_passkey_explainer) · [返回列表](#all-prompts)
+
+---
+
+### 线稿动画速览中华五千年历史
+<a id="akokoi1-chinese-history-line-art-animation"></a>
+
+[@akokoi1](https://x.com/akokoi1) · WY · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/akokoi1-chinese-history-line-art-animation-readme.mp4"><img src="assets/previews/akokoi1-chinese-history-line-art-animation.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/akokoi1-chinese-history-line-art-animation-readme.mp4">▶ 播放视频</a> · <a href="https://x.com/akokoi1/status/2102583898865873225">X 原帖</a></sub>
+
+_一段用 Claude Opus 5.5 制作的中华历史速览动画。作者称使用了 Claude Code 和前端 SVG，且未添加配音。_
+
+**提示词** · 原文摘自[作者帖子](https://x.com/akokoi1/status/2102583898865873225)
+
+```text
+不要再测鹈鹕骑车和Threejs了，Claude Opus 5.5做知识、科普类的视频简直无敌！
+
+我订阅的是Max (5x)，这个2分38秒快速回顾中华上下五千年的视频消耗了5小时额度的3%，周额度的1%，一周理论上能出几十上百条，性价比极高。
+
+这一段我没配音，不过给 Claude 接一个 TTS 的 API，配音的问题也能解决。
+
+应用场景很多，随便列几个：
+1. 抖音、B站、视频号起号
+2. 老师的教学视频、课件动画
+3. 知识付费的课程讲解
+4. 公司的产品介绍、员工培训
+```
+
+[原帖](https://x.com/akokoi1/status/2102583898865873225) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=akokoi1_chinese_history_line_art_animation) · [返回列表](#all-prompts)
+
+---
+
+### 大气环流地理知识动画
+<a id="akokoi1-atmospheric-circulation-animation"></a>
+
+[@akokoi1](https://x.com/akokoi1) · WY · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/akokoi1-atmospheric-circulation-animation-readme.mp4"><img src="assets/previews/akokoi1-atmospheric-circulation-animation.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/akokoi1-atmospheric-circulation-animation-readme.mp4">▶ 播放视频</a> (前 170 秒 / 全长 288 秒) · <a href="https://x.com/akokoi1/status/2102606609574941028">X 原帖</a></sub>
+
+_一段将近五分钟的大气环流讲解视频，采用线稿动画、中英双语字幕、音乐和 TTS 解说。作者称自己提供了 TTS 文档和配置文件，Opus 5.5 用 26 分钟生成了视频；作者还在回复中表示画面都是 SVG。_
+
+**提示词** · 原文摘自[作者帖子](https://x.com/akokoi1/status/2102606609574941028)
+
+```text
+我只能说，能用上Claude的一线老师又领先了。
+
+一段简单的提示词，Opus 5.5花了26分钟，直接生成了这段将近5分钟的，解释地理知识点“大气环流”的视频，消耗的token极低。
+
+以下是具体教程：
+
+1.  找一家TTS的厂商，豆包、智谱、海螺、千问等等都可以，找到文本转语音的文档，粘贴进一个新的md文档，比如TTS.md，创建.env文件，把API KEY和其它需要调整的配置填进去。
+
+2. 提示词：“做一个动画，讲解高中地理知识点“大气环流”。风格轻松有趣，动画格式为线稿，添加合适的音乐，请务必做到引人入胜，字幕用中英双语，解说用TTS，如果 TTS 接口有关闭水印的参数就关掉，文档在TTS.md，API KEY 和音色分别是 .env 里的 APIKEY 和 VOICE，最终视频要能直接导出。”
+
+提示词可以根据自己的需求微调，另外有一点安全事项需要注意，在 .claude/settings.json 里加一条 "deny": ["Read(./.env)"]，Claude 就读不到你的 key
+```
+
+[原帖](https://x.com/akokoi1/status/2102606609574941028) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=akokoi1_atmospheric_circulation_animation) · [返回列表](#all-prompts)
+
+---
+
+### 一分钟内回顾印尼81年历史
+<a id="hanifproduktif-indonesian-history-animation"></a>
+
+[@hanifproduktif](https://x.com/hanifproduktif) · Hanif | AI For Productivity · 社区演示 · Claude Opus 5.5
+
+_作者请 Claude Opus 5.5 制作一段配有音乐和旁白、以轻松有趣的线条动画回顾印尼81年历史的短视频。作者称第二个版本使用了相同的提示词和旁白，并加入了 Tesseract CLI。_
+
+**提示词** · 原文摘自[作者帖子](https://x.com/hanifproduktif/status/2102695622042411419)
+
+```text
+81 years history of Indonesia in less than 1 minute
+
+I asked Claude Opus 5.5 to create the video using this simple prompt:
+
+"Create an animation that quickly recaps the 81 years of Indonesian history. The style should be simple, lighthearted and fun, in a line drawing animation format, with suitable music and voiceover added. The video should be less than 1 minute"
+
+The 2nd video made with same voiceover and prompt, but I added the Tesseract cli.
+
+You can try it yourself with your Claude!
+```
+
+[原帖](https://x.com/hanifproduktif/status/2102695622042411419) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=hanifproduktif_indonesian_history_animation) · [返回列表](#all-prompts)
+
+---
+
+### Opus 5.5 程序化动画短片
+<a id="leo-xiaolei-procedural-animated-short"></a>
+
+[@leo_xiaolei](https://x.com/leo_xiaolei) · XiaoLei Liu · 社区演示 · Claude Opus 5.5
+
+_作者分享了一段由 Claude Opus 5.5 直接制作的动画短片视频，并附上了所用的中文提示词。_
+
+**提示词** · 原文摘自[作者帖子](https://x.com/leo_xiaolei/status/2102724347446305104)
+
+```text
+Opus 5.5 直出，秀到飞边子了！我愿称之为最强！！！
+
+参考提示词如下（温馨提示额度消耗和耗时会有点大）：
+
+你现在是 Claude Opus 5.5，作为资深创意编程工程师（Creative Coder）、动态设计师（Motion Designer）与前端动画工程师。
+你的任务是复现我所提供的参考视频中的视觉语言、节奏律动、转场逻辑以及整体氛围质感。
+核心目标不是做一个常规网页。
+核心目标是使用代码构建一部全程序化生成、具备电影质感且能够自动播放的动画短片。
+最终成片应呈现出精致的手作动态设计（Motion Design）质感，而非一堆网页组件的拼接。
+1. 项目目标
+基于参考视频，构建一部时长 25–30 秒的程序化动画短片。
+整段动画需串联多个视觉意象：
+可爱角色
+→ 神经元 / 电流脉冲结构
+→ 三棱镜与彩虹色散
+→ 几何色彩构型
+→ 向日葵
+→ 螺旋星系
+→ 黑洞
+→ 宇宙隧道
+→ 地球升起（地出）
+→ 回归角色
+最核心的要求：
+绝对不要做成互相割裂的幻灯片切换。
+每一个场景都必须自然地在视觉上形变过渡至下一个场景。
+运用手段包括：
+形状渐变（Morphing）
+粒子过渡（Particle transitions）
+缩放过渡（Scale transitions）
+镜头推进（Camera pushes）
+径向展开过渡（Radial transitions）
+溶解渗透（Dissolves）
+实体到实体的几何形变（Object-to-object transformations）
+色彩连续性（Color continuity）
+运动动量延续（Motion continuity）
+整部动画应当呈现为一次连贯流动的“意识流”。
+2. 技术栈
+技术选用：
+Vite
+TypeScript
+HTML Canvas 2D
+requestAnimationFrame
+确定性时间轴系统（Deterministic timeline system）
+程序化图形生成（Procedural graphics）
+可复用的场景模块
+仅在对以下视觉实现有实质性帮助时，才允许引入 Three.js：
+星系
+黑洞
+地球
+镜头景深
+切勿无端引入重型依赖库。
+除非有不可替代的理由，否则避免使用 React。
+这是一项动画短片工程，而非 UI 应用。
+3. 画布参数设定
+设计基准分辨率：1920 × 1080
+画面宽高比：16:9
+目标帧率：30 FPS
+动画必须支持自适应响应式缩放，同时严格保持 16:9 的设计坐标系。
+必须正确处理 devicePixelRatio，确保动画在高分屏（Retina / High-DPI）上清晰锐利。
+4. 视觉风格
+参考范本具有插画风科普动画的质感。
+目标视觉特征：
+手绘质感
+微带瑕疵的不规则形状
+细微的线条抖动感（Line wobble）
+柔和的肌理纹理
+有机自然而非机械生硬的几何体
+灵动俏皮却不失高级感
+干净通透的构图
+清晰鲜明的剪影造型
+克制但极具表现力的配色方案
+避免出现：
+泛滥的通用 SaaS 插画风
+扁平化企业图标感
+冗余的 UI 界面元素
+拟真写实风格（Photorealism）
+赛博朋克美学
+过度的霓虹光污染
+千篇一律的 AI 生成式渐变
+带有素材库库感的素材
+5. 配色导向
+主背景色：
+暖奶油色 / 米白色
+例如：#F2E8CF
+深色宇宙场景：
+深海蓝
+暗紫色
+近乎纯黑的夜空蓝
+点缀高光色：
+橙色
+向日葵黄
+紫罗兰
+青色
+洋红
+柔红
+克制且克制地使用渐变色。
+色彩在不同场景间应保持过渡流动，而非突兀瞬变。
+6. 肌理与质感
+生成细腻的程序化纸张质感。
+可选实现路径：
+低透明度的随机噪点
+背景亮度的细微不均
+轻微的颗粒感叠加层（Grain overlay）
+质感需清晰可感知，但绝不能喧宾夺主。
+禁止加载体积庞大的纸张实拍贴图资源。
+尽量全部采用程序化计算生成。
+7. 动画时间轴
+搭建统一的中控时间轴系统。
+时间参考规划：
+0.0s – 4.0s：角色登场
+4.0s – 7.5s：神经元 / 电流脉冲网络
+7.5s – 10.0s：三棱镜 / 光线色散
+10.0s – 13.5s：色彩几何 → 向日葵
+13.5s – 17.0s：向日葵 → 螺旋星系
+17.0s – 20.5s：星系 → 黑洞
+20.5s – 23.5s：黑洞 → 宇宙隧道 / 光柱
+23.5s – 27.0s：地出（Earth Rise）
+27.0s – 30.0s：回归角色
+以上时间分配非死板硬性规定，若有助于增强视觉韵律与节奏感，可按需微调。
+8. 场景 01 — 角色
+时长： 约 0–4 秒。
+绘制一个简洁可爱的矩形橙色小生物。
+特征：
+圆角矩形身体
+小短腿
+极简的面部特征
+轻微不对称的手绘轮廓线条
+亲和灵动的性格表现
+动画细节：
+小生物从画外缓缓走向画面中央。
+行走动画需包含：
+身体起伏颠簸（Bounce）
+双腿交替摆动
+轻微的身体倾角晃动
+细腻的挤压与拉伸（Squash and stretch）
+避免机械僵硬的匀速运动。
+充分应用缓动曲线（Easing）与次级跟随动作（Secondary motion）。
+场景尾声：
+小生物对身旁浮现的事物产生反应。
+该反应动作将直接触发下一阶段的转场。
+9. 角色 → 神经元转场
+不要生硬剪辑。
+过渡方案：
+角色身旁亮起一个微小的光点。
+光点逐渐扩散放大。
+细小的分支线开始从中抽枝蔓延。
+镜头向前推近。
+在逐渐膨胀铺展的网络对比下，角色身形显现得越来越小。
+最终，神经元脉络结构铺满整个屏幕。
+10. 场景 02 — 神经网络
+时长： 约 4–7.5 秒。
+具象化一种介于以下元素之间的视觉形态：
+神经元 / 生物电 / 分支生物形态 / 闪电脉冲。
+使用程序化分形/分支算法生成。
+节点伴随脉冲呼吸。
+信号流沿各个分支游走传导。
+要求：
+动态电脉冲流动
+有机自然的分支几何体
+微小的飞溅火花粒子
+线条粗细富于节奏变化
+兼具可控的随机感
+切勿做成千篇一律的机器学习拓扑网络拓扑图。
+它应当充满生物活力与能量感。
+11. 神经元 → 三棱镜转场
+选中其中一条极为明亮的电脉冲分支。
+让这条分支逐渐拉直伸展。
+流动其中的能量凝聚为一束纯净的白色光束。
+神经网络的其余部分逐渐消隐在暗色背景中。
+白光光束横穿画面。
+精准投射射入一座三角形三棱镜。
+12. 场景 03 — 三棱镜
+时长： 约 7.5–10 秒。
+绘制一个手绘透明感的三棱镜。
+白光自一侧射入。
+经三棱镜折射并色散为：
+红、橙、黄、绿、青、蓝、紫。
+不要只画死板固定的彩虹线。
+需制作动态效果：
+光束到达的冲击动态
+三棱镜受光泛出的辉光
+色散铺开的过程
+细微的折射光线游移
+柔和的光晕泛光（Bloom）
+展开的光谱将作为承接后续画面的关键转场媒介。
+13. 三棱镜 → 色彩几何
+折射出的彩虹光束发生弯曲。
+逐步转化为同心圆弧。
+圆弧相互嵌套，化作多层旋转的同心圆环。
+镜头向视觉中心推近。
+三棱镜自然消隐退出视野。
+14. 场景 04 — 色彩光环
+时长： 约 10–11.5 秒。
+构建层层嵌套的彩色同心圆环。
+运动方式：
+缓慢旋转
+正反方向交错旋转
+微弱的呼吸式缩放
+有机微动的抖动摆动（Wobble）
+圆环线条需带有轻微的手作不完美质感。
+避免数学上绝对冷硬工整的圆周。
+15. 光环 → 向日葵
+缓慢改变圆环的几何拓扑结构。
+外侧圆环渐变分离为独立的花瓣。
+中心圆环转化为密布的向日葵葵花籽花盘。
+黄色逐渐占据视觉主导。
+整个演化形变过程需清晰可见。
+避免使用透明度淡入淡出（Crossfade）的偷懒手法。
+让观者能够直观看到一种几何形态如何演变为另一种生命形态。
+16. 场景 05 — 向日葵
+时长： 约 11.5–14 秒。
+生成一朵风格化的程序化向日葵。
+视觉构成：
+明亮的金黄花瓣
+温暖橙黄的花心
+深色螺旋状排列的花籽
+隐约可见的纤细花茎或植物形态
+动画表现：
+花瓣舒展盛放
+轻柔的生命呼吸感
+整体微微旋转
+籽粒螺旋排列运动
+若条件允许，葵花籽可采用斐波那契数列 / 黄金角分布算法生成。
+17. 向日葵 → 螺旋星系
+这将是整部短片视觉张力最强的转场之一。
+向日葵中心加速旋转。
+外围花瓣逐渐剥离脱散。
+每一片花瓣解构为一颗发光的星尘粒子。
+中心的花籽阵列向外螺旋扩张。
+色调柔和渐次推移：
+黄色
+→ 橙色
+→ 紫色
+→ 深蓝
+整朵向日葵无缝蜕变为一座旋转的旋涡星系。
+切忌使用简单的画面叠化淡出。
+18. 场景 06 — 螺旋星系
+时长： 约 14–17 秒。
+构建一座程序化生成的旋涡星系。
+要求：
+在性能允许的前提下布置成千上万个微型粒子
+采用对数螺线 / 旋臂分布规律
+极度明亮致密的星系核心
+错落点缀的背景繁星
+呈现深邃的空间纵深感
+镜头缓慢向前推进
+整体缓慢转动
+粒子需拥有丰富的透明度梯次与大小半径。
+避免机械匀质的死板星点分布。
+使用带有固定种子（Seeded Random）的随机算法，确保每次播放呈现的画面细节完全一致。
+19. 星系 → 黑洞
+星系中心区域的自转角速度逐渐加快。
+中央区域急剧暗沉塌缩。
+周围粒子开始加速环绕运转。
+沿切线方向将运动的粒子微微拉伸拖尾。
+中央的纯黑视界向外扩张。
+整个星系逐步转化为狂暴的吸积盘。
+20. 场景 07 — 黑洞
+时长： 约 17–20.5 秒。
+构建一座风格化的黑洞。
+要素：
+吞噬一切的纯黑球体核心
+炽热发光的吸积盘
+橙金交织的内层强光
+紫蓝晕染的外围辉光
+沿弯曲引力轨迹运动的粒子流
+可选实现：做近似引力透镜效果的视觉扭曲。
+无需苛求物理层面上严格精确的广义相对论模拟。
+以呈现上乘的视觉美感为第一优先级。
+镜头向视界面缓慢平稳推近。
+21. 黑洞 → 宇宙隧道
+镜头彻底穿透坠入中心黑暗。
+吸积盘受透视拉伸拉长为同心光环。
+周围星尘被径向拉伸成向外散射的放射线。
+营造出跃入时空隧道的穿梭沉浸感。
+22. 场景 08 — 宇宙隧道
+时长： 约 20.5–23.5 秒。
+构建由同心发光环或粒子光环构成的深邃通道。
+镜头高速向前飞行穿梭。
+重点注意：
+严禁使用老套庸俗的科幻“超空间跃迁（Hyperspace）”特效。
+严格维系短片一贯的插画手绘风味。
+临近该段尾声：
+通道中央骤然凝聚为一束笔直刺目的白色垂直光柱。
+23. 隧道 → 地球转场
+这道垂直光柱横向延展放平。
+其底边下沉拉平，化作一条地平线。
+地平线下方的大片幽黑转化为静谧的月球表面。
+一抹深邃纯净的幽蓝辉光在地平线后方缓缓漫溢升腾。
+24. 场景 09 — 地出（Earth Rise）
+时长： 约 23.5–27 秒。
+呈现一幅电影质感的大幅画面：一颗蔚蓝星球自幽暗的月球地平线后缓缓升起。
+地球细节包含：
+泛着光晕的蔚蓝大气层
+高度概括简化的云气流动
+提炼简化的陆地轮廓
+细腻柔和的外缘辉光
+除非绝对必要，否则严禁使用外部实拍 NASA 图片贴图。
+优先采用纯代码程序化 / 矢量风格化方式渲染。
+月表前景保持绝大部分深邃剪影。
+匹配极度舒缓沉稳的运镜节奏。
+此处应作为整部影片中最空灵宁静的高光时刻。
+25. 地球 → 角色转场
+镜头快速向地球表面的一处极亮星斑推近。
+那抹幽蓝辉光凝聚为一颗极小的球形光点。
+光球进一步缩小。
+背景底色褪去深黑，无缝褪回最初温润的暖奶油色。
+光点轻盈落在了最初那只小生物的身旁。
+镜头缓缓拉远回撤。
+26. 尾声终幕
+画面回归最初那只橙色小生物。
+小生物转过头，注视着身旁落下的微光小点。
+反应动作建议：
+眨一眨眼睛
+露出微笑
+
+轻轻雀跃蹦跳一下
+```
+
+[原帖](https://x.com/leo_xiaolei/status/2102724347446305104) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=leo_xiaolei_procedural_animated_short) · [返回列表](#all-prompts)
+
+---
+
+### Opus 5.5 一次生成课程动画视频
+<a id="0x0funky-one-shot-course-animation"></a>
+
+[@0x0funky](https://x.com/0x0funky) · 0xFunky · 社区演示 · Claude Opus 5.5
+
+_作者称，他们用 Opus 5.5 根据整理好的课程内容一次生成了一部约六分钟的动画视频，使用 Remotion 制作视频，并用本地 Cosy Voice 模型生成配音。作者表示，脚本和配音准备工作由 Opus 5.5 处理；SVG 线条由 React 生成，文字则使用 HTML/CSS 和网页字体设置样式。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/0x0funky/status/2102736587708854585) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=0x0funky_one_shot_course_animation) · [返回列表](#all-prompts)
+
+---
+
+### Claude Code 用量限制动画
+<a id="daniel-mac8-claude-code-usage-limits-animation"></a>
+
+[@daniel_mac8](https://x.com/daniel_mac8) · Dan McAteer · 社区演示 · Claude Opus 5.5
+
+_Dan McAteer 分享了一段动画，介绍如何在 Claude Code 中使用 Ultracode 和 Dynamic Workflows，同时避免耗尽用量限额。他说，Opus 5.5 使用 Dynamic Workflows 生成了视频的每一个像素，输入素材包括一个参考动画 MP4 和一段提示词。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/daniel_mac8/status/2103666105461924131) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=daniel_mac8_claude_code_usage_limits_animation) · [返回列表](#all-prompts)
 
 ---
 
@@ -1444,6 +2025,22 @@ Build a fully procedural AAA quality kaiju simulation in three.js using pure TSL
 
 ---
 
+### 使用从零制作的 3D 素材开发 Three.js 游戏
+<a id="xikhar-threejs-game-3d-assets"></a>
+
+[@xikhar](https://x.com/xikhar) · Shikhar · 社区演示 · Claude Opus 5.5
+
+<a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/xikhar-threejs-game-3d-assets-readme.mp4"><img src="assets/previews/xikhar-threejs-game-3d-assets.webp" width="640" loading="lazy" alt="Play video"></a><br>
+<sub><a href="https://cdn.jsdelivr.net/gh/X-RayLuan/awesome-opus-5-5-video-prompts@main/assets/videos/xikhar-threejs-game-3d-assets-readme.mp4">▶ 播放视频</a> (前 170 秒 / 全长 186 秒) · <a href="https://x.com/xikhar/status/2102588571442188577">X 原帖</a></sub>
+
+_一段三分钟的视频展示了作者使用 Opus 5.5 Medium 制作的 Three.js 游戏。作者称模型、纹理和动画均从零制作，并使用 Blender 制作复杂素材和动画。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://x.com/xikhar/status/2102588571442188577) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=xikhar_threejs_game_3d_assets) · [返回列表](#all-prompts)
+
+---
+
 ## 🎥 Opus 当导演：驱动 AI 视频模型
 
 _Opus 撰写角色设定、首帧和逐镜提示词，再通过 MCP 调用 Seedance / Kling / 图像模型 —— 这正是 EasyVeo 所服务的场景。_
@@ -1615,16 +2212,32 @@ Make a modern slick and punchy video for wrapscribe, check the wholebase to lear
 
 ---
 
-### 带有经济系统和解锁内容的 FishSlop 游戏
-<a id="theo-fishslop-economy-unlocks"></a>
+### 用 JS Paint 重绘《蒙娜丽莎》
+<a id="ehsanik-mona-lisa-js-paint"></a>
 
-[@theo](https://x.com/theo) · Theo - t3.gg · 社区演示 · Claude Opus 5.5
+[@ehsanik](https://x.com/ehsanik) · Kiana Ehsani · 社区演示 · Claude Opus 5.5
 
-_作者展示了 Opus 5.5 制作的 FishSlop 版本，包含动画、操作控制、游戏内经济系统和解锁内容。作者称，在要求改进画质导致帧率下降后，再次提出要求使游戏恢复到流畅的 120 帧，同时画质略有退步。_
+_作者通过 Cowork 和 Chrome 中的 Claude 使用 Opus 5.5，以鼠标操作和画笔在 JS Paint 中重绘《蒙娜丽莎》。随后，作者让它制作一段展示鼠标操作和画面变化的视频。_
 
-**提示词** · _作者未公开。_
+**提示词** · 原文摘自[作者帖子](https://x.com/ehsanik/status/2102885216692162993)
 
-[原帖](https://x.com/theo/status/2102877145399975952) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=theo_fishslop_economy_unlocks) · [返回列表](#all-prompts)
+```text
+Since I am obsessed with painting these days I got Opus 5.5 to replicate Mona Lisa. This was my prompt:
+
+"can you search for the picture of Mona Lisa, then replicate it using mouse movement and brushes in JS paint using chrome?"
+
+It took 20 minutes for the drawing part using Cowork + Claude in Chrome. 
+
+After it was done I asked:
+
+"Ok now can you make a video of exactly what you just did? Showing every mouse movement and changes?"
+
+Result is the video you see! :D 
+
+More details in thread 🧵
+```
+
+[原帖](https://x.com/ehsanik/status/2102885216692162993) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=ehsanik_mona_lisa_js_paint) · [返回列表](#all-prompts)
 
 ---
 
