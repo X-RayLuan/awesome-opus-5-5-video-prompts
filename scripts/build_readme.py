@@ -123,7 +123,7 @@ def entry(e, lang):
     vid = f"{CDN}/{e['slug']}-readme.mp4"; img = f"assets/previews/{e['slug']}.webp"
     kind = t["official"] if e["handle"] == "claudeai" else t["community"]
     out = [f"### {title}", f'<a id="{e["slug"]}"></a>', "",
-           f"[@{e['handle']}](https://x.com/{e['handle']}) · {e['name']} · {kind} · Claude Opus 5.5", ""]
+           f"[@{e['handle']}]({'https://github.com/' if e['post'].startswith('https://github.com/') else 'https://x.com/'}{e['handle']}) · {e['name']} · {kind} · Claude Opus 5.5", ""]
     if e["has_video"]:
         out += [f'<a href="{vid}"><img src="{img}" width="640" loading="lazy" alt="Play video"></a><br>',
                 f'<sub><a href="{vid}">{t["playv"]}</a>{clip_note(e, lang)} · <a href="{e["post"]}">{t["orig"]}</a></sub>', ""]
@@ -145,8 +145,8 @@ def entry(e, lang):
     else:
         note = p.get("note")
         out += [t["prompt_ns"] + (f" {note}" if note and lang == "en" else "")]
-    links = [f"[{t['origpost']}]({e['post']})"] + [f"[{k}]({u})" for k, u in e["links"]]
-    links += [f"[{t['remake']}]({ev(e['slug'].replace('-', '_'))})", f"[{t['back']}](#all-prompts)"]
+    links = [f"[{t['origpost']}]({e['post']})"] + [f"[{k}]({u})" for k, u in e["links"] if k != "Remake with EasyVeo"]
+    links += [f"[{t['remake']}]({e.get('cta', ev(e['slug'].replace('-', '_')))})", f"[{t['back']}](#all-prompts)"]
     out += ["", " · ".join(links), "", "---", ""]
     return "\n".join(out)
 

@@ -13,7 +13,7 @@
 
 Claude Opus 5.5 ([Anthropic, Sep 22 2026](https://www.anthropic.com/claude-opus-5-5)) outputs text, not pixels. The “Opus 5.5 video” wave is the model **writing the film as code** — JavaScript/Canvas/WebGL, p5.js, Blender Python — and rendering it frame by frame with headless Chrome or Blender + ffmpeg, or **directing video models** like Seedance and Kling. This list collects the best community demos with the prompts their creators actually shared.
 
-**83 examples · 6 categories · EN + ZH · verbatim prompts only · EasyVeo remake lane · CTA: [easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=lede)**
+**84 examples · 6 categories · EN + ZH · verbatim prompts only · EasyVeo remake lane · CTA: [easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=lede)**
 
 ## Featured projects
 
@@ -58,6 +58,7 @@ Claude Opus 5.5 ([Anthropic, Sep 22 2026](https://www.anthropic.com/claude-opus-
 - [Claude Capability Training Montage](#ishuagra02-claude-capability-training-montage) · @ishuagra02 · video · prompt
 - [Code-Drawn Animated Film in Claude Code](#itsolelehmann-code-drawn-animated-film) · @itsolelehmann · prompt
 - [From Humanity’s Origins to Opus 5.5](#songkeys-humanity-to-opus-5-5) · @songkeys · prompt
+- [The Big One — code-rendered animated short](#makerjackie-the-big-one) · @makerjackie
 
 **👾 Pixel-art animation**
 - [Animated pixel-art wizard (Canvas 2D)](#majid-pixel-wizard) · @majidmanzarpour · video · prompt
@@ -561,6 +562,19 @@ _A doodle-style animation traces humanity’s development and the emergence of A
 ```
 
 [Original post](https://x.com/songkeys/status/2102743212922384673) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=songkeys_humanity_to_opus_5_5) · [Back to examples](#all-prompts)
+
+---
+
+### The Big One — code-rendered animated short
+<a id="makerjackie-the-big-one"></a>
+
+[@makerjackie](https://github.com/makerjackie) · MakerJackie · community demo · Claude Opus 5.5
+
+_Creator-published anime short made in code with Claude Opus 5.5: three.js frames, JavaScript-synthesized score, offline HTML player, and an MP4 in the creator’s release. Original build prompt not published; the creator separately provides a reusable prompt template in docs/PROMPT.md. Do not confuse that template with the original instruction. No media mirrored._
+
+**Prompt** · _not shared by the author._ Original build prompt not shared; separate creator-authored reusable prompt template linked in docs/PROMPT.md.
+
+[Original post](https://github.com/makerjackie/the-big-one) · [Source code](https://github.com/makerjackie/the-big-one) · [Creator MP4 release](https://github.com/makerjackie/the-big-one/releases/tag/v1.0) · [Creator-published reusable prompt (English)](https://github.com/makerjackie/the-big-one/blob/main/docs/PROMPT.md) · [Remake with EasyVeo](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=makerjackie_the_big_one) · [Back to examples](#all-prompts)
 
 ---
 

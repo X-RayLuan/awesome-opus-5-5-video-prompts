@@ -13,7 +13,7 @@
 
 Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropic.com/claude-opus-5-5)）只输出文本，不直接生成像素。所谓“Opus 5.5 做视频”，是让模型**把整部片子写成代码** —— JavaScript/Canvas/WebGL、p5.js、Blender Python —— 再用 headless Chrome 或 Blender + ffmpeg 逐帧渲染；或让它**充当导演驱动 Seedance、Kling 等视频模型**。本列表收录社区最佳演示，只收录作者本人公开的原始提示词。
 
-**83 个案例 · 6 个分类 · 中英双语 · 仅收录原文提示词 · EasyVeo 复刻车道 · CTA：[easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=zh_lede)**
+**84 个案例 · 6 个分类 · 中英双语 · 仅收录原文提示词 · EasyVeo 复刻车道 · CTA：[easyveo.com](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=zh_lede)**
 
 ## 精选项目
 
@@ -58,6 +58,7 @@ Claude Opus 5.5（[Anthropic，2026 年 9 月 22 日发布](https://www.anthropi
 - [Claude 能力成长训练蒙太奇](#ishuagra02-claude-capability-training-montage) · @ishuagra02 · video · prompt
 - [Claude Code 用代码绘制的动画短片](#itsolelehmann-code-drawn-animated-film) · @itsolelehmann · prompt
 - [从人类诞生到 Opus 5.5](#songkeys-humanity-to-opus-5-5) · @songkeys · prompt
+- [The Big One — 代码渲染动画短片](#makerjackie-the-big-one) · @makerjackie
 
 **👾 像素动画**
 - [像素风巫师施法动画（Canvas 2D）](#majid-pixel-wizard) · @majidmanzarpour · video · prompt
@@ -561,6 +562,19 @@ _这部涂鸦风格动画讲述了人类的发展与 AI 的诞生，最终呈现
 ```
 
 [原帖](https://x.com/songkeys/status/2102743212922384673) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=songkeys_humanity_to_opus_5_5) · [返回列表](#all-prompts)
+
+---
+
+### The Big One — 代码渲染动画短片
+<a id="makerjackie-the-big-one"></a>
+
+[@makerjackie](https://github.com/makerjackie) · MakerJackie · 社区演示 · Claude Opus 5.5
+
+_作者公开的 Claude Opus 5.5 代码动画短片：three.js 绘制画面、JavaScript 合成配乐，提供离线 HTML 和作者发布的 MP4。原始创作提示词未公开；另附作者发布的可复用提示词模板。未复制媒体。_
+
+**提示词** · _作者未公开。_
+
+[原帖](https://github.com/makerjackie/the-big-one) · [Source code](https://github.com/makerjackie/the-big-one) · [Creator MP4 release](https://github.com/makerjackie/the-big-one/releases/tag/v1.0) · [Creator-published reusable prompt (English)](https://github.com/makerjackie/the-big-one/blob/main/docs/PROMPT.md) · [用 EasyVeo 复刻](https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=makerjackie_the_big_one) · [返回列表](#all-prompts)
 
 ---
 

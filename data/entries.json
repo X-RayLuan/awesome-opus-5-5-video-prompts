@@ -1525,5 +1525,45 @@
    "status": "2103666105461924131",
    "conv": "2103666105461924131"
   }
+ },
+ {
+  "slug": "makerjackie-the-big-one",
+  "cat": "films",
+  "title": "The Big One — code-rendered animated short",
+  "title_zh": "The Big One — 代码渲染动画短片",
+  "handle": "makerjackie",
+  "name": "MakerJackie",
+  "post": "https://github.com/makerjackie/the-big-one",
+  "links": [
+   [
+    "Source code",
+    "https://github.com/makerjackie/the-big-one"
+   ],
+   [
+    "Creator MP4 release",
+    "https://github.com/makerjackie/the-big-one/releases/tag/v1.0"
+   ],
+   [
+    "Creator-published reusable prompt (English)",
+    "https://github.com/makerjackie/the-big-one/blob/main/docs/PROMPT.md"
+   ],
+   [
+    "Remake with EasyVeo",
+    "https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=makerjackie_the_big_one"
+   ]
+  ],
+  "desc": "Creator-published anime short made in code with Claude Opus 5.5: three.js frames, JavaScript-synthesized score, offline HTML player, and an MP4 in the creator’s release. Original build prompt not published; the creator separately provides a reusable prompt template in docs/PROMPT.md. Do not confuse that template with the original instruction. No media mirrored.",
+  "desc_zh": "作者公开的 Claude Opus 5.5 代码动画短片：three.js 绘制画面、JavaScript 合成配乐，提供离线 HTML 和作者发布的 MP4。原始创作提示词未公开；另附作者发布的可复用提示词模板。未复制媒体。",
+  "prompt": {
+   "type": "not_shared",
+   "note": "Original build prompt not shared; separate creator-authored reusable prompt template linked in docs/PROMPT.md."
+  },
+  "published_reusable_prompt": {
+   "kind": "creator-authored reusable template, NOT the original build prompt",
+   "source": "https://github.com/makerjackie/the-big-one/blob/main/docs/PROMPT.md",
+   "language": "en",
+   "verbatim": "Make me an animated short film entirely in code: no image models, no video models, no audio assets.\n\n[Story] One line: ________ (e.g. a little robot in a straw hat goes fishing, hooks a 220 m ancient whale shark, and gets back the hat the wind blew away)\n[Length] about ___ seconds (30-60 works well)\n[Look] hand-drawn anime feel: bright summer, deep blue sky, towering cumulus, two-tone cel shading, ink lines, painterly backgrounds (swap for your own style)\n[Sound] a score and sound effects, no dialogue\n[Reference] you may study https://github.com/0xCodez/leviathan for its render pipeline and modelling approach, but the story and characters must be original\n\nTechnical:\n1. three.js (WebGL2), bundled with esbuild into one HTML that plays offline; export a 1080p MP4 frame by frame with puppeteer + ffmpeg.\n2. Every frame is a pure function of time, renderAt(t): seeded randomness, no accumulated state. During playback the audio clock drives the picture.\n3. Pipeline: MRT colour + normal/depth/material id → painterly background pass → ink lines from material id, depth and normal breaks → atmosphere → bloom → grade and grain. Characters use a two-tone cel material.\n4. Characters on twos, effects on threes, like hand-drawn animation.\n5. Write the shot list first: story cues and shots; a director module returns camera, poses, expressions and effects for any time.\n6. Model the main characters and creatures properly: build the real form in a rest pose from section curves plus sculpting (bony ridges, face, fins/limbs, a jaw and eyelids that move), then bend it along a skeleton on the GPU; paint the skin in the shader and break the terminator with bumped normals. No single tube or stack of spheres.\n7. Motion must feel alive: anticipation, the head trailing, twisting, follow-through, squash and stretch on landing. Nothing may teleport.\n8. Give the sound to a parallel sub-agent: synthesize the score and effects in pure JS against the cue sheet, stereo out.\n\nQuality, every round:\n- Make a contact sheet of the whole film and critique every frame like an art director; view key shots at full resolution and zoom into anything suspicious.\n- Write a pop detector that finds frames where part of the picture suddenly jumps (excluding cuts) to catch teleports and glitches.\n- Fade fine detail by metres-per-pixel so distant surfaces don't sparkle; ink a splash only at its outer silhouette.\n- Check performance and precompile all shaders at startup.\n- Re-render the MP4 after every round and check frames from the final file.\n\nDeliver: one HTML, a 1080p MP4, a contact sheet, and a list of what you are still not happy with."
+  },
+  "cta": "https://easyveo.com?utm_source=github&utm_medium=referral&utm_campaign=awesome_opus55_video_prompts&utm_content=makerjackie_the_big_one"
  }
 ]
